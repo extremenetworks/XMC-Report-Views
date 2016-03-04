@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report>
+    <title>Current APs Down</title>
+    <reportId>Current APs Down</reportId> <!-- must be unique -->
+    <category>WirelessCustom</category>
+    <iconCls>wm_ap</iconCls>
+    <showInTree>true</showInTree>
+    <dashboard>false</dashboard>
+    <position>2</position>
+	<schedulable>true</schedulable>
+	<scheduleClass>com.enterasys.netsight.reporting.server.webapps.monitor.schedule.SchedTabbedPDFReport</scheduleClass>
+	<scheduleOptions>
+		<scheduleOption>
+			<option>--pdfWidth</option>
+			<value>1425</value>
+		</scheduleOption>
+		<scheduleOption>
+			<option>--pdfHeight</option>
+			<value>1800</value><!-- Taller to fill the whole page -->
+		</scheduleOption>
+		<scheduleOption>
+			<option>customArgs</option>
+			<value>Current APs Down=APs Down</value>
+		</scheduleOption>
+		<scheduleOption>
+			<option>--javascript-delay</option>
+			<value>45000</value>
+		</scheduleOption>
+	</scheduleOptions>
+    <panel>
+        <name>APs Down</name> <!-- must be unique DO NOT COPY -->
+        <category>Wireless</category>
+        <showTitle>true</showTitle>
+        <helptip>Click on Name for Access Point Summary</helptip>
+        <layout>fit</layout>
+        <items>
+            <apdowngrid>
+                <csv>true</csv>
+                <refresh>true</refresh>
+            </apdowngrid>
+        </items>
+    </panel>
+</report>

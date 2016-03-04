@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report>
+	<reportId>Daily APs Down</reportId> <!-- must be unique -->
+	<title>Daily APs Down</title>
+	<category>WirelessCustom</category>
+	<showInTree>true</showInTree>
+	<iconCls>wm_ap</iconCls>
+	<schedulable>true</schedulable>
+	<scheduleClass>com.enterasys.netsight.reporting.server.webapps.monitor.schedule.SchedTabbedPDFReport</scheduleClass>
+	<scheduleOptions>
+		<scheduleOption>
+			<option>--pdfWidth</option>
+			<value>1425</value>
+		</scheduleOption>
+		<scheduleOption>
+			<option>--pdfHeight</option>
+			<value>1800</value><!-- Taller to fill the whole page -->
+		</scheduleOption>
+		<scheduleOption>
+			<option>customArgs</option>
+			<value>Daily APs Down=APs Down Summary</value>
+		</scheduleOption>
+		<scheduleOption>
+			<option>--javascript-delay</option>
+			<value>45000</value>
+		</scheduleOption>
+	</scheduleOptions>
+	  <panel>
+	  		<pack>none</pack>
+			<layout>fit</layout>
+			<showtitle>false</showtitle>
+			<items>
+			<tabpanel>
+				<tab>
+					<tabtitle>APs Down Summary</tabtitle>
+					<panel>
+						<layout>vbox</layout>
+						<items>
+							<panel>
+								<flex>1</flex>
+								<framed>true</framed>
+								<title>APs Down</title>
+								<showTitle>false</showTitle>
+								<items>
+									<areachart>
+										<stackedArea>false</stackedArea>
+										<title>APs Down</title>
+										<showTitle>false</showTitle>
+										<yAxis>
+											<type>stackednumeric</type>
+										</yAxis>
+										<xAxis>
+											<type>category</type>
+											<labelRotation>-90</labelRotation>
+											<renderer>renderLongAsHour</renderer>
+										</xAxis>
+										<legend>
+											<display>right</display>
+										</legend>
+										<xField>time_stamp</xField>
+										<series>
+											<seriesDef>
+												<axis>left</axis>
+												<yField>apsDown</yField>
+												<displayName>APs Down</displayName>
+												<style>
+													<color>0x657B38</color>
+												</style>
+											</seriesDef>
+										</series>
+										<data>
+											<query><![CDATA[
+													SELECT apsDown, (every15 * 1000 * 900) AS time_stamp FROM (
+														SELECT COUNT(id) AS apsDown, ROUND((time_stamp / 1000) / 900) AS every15 FROM nsalarmhistory WHERE alarmName='AP Out of Service' and FROM_UNIXTIME(time_stamp/1000) > (now() - interval 1 day)GROUP BY every15
+													) apsDownQuery ORDER BY time_stamp ASC
+												]]>
+											</query>
+										</data>
+									</areachart>
+								</items>
+							</panel>
+							<panel>
+								<flex>3</flex>
+								<items>
+									<filterableendsystems>
+										<title>APs Down</title>
+										<showTitle>false</showTitle>
+										<items>
+											<grid>
+												<showtitle>false</showtitle>
+												<showBorder>false</showBorder>
+												<columns>
+													<column>
+														<dataIndex>sourceName</dataIndex>
+														<id>sourceName</id>
+														<header>AP Name</header>
+														<renderer>renderApReportLink</renderer>
+														<width>150</width>
+													</column>
+													<column>
+														<dataIndex>source</dataIndex>
+														<id>source</id>
+														<header>Serial</header>
+														<width>150</width>
+													</column>
+													<column>
+														<dataIndex>seenCount</dataIndex>
+														<id>seenCount</id>
+														<header>Down Count</header>
+														<width>100</width>
+													</column>
+													<column>
+														<dataIndex>LastTime</dataIndex>
+														<id>LastTime</id>
+														<header>Last Time Down</header>
+														<renderer>renderLongAsDate</renderer>
+														<width>150</width>
+													</column>
+												</columns>
+												<data>
+													<query><![CDATA[	
+														select source, seenCount, sourceName, alarmName, FROM_UNIXTIME(lastTime/1000) as LastTime from nsalarmhistory where FROM_UNIXTIME(time_stamp/1000) > (now() - interval 1 day) and alarmName LIKE 'AP Out of Service'
+														]]>
+													</query>
+												</data>
+											</grid>
+										</items>
+									</filterableendsystems>
+								</items>
+							</panel>
+						</items>
+					</panel>
+				</tab>
+			</tabpanel>
+			</items>
+    </panel>
+</report>
