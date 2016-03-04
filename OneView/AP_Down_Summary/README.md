@@ -2,12 +2,12 @@
 
 ### AP Down Summary
 This report shows APs that were currently down (and not yet cleared) at the time the report was generated.
-* [Current AP Down Summary Report](MYApDownCurrent.xml?raw=true)
+* [Current AP Down Summary Report](MYApDownCurrent.xml?raw=true) (Right-click and "Save-as")
 ![Current AP Down Summary](AP_Down_Current.PNG "Current AP Down Summary")
 
-### AP Down - Daily Report
+### Daily AP Down Report
 This shows all alarms for "AP out of service" for the last 24 hours.  Useful if a remote site loses external connectivity or has an outage in the middle of the night that may have been resolved by the time you check your mail.
-* [Daily AP Down Report](MYApDownDaily.xml?raw=true)
+* [Daily AP Down Report](MYApDownDaily.xml?raw=true) (Right-click and "Save-as")
 ![Daily AP Down Summary](AP_Down_Daily.PNG "Daily AP Down Summary")
 
 ## Installation
@@ -15,9 +15,10 @@ This shows all alarms for "AP out of service" for the last 24 hours.  Useful if 
 * Requires the default AP In/Out of service alarms to be enabled
 
 1) Copy the above provided XML files in `/usr/local/Extreme_Networks/NetSight/appdata/OneView/MyReports`.
-2) Once the files are on the server, go to the reports tab.
-3) Use the "Refresh" button to reload the reports.
 
+2) Once the files are on the server, go to the reports tab.
+
+3) Use the "Refresh" button to reload the reports.
 
 ## Support
 Please visit us on [The Hub](https://community.extremenetworks.com/extreme) if you have any questions or encounter issues.
