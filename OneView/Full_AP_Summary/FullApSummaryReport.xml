@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report>
+    <reportId>FullApsSummaryReport</reportId> <!-- must be unique -->
+    <category>WirelessCustom</category>
+    <iconCls>wm_ap</iconCls> <!-- css class for the icon -->
+    <title>Full APs Summary</title>
+    <panel>
+        <layout>fit</layout>
+        <items>
+            <apsummarygrid>
+                <csv>true</csv>
+                <pageSize>2000</pageSize>
+            </apsummarygrid>
+        </items>
+    </panel>
+</report>
