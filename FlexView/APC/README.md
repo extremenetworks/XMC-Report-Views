@@ -10,9 +10,19 @@ Community Driven repository
 * [Advanced Output](tpl/APC-UPS_Adv_Output.tpl?raw=true)
 * [Advanced Battery](tpl/APC-UPS_Adv_Battery.tpl?raw=true)
 
-## Comments
-### Advanced Battery
-upsAdvBatteryCapacity, psAdvBatteryTemperature, upsAdvBatteryRunTimeRemaining, upsAdvBatteryReplaceIndicator, upsAdvBatteryNumOfBattPacks, upsAdvBatteryNumOfBadBattPacks, upsAdvBatteryNominalVoltage, upsAdvBatteryCurrent
+## Comments & Columns
+#### Basic Input
+upsBasicInputPhase
+#### Basic Output
+upsBasicOutputStatus, upsBasicOutputPhase
+#### Basic Battery
+upsBasicBatteryStatus, upsBasicBatteryTimeOnBattery, upsBasicBatteryLastReplaceDate
+#### Advanced Input
+upsAdvInputLineVoltage, upsAdvInputMaxLineVoltage, upsAdvInputMinLineVoltage, upsAdvInputFrequency, upsAdvInputLineFailCause
+##### Advanced Output
+upsAdvOutputVoltage, upsAdvOutputFrequency, upsAdvOutputLoad, upsAdvOutputCurrent, upsAdvOutputRedundancy, upsAdvOutputKVACapacity
+##### Advanced Battery
+upsAdvBatteryCapacity, upsAdvBatteryTemperature, upsAdvBatteryRunTimeRemaining, upsAdvBatteryReplaceIndicator, upsAdvBatteryNumOfBattPacks, upsAdvBatteryNumOfBadBattPacks, upsAdvBatteryNominalVoltage, upsAdvBatteryCurrent
 
 ## Examples
 
