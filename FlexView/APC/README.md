@@ -11,13 +11,13 @@ Community Driven repository
 * [Advanced Battery](tpl/APC-UPS_Adv_Battery.tpl?raw=true)
 
 ## Comments & Columns
-#### Basic Input
+##### Basic Input
 upsBasicInputPhase
-#### Basic Output
+##### Basic Output
 upsBasicOutputStatus, upsBasicOutputPhase
-#### Basic Battery
+##### Basic Battery
 upsBasicBatteryStatus, upsBasicBatteryTimeOnBattery, upsBasicBatteryLastReplaceDate
-#### Advanced Input
+##### Advanced Input
 upsAdvInputLineVoltage, upsAdvInputMaxLineVoltage, upsAdvInputMinLineVoltage, upsAdvInputFrequency, upsAdvInputLineFailCause
 ##### Advanced Output
 upsAdvOutputVoltage, upsAdvOutputFrequency, upsAdvOutputLoad, upsAdvOutputCurrent, upsAdvOutputRedundancy, upsAdvOutputKVACapacity
