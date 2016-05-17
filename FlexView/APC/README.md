@@ -1,3 +1,20 @@
 # Extreme Management (Netsight) Flexviews for APC UPS devices
 
 Community Driven repository
+
+## FlexViews
+* [Basic Input](tpl/APC-UPS_Basic_Input.tpl?raw=true)
+* [Basic Output](tpl/APC-UPS_Basic_Output.tpl?raw=true)
+* [Basic Battery](tpl/APC-UPS_Basic_Battery.tpl?raw=true)
+* [Advanced Input](tpl/APC-UPS_Adv_Input.tpl?raw=true)
+* [Advanced Output](tpl/APC-UPS_Adv_Output.tpl?raw=true)
+* [Advanced Battery](tpl/APC-UPS_Adv_Battery.tpl?raw=true)
+
+## Comments
+### Advanced Battery
+upsAdvBatteryCapacity, psAdvBatteryTemperature, upsAdvBatteryRunTimeRemaining, upsAdvBatteryReplaceIndicator, upsAdvBatteryNumOfBattPacks, upsAdvBatteryNumOfBadBattPacks, upsAdvBatteryNominalVoltage, upsAdvBatteryCurrent
+
+## Examples
+
+## MIBs
+All necessary MIBs are included in the Extreme Management (NetSight) already
