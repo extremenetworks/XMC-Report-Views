@@ -13,20 +13,25 @@ Community Driven repository
 ## Comments & Columns
 ##### Basic Input
 upsBasicInputPhase
+
 ##### Basic Output
 upsBasicOutputStatus, upsBasicOutputPhase
+
 ##### Basic Battery
 upsBasicBatteryStatus, upsBasicBatteryTimeOnBattery, upsBasicBatteryLastReplaceDate
+
 ##### Advanced Input
 upsAdvInputLineVoltage, upsAdvInputMaxLineVoltage, upsAdvInputMinLineVoltage, upsAdvInputFrequency, upsAdvInputLineFailCause
+
 ##### Advanced Output
 upsAdvOutputVoltage, upsAdvOutputFrequency, upsAdvOutputLoad, upsAdvOutputCurrent, upsAdvOutputRedundancy, upsAdvOutputKVACapacity
+
 ##### Advanced Battery
 upsAdvBatteryCapacity, upsAdvBatteryTemperature, upsAdvBatteryRunTimeRemaining, upsAdvBatteryReplaceIndicator, upsAdvBatteryNumOfBattPacks, upsAdvBatteryNumOfBadBattPacks, upsAdvBatteryNominalVoltage, upsAdvBatteryCurrent
 
 ## Examples
 
 ## MIBs
-All necessary MIBs are included in the Extreme Management (NetSight) already
+All necessary MIBs are included in the Extreme Management (NetSight) already.
 
 >Be Extreme

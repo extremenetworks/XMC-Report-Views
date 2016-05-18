@@ -12,15 +12,19 @@ Community Driven repository
 ## Comments & Columns
 ##### Firmware information
 extremeSystemID, extremeImageBooted, sysUpTime, extremeMsmFailoverCause, sysName, extremePrimarySoftwareRev, extremeSecondarySoftwareRev, extremeImageToUseOnReboot, extremeBootROMVersion
+
 ##### Learned MAC to IP
 extremeFdbIpFdbPortIfIndex, extremeFdbIpFdbIPAddress, extremeFdbIpFdbMacAddress
+
 ##### Vlan IP ports
 extremeVlanIfVlanId, extremeVlanIfDescr, extremeVlanIpNetAddress, extremeVlanIpNetMask, extremeVlanOpaqueTaggedPorts, extremeVlanOpaqueUntaggedPorts, extremeVlanIfType, extremeVlanIpForwardingState
+
 ##### L3 interface stats
 extremeStatsPortIfIndex, ifName, extremeStatsVlanNameIndex, extremePortVlanStatsCntrType, extremePortConfigureVlanStatus, extremePortVlanTotalReceivedBytesCounter, extremePortVlanTotalReceivedFramesCounter
 
 ## Examples
 
 ## MIBs
+All necessary MIBs are included in the Extreme Management (NetSight) already.
 
 >Be Extreme
