@@ -1,4 +1,4 @@
-# Extreme Management (Netsight) Flexviews for APC UPS devices
+# Extreme Management (NetSight) FlexViews for APC UPS devices
 
 Community Driven repository
 
@@ -28,3 +28,5 @@ upsAdvBatteryCapacity, upsAdvBatteryTemperature, upsAdvBatteryRunTimeRemaining, 
 
 ## MIBs
 All necessary MIBs are included in the Extreme Management (NetSight) already
+
+>Be Extreme

@@ -1,4 +1,4 @@
-# Extreme Management (Netsight) Flexviews for Cisco Catalyst devices
+# Extreme Management (NetSight) FlexViews for Cisco Catalyst devices
 
 Community Driven repository
 
@@ -33,3 +33,5 @@ vtpVersion, vlanTrunkPortsDot1qTag, vlanTrunkPortEncapsulationType, vlanTrunkPor
 ## Examples
 
 ## MIBs
+
+>Be Extreme
