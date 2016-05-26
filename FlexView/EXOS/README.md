@@ -8,6 +8,9 @@ Community Driven repository
 * [Learned MAC to IP](tpl/XOS Nodealias_MAC-IP_learned.tpl?raw=true)
 * [Vlan IP ports](tpl/XOS VLAN-IP-Port.tpl?raw=true)
 * [L3 interface stats](tpl/XOS_L3interface_stats.tpl?raw=true)
+* [Link Aggregation](tpl/XOS sharing.tpl?raw=true)
+* [LACP Link Aggregation](tpl/XOS LACP-sharing.tpl?raw=true)
+
 
 ## Comments & Columns
 ##### Firmware information
@@ -21,6 +24,13 @@ extremeVlanIfVlanId, extremeVlanIfDescr, extremeVlanIpNetAddress, extremeVlanIpN
 
 ##### L3 interface stats
 extremeStatsPortIfIndex, ifName, extremeStatsVlanNameIndex, extremePortVlanStatsCntrType, extremePortConfigureVlanStatus, extremePortVlanTotalReceivedBytesCounter, extremePortVlanTotalReceivedFramesCounter
+
+##### Link Aggregation
+MemberPort_ifName,ifAlias,ifDescr,ifAdminStatus, ifOperStatus, MasterPort_ifName,extremePortLoadshare2Status, extremePortLoadshare2Algorithm
+
+##### LACP Link Aggregation
+ifName,ifAlias, ifDescr, ifAdminStatus, ifOperStatus, extremeLacpGroup, extremeLacpMemberPort, extremeLacpAggStatus
+
 
 ## Examples
 
