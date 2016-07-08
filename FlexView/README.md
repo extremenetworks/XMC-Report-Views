@@ -1,7 +1,7 @@
 # Extreme Management (NetSight) FlexViews 
 Community Driven Repository
 
-This repository is to be used for hosting custom FlexViews
+This repository is to be used for hosting custom FlexViews.
 
 * [Extreme EXOS](EXOS/README.md)
 * [Extreme Wireless](Extreme_Wireless/README.md)
@@ -9,6 +9,6 @@ This repository is to be used for hosting custom FlexViews
 * [Enterasys AP3000 Wireless](AP3000/README.md)
 * [Cisco Systems](Cisco_Systems/README.md)
 * [APC power supplies](APC/README.md)
-* [Vendor independend networking](Networking/README.md) 
+* [Vendor independent networking](Networking/README.md) 
 
 >Be Extreme
