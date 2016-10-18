@@ -7,7 +7,7 @@ Community Driven repository
 * [Firmware information](tpl/XOS firmware Info.tpl?raw=true)
 * [Learned MAC to IP](tpl/XOS Nodealias_MAC-IP_learned.tpl?raw=true)
 * [Vlan IP ports](tpl/XOS VLAN-IP-Port.tpl?raw=true)
-* [L3 interface stats](tpl/XOS_L3interface_stats.tpl?raw=true)
+* [L3 interface stats](tpl/XOS L3interface stats.tpl?raw=true)
 * [Link Aggregation](tpl/XOS sharing.tpl?raw=true)
 * [LACP Link Aggregation](tpl/XOS LACP-sharing.tpl?raw=true)
 
@@ -33,6 +33,9 @@ ifName,ifAlias, ifDescr, ifAdminStatus, ifOperStatus, extremeLacpGroup, extremeL
 
 
 ## Examples
+* [Link Aggregation](sample/XOS sharing.png)
+* [LACP Link Aggregation](sample/XOS LACP-sharing.png)
+
 
 ## MIBs
 All necessary MIBs are included in the Extreme Management (NetSight) already.
