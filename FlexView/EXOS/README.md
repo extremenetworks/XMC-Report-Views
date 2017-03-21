@@ -10,6 +10,7 @@ Community Driven repository
 * [L3 interface stats](tpl/XOS L3interface stats.tpl?raw=true)
 * [Link Aggregation](tpl/XOS sharing.tpl?raw=true)
 * [LACP Link Aggregation](tpl/XOS LACP-sharing.tpl?raw=true)
+* [PoE system](tpl/XOS SystemPoE.tpl?raw=true)
 
 
 ## Comments & Columns
@@ -31,10 +32,13 @@ MemberPort_ifName,ifAlias,ifDescr,ifAdminStatus, ifOperStatus, MasterPort_ifName
 ##### LACP Link Aggregation
 ifName,ifAlias, ifDescr, ifAdminStatus, ifOperStatus, extremeLacpGroup, extremeLacpMemberPort, extremeLacpAggStatus
 
+##### System PoE
+extremePethSystemAdminEnable, extremePethSystemDisconnectPrecedence, extremePethSystemUsageThreshold, extremePethSystemPowerSupplyMode, extremePethSystemLegacyEnable
 
 ## Examples
 * [Link Aggregation](sample/XOS sharing.png)
 * [LACP Link Aggregation](sample/XOS LACP-sharing.png)
+* [PoE system](sample/XOS SystemPoE.png)
 
 
 ## MIBs
