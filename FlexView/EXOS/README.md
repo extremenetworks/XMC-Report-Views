@@ -2,15 +2,14 @@
 
 Community Driven repository
 
-
 ## FlexViews
-* [Firmware information](tpl/XOS firmware Info.tpl?raw=true)
-* [Learned MAC to IP](tpl/XOS Nodealias_MAC-IP_learned.tpl?raw=true)
-* [Vlan IP ports](tpl/XOS VLAN-IP-Port.tpl?raw=true)
-* [L3 interface stats](tpl/XOS L3interface stats.tpl?raw=true)
-* [Link Aggregation](tpl/XOS sharing.tpl?raw=true)
-* [LACP Link Aggregation](tpl/XOS LACP-sharing.tpl?raw=true)
-* [PoE system](tpl/XOS SystemPoE.tpl?raw=true)
+* [Firmware information](tpl/XOS_firmware_Info.tpl?raw=true)
+* [Learned MAC to IP](tpl/XOS_Nodealias_MAC-IP_learned.tpl?raw=true)
+* [Vlan IP ports](tpl/XOS_VLAN-IP-Port.tpl?raw=true)
+* [L3 interface stats](tpl/XOS_L3interface_stats.tpl?raw=true)
+* [Link Aggregation](tpl/XOS_sharing.tpl?raw=true)
+* [LACP Link Aggregation](tpl/XOS_LACP-sharing.tpl?raw=true)
+* [PoE system](tpl/XOS_SystemPoE.tpl?raw=true)
 
 
 ## Comments & Columns
@@ -36,9 +35,9 @@ ifName,ifAlias, ifDescr, ifAdminStatus, ifOperStatus, extremeLacpGroup, extremeL
 extremePethSystemAdminEnable, extremePethSystemDisconnectPrecedence, extremePethSystemUsageThreshold, extremePethSystemPowerSupplyMode, extremePethSystemLegacyEnable
 
 ## Examples
-* [Link Aggregation](sample/XOS sharing.png)
-* [LACP Link Aggregation](sample/XOS LACP-sharing.png)
-* [PoE system](sample/XOS SystemPoE.png)
+* [Link Aggregation](sample/XOS_sharing.png)
+* [LACP Link Aggregation](sample/XOS_LACP-sharing.png)
+* [PoE system](sample/XOS_SystemPoE.png)
 
 
 ## MIBs

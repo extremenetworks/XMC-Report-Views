@@ -8,10 +8,10 @@ Community Driven repository
 * [SNTP client broadcast](tpl/sntp_broadcast.tpl?raw=true)
 * [SNTP client unicast](tpl/sntp_client_unicast.tpl?raw=true)
 * [SpanGuard](tpl/SpanGuardSettings.tpl?raw=true)
-* [Memory and flash utilization](tpl/Storage Utilization.tpl?raw=true)
-* [Syslog server config](tpl/Syslog Server Configuration.tpl?raw=true)
+* [Memory and flash utilization](tpl/Storage_Utilization.tpl?raw=true)
+* [Syslog server config](tpl/Syslog_Server_Configuration.tpl?raw=true)
 * [Syslog summary](tpl/Syslog Summary Information.tpl?raw=true)
-* [VH Switch Information](tpl/VH-Switch Information.tpl?raw=true)
+* [VH Switch Information](tpl/VH-Switch_Information.tpl?raw=true)
 
 ## Comments & Columns
 ##### Environmental info

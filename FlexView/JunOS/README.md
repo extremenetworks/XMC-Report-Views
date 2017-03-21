@@ -4,8 +4,8 @@ Community Driven repository
 
 
 ## FlexViews
-* [Vlan information](tpl/Juniper VLAN database.tpl?raw=true)
-* [Vlan port information](tpl/Juniper VLAN port.tpl?raw=true)
+* [Vlan information](tpl/Juniper_VLAN_database.tpl?raw=true)
+* [Vlan port information](tpl/Juniper_VLAN_port.tpl?raw=true)
 
 
 ## Comments & Columns
