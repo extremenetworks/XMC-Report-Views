@@ -10,7 +10,7 @@ Community Driven repository
 * [SpanGuard](tpl/SpanGuardSettings.tpl?raw=true)
 * [Memory and flash utilization](tpl/Storage_Utilization.tpl?raw=true)
 * [Syslog server config](tpl/Syslog_Server_Configuration.tpl?raw=true)
-* [Syslog summary](tpl/Syslog Summary Information.tpl?raw=true)
+* [Syslog summary](tpl/Syslog_Summary_Information.tpl?raw=true)
 * [VH Switch Information](tpl/VH-Switch_Information.tpl?raw=true)
 
 ## Comments & Columns
