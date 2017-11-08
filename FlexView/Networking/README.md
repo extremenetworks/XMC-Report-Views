@@ -30,6 +30,8 @@ Works with EOS, EXOS
 
 
 ## Examples
+* [What are LLDP neighbors](sample/LLDP.png)
+* [How long is the port down/up?](sample/PortStatusTimeAlias.png)
 
 ## MIBs
 All necessary MIBs are included in the Extreme Management (NetSight) already.
