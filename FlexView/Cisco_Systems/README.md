@@ -35,14 +35,19 @@ ifName, ifType, ifDescr, ifOperStatus, Current Link, vmVlan, vmVlanType, vmPortS
 vtpVlanIndex, vtpVlanState, vtpVlanType, vtpVlanName, vtpVlanMtu
 
 ##### Cisco VTP
-vtpVersion, vlanTrunkPortsDot1qTag, vlanTrunkPortEncapsulationType, vlanTrunkPortDynamicStatus
+ifName, vtpVersion, vlanTrunkPortsDot1qTag, vlanTrunkPortEncapsulationType, vlanTrunkPortDynamicStatus
 
 ## Examples
+* [Port Authentication Config](sample/CiscoAuth.png)
 * [Is the running configuration saved?](sample/CiscoConfig.png)
 * [Cisco Discovery Protocol](sample/CiscoDPneighbor.png)
 * [Port Vlan](sample/CiscoPVID.png)
+* [PVST](sample/CiscoPVST.png)
+* [STP](sample/CiscoSTP.png)
 * [Vlans](sample/CiscoVlans.png)
+* [Cisco VTP](sample/CiscoVTP.png)
 
 ## MIBs
+CISCO-STP-EXTENSIONS-MIB.my is needed for CiscoSTP flexview = use Cisco SNMP Object Navigator to download
 
 >Be Extreme
