@@ -8,7 +8,7 @@
         <column comparator="com.ets.nac.tables.TbCompOid" id="1" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" fixed="true" modelIndex="1">IP Address
             <notes></notes>
             <dataField>OID::IP Address:::SNMP::IP Address</dataField></column>
-        <column comparator="com.ets.nac.tables.TbCompOid" id="2" sortOrder="ascending" class="com.enterasys.netsight.console.client.flexview.FvColumn" fixed="true" sorted="true" modelIndex="2">Instance
+        <column comparator="com.ets.nac.tables.TbCompOid" id="2" sortOrder="ascending" class="com.enterasys.netsight.console.client.flexview.FvColumn" fixed="true" sorted="true" modelIndex="2" hidden="true">Instance
             <notes></notes>
             <dataField>OID::Instance:::SNMP::Instance</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="106" width="67" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="3">VlanID

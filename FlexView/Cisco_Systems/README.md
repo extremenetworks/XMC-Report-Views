@@ -11,6 +11,11 @@ Community Driven repository
 * [Port Vlan](tpl/CiscoPVID.tpl?raw=true)
 * [Vlans](tpl/CiscoVLANs.tpl?raw=true)
 * [Cisco VTP](tpl/CiscoVTP.tpl?raw=true)
+* [Cisco CPU](tpl/CiscoCPU.tpl?raw=true)
+* [Cisco Flash](tpl/CiscoFlash.tpl?raw=true)
+* [Cisco Memory](tpl/CiscoMemory.tpl?raw=true)
+
+
 
 ## Comments & Columns
 ##### Port Authentication Config
@@ -37,6 +42,16 @@ vtpVlanIndex, vtpVlanState, vtpVlanType, vtpVlanName, vtpVlanMtu
 ##### Cisco VTP
 ifName, vtpVersion, vlanTrunkPortsDot1qTag, vlanTrunkPortEncapsulationType, vlanTrunkPortDynamicStatus
 
+##### Cisco CPU
+cpmCPUTotal5secRev, cpmCPUTotal1minRev, cpmCPUTotal5minRev
+
+##### Cisco Memory
+ciscoMemoryPoolName, ciscoMemoryPoolUsed, ciscoMemoryPoolFree, 
+
+##### Cisco Flash
+ciscoFlashPartitionSize, ciscoFlashPartitionFreeSpace, ciscoFlashPartitionName, ciscoFlashPartitionFileCount, ciscoFlashPartitionStatus
+
+
 ## Examples
 * [Port Authentication Config](sample/CiscoAuth.png)
 * [Is the running configuration saved?](sample/CiscoConfig.png)
@@ -46,8 +61,14 @@ ifName, vtpVersion, vlanTrunkPortsDot1qTag, vlanTrunkPortEncapsulationType, vlan
 * [STP](sample/CiscoSTP.png)
 * [Vlans](sample/CiscoVlans.png)
 * [Cisco VTP](sample/CiscoVTP.png)
+* [Cisco CPU](sample/CiscoCPU.png)
+* [Cisco Memory](sample/CiscoMemory.png)
+* [Cisco Flash](sample/CiscoFlash.png)
 
-## MIBs
-CISCO-STP-EXTENSIONS-MIB.my is needed for CiscoSTP flexview = use Cisco SNMP Object Navigator to download
+## MIBs = use Cisco SNMP Object Navigator to download = http://snmp.cloudapps.cisco.com/Support/SNMP/do/BrowseOID.do
+CISCO-STP-EXTENSIONS-MIB.my is needed for CiscoSTP flexview
+CISCO-FLASH-MIB.my is needed for Cisco Flash flexview
+CISCO-MEMORY-POOL-MIB.my is needed for Cisco Memory flexview
+CISCO-PROCESS-MIB.my is needed for Cisco CPU flexview
 
 >Be Extreme
