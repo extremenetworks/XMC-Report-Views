@@ -66,9 +66,12 @@ ciscoFlashPartitionSize, ciscoFlashPartitionFreeSpace, ciscoFlashPartitionName, 
 * [Cisco Flash](sample/CiscoFlash.png)
 
 ## MIBs = use Cisco SNMP Object Navigator to download = http://snmp.cloudapps.cisco.com/Support/SNMP/do/BrowseOID.do
-#####CISCO-STP-EXTENSIONS-MIB.my is needed for CiscoSTP flexview
-#####CISCO-FLASH-MIB.my is needed for Cisco Flash flexview
-#####CISCO-MEMORY-POOL-MIB.my is needed for Cisco Memory flexview
-#####CISCO-PROCESS-MIB.my is needed for Cisco CPU flexview
+##### CISCO-STP-EXTENSIONS-MIB.my is needed for CiscoSTP flexview
+
+##### CISCO-FLASH-MIB.my is needed for Cisco Flash flexview
+
+##### CISCO-MEMORY-POOL-MIB.my is needed for Cisco Memory flexview
+
+##### CISCO-PROCESS-MIB.my is needed for Cisco CPU flexview
 
 >Be Extreme
