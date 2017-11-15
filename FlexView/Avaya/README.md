@@ -3,7 +3,7 @@
 Community Driven repository
 
 ## FlexViews
-* [Port Configuration](tpl/VOSS_ Port_Config.tpl?raw=true)
+* [Port Configuration](tpl/VOSS_Port_Config.tpl?raw=true)
 * [Fan Table](tpl/VOSS_FanTable.tpl?raw=true)
 * [Chassis](tpl/VOSS_Chassis.tpl?raw=true)
 * [ISid interface](tpl/VOSS_ISid_interface.tpl?raw=true)
