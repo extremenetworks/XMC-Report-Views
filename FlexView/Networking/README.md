@@ -18,7 +18,7 @@ entPhysicalModelName, entPhysicalSerialNum, sysLocation
 ##### How long is the port down/up?
 Works with EOS, EXOS, IOS, IdentiFi.
 
-ifName, ifAlias, sysUpTime, ifLastChange, ifOperStatus, ifAdminStatus, ifIndex, ifDescr
+SysName, SysLocation, ifName, ifAlias, sysUpTime, ifLastChange, ifOperStatus, ifAdminStatus, ifIndex, ifDescr
 
 ##### What ports are sending traps?
 Works with EOS, EXOS, IdentiFi.
