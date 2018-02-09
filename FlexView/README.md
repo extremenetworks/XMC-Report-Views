@@ -11,6 +11,7 @@ This repository is to be used for hosting custom FlexViews.
 * [Cisco Systems](Cisco_Systems/README.md)
 * [DeltaPowerSolutions](Delta/README.md)
 * [Juniper Junos](JunOS/README.md)
+* [Palo Alto Networks](Palo_Alto/README.md)
 * [APC power supplies](APC/README.md)
 * [Vendor independent networking](Networking/README.md) 
 
