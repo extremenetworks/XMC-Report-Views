@@ -9,10 +9,12 @@ This repository is to be used for hosting custom FlexViews.
 * [Enterasys AP3000 Wireless](AP3000/README.md)
 * [Avaya VOSS](Avaya/README.md)
 * [Cisco Systems](Cisco_Systems/README.md)
-* [DeltaPowerSolutions](Delta/README.md)
+* [HP Aruba](HP_Aruba/README.md)
 * [Juniper Junos](JunOS/README.md)
 * [Palo Alto Networks](Palo_Alto/README.md)
-* [APC power supplies](APC/README.md)
 * [Vendor independent networking](Networking/README.md) 
+
+* [DeltaPowerSolutions](Delta/README.md)
+* [APC power supplies](APC/README.md)
 
 >Be Extreme
