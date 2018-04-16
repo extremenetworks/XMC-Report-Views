@@ -1,0 +1,68 @@
+<report>
+	<reportId>DeviceViewHPHardware</reportId>
+	<title>Device View Hardware HP</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>Device and Modules informations</viewTabTitle>
+		<viewOrder>735</viewOrder>
+		<families>
+			<family>HP</family>
+                         
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>vbox</layout>
+		<flex>1</flex>
+		<title>DeviceView HP Hardware informations</title>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+		        <panel>
+				<title>Chassis Informations</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>HP System Informations</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+                        <splitter>
+				<collapsible>true</collapsible>
+				<showMiniCollapse>true</showMiniCollapse>
+			</splitter>
+                        <panel>
+				<title>System Utilization</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>HP System Ressource</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+                        <splitter>
+				<collapsible>true</collapsible>
+				<showMiniCollapse>true</showMiniCollapse>
+			</splitter>
+                        <panel>
+				<title>System Process Utilization</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>HP Process Utilization</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+
+                        
+		   </items>
+	</panel>
+</report>
+            

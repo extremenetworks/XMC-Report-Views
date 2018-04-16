@@ -1,0 +1,50 @@
+<report>
+	<reportId>DeviceViewHH3CVLAN</reportId>
+	<title>Device View VLAN HP  </title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>VLAN</viewTabTitle>
+		<viewOrder>715</viewOrder>
+		<families>
+			<family>HP</family>
+                </families>
+	</deviceViewTab>
+	<panel>
+		<layout>vbox</layout>
+		<flex>1</flex>
+		<title>DeviceView VLAN Table</title>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+		        <panel>
+				<title>VLAN Table</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>VLAN Static Table HP</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+                        <splitter>
+				<collapsible>true</collapsible>
+				<showMiniCollapse>true</showMiniCollapse>
+			</splitter>
+                        <panel>
+				<title>VLAN Port Table</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>Port Status VLAN</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+                 </items>
+	</panel>
+</report>
+            
