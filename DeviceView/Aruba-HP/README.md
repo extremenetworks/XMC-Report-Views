@@ -1,4 +1,4 @@
-# HP Aruba DeviceView for Extreme Management Center
+# Extreme Management Center DeviceView for HP-Aruba switches
 >Community maintained content
 
 The DeviceView does use reports in the MyReports directory. Those reports use FlexViews, FlexViews does use MIBs.
