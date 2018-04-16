@@ -1,0 +1,27 @@
+<report>
+	<reportId>DeviceViewCiscoVlans</reportId>
+	<title>Device View Cisco VLANs</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>VLANs</viewTabTitle>
+		<viewOrder>1009</viewOrder>
+		<families>
+			<family>Cisco</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<flexviewgrid>
+				<hideToolbar>true</hideToolbar>
+				<viewId>CiscoVLANs</viewId>
+			</flexviewgrid>
+		</items>
+	</panel>
+</report>
+            

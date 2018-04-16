@@ -1,0 +1,27 @@
+<report>
+	<reportId>DeviceViewCiscoPVIDs</reportId>
+	<title>Device View Cisco PVIDs</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>Port Vlans</viewTabTitle>
+		<viewOrder>1010</viewOrder>
+		<families>
+			<family>Cisco</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<flexviewgrid>
+				<hideToolbar>true</hideToolbar>
+				<viewId>Cisco VLAN Port Summary</viewId>
+			</flexviewgrid>
+		</items>
+	</panel>
+</report>
+            

@@ -1,0 +1,49 @@
+<report>
+	<reportId>DeviceViewCiscoSTP</reportId>
+	<title>Device View Cisco STP</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>STP</viewTabTitle>
+		<viewOrder>1012</viewOrder>
+		<families>
+			<family>Cisco</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<panel>
+				<title>Global STP</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+				<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>CiscoSTP</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+			<splitter>
+				<collapsible>true</collapsible>
+				<showMiniCollapse>true</showMiniCollapse>
+			</splitter>
+			<panel>
+				<title>Active STP ports</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>Port Spanning Tree Information</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+		</items>
+	</panel>
+</report>
+            

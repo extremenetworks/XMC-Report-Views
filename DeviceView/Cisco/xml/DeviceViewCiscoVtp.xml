@@ -1,0 +1,27 @@
+<report>
+	<reportId>DeviceViewCiscoVTP</reportId>
+	<title>Device View Cisco VTP</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>VTP</viewTabTitle>
+		<viewOrder>1011</viewOrder>
+		<families>
+			<family>Cisco</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<flexviewgrid>
+				<hideToolbar>true</hideToolbar>
+				<viewId>CiscoVTP</viewId>
+			</flexviewgrid>
+		</items>
+	</panel>
+</report>
+            
