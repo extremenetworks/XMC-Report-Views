@@ -13,7 +13,6 @@ This repository is to be used for hosting custom FlexViews.
 * [Juniper Junos](JunOS/README.md)
 * [Palo Alto Networks](Palo_Alto/README.md)
 * [Vendor independent networking](Networking/README.md) 
-
 * [DeltaPowerSolutions](Delta/README.md)
 * [APC power supplies](APC/README.md)
 
