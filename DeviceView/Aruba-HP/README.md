@@ -9,10 +9,10 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 ## XMC 8.1.2
 
-| Product | DeviceView   | FlexView   | Buildin FlexView | Example   |
+| Product | DeviceView   | GitHub FlexView   | XMC Build-in FlexView | Example   |
 | ------- | ------------ |:----------:|:----------------:| --------- |
-| Comware |[VLANS](xml/DeviceViewHH3CVlan.xml)|VLAN Static Table HP| Port Status VLAN | - |
-| Comware |[IRF](xml/DeviceViewHH3CIRF.xml)|IRF Basic Settings, IRF Role, IRF Port Binding, IRF Topology| - | - |
-| Comware |[Device and Modules informations](xml/DeviceViewHH3CHardware.xml)|HP System Informations, HP System Ressource, HP Process Utilization| - | - |
+| Comware |[VLANS](xml/DeviceViewHH3CVlan.xml)|VLAN Static Table HP| Port Status VLAN |[png](sample/VLAN.png)|
+| Comware |[IRF](xml/DeviceViewHH3CIRF.xml)|IRF Basic Settings, IRF Role, IRF Port Binding, IRF Topology| - |[png](sample/IRF.png)|
+| Comware |[Device and Modules informations](xml/DeviceViewHH3CHardware.xml)|HP System Informations, HP System Ressource, HP Process Utilization| - |[png](sample/Modules.png)|
 
 >Be Extreme
