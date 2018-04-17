@@ -11,10 +11,10 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 | Product  | DeviceView   | FlexView   | Buildin FlexView | Example   |
 | -------- | ------------ |:----------:|:----------------:| --------- |
-| Catalyst |[VLANS](xml/DeviceViewCiscoVlans.xml)|CiscoVLANs| - | - |
-| Catalyst |[STP](xml/DeviceViewCiscoStp.xml)|CiscoSTP|Port Spanning Tree Information| - |
-| Catalyst |[VTP](xml/DeviceViewCiscoVtp.xml)|CiscoVTP| - | - |
-| Catalyst |[Resources](xml/DeviceViewCiscoResources.xml)|CiscoCPU, CiscoMemory, CiscoFlash| - | - |
-| Catalyst |[Port Vlans](xml/DeviceViewCiscoPortVlans.xml)| - |Cisco VLAN Port Summary| - |
+| Catalyst |[VLANS](xml/DeviceViewCiscoVlans.xml)|CiscoVLANs| - |[png](sample/VLANs.png)|
+| Catalyst |[STP](xml/DeviceViewCiscoStp.xml)|CiscoSTP|Port Spanning Tree Information|[png](sample/STP.png)|
+| Catalyst |[VTP](xml/DeviceViewCiscoVtp.xml)|CiscoVTP| - |[png](sample/VTP.png)|
+| Catalyst |[Resources](xml/DeviceViewCiscoResources.xml)|CiscoCPU, CiscoMemory, CiscoFlash| - |[png](sample/Resources.png)|
+| Catalyst |[Port Vlans](xml/DeviceViewCiscoPortVlans.xml)| - |Cisco VLAN Port Summary|[png](sample/PortVlans.png)|
 
 >Be Extreme
