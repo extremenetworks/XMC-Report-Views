@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report>
+    <reportId>interfaceHistory</reportId> <!-- must be unique -->
+    <title>Interface History</title>
+    <category>Ports</category>
+    <showInTree>false</showInTree>
+    <iconCls>chart-bar-icon</iconCls>
+    <pdf>
+        <views>6</views>
+        <layout>none</layout>
+        <landscape>false</landscape>
+    </pdf>
+    <panel>
+        <autoscroll>true</autoscroll>
+        <showTitle>true</showTitle>
+        <showTarget>true</showTarget>
+        <layout>vbox</layout>
+        <pack>none</pack>
+        <toolbar>
+            <items>
+                <categoryRange>
+                    <category>Hourly</category>
+                    <dateRange>Last 3 Days</dateRange>
+                </categoryRange>
+                <spacer />
+                <separator />
+                <fill />
+                <button>
+                    <type>pdf</type>
+                </button>
+            </items>
+        </toolbar>
+        <items>
+            <panel> <!-- Port Utilization panel -->
+                <layout>fit</layout>
+                <minHeight>175</minHeight>
+                <items>
+                    <linechart>
+                        <title>Port Utilization</title>
+                        <ui>extr-bordered-panel</ui>
+                        <dateType>Hourly</dateType>
+                        <dateRange>Last 3 Days</dateRange>
+                        <xAxis>
+                            <type>time</type>
+                        </xAxis>
+                        <yAxis>
+                            <type>numeric</type>
+                            <renderer>renderPercent</renderer>
+                            <majorTickSteps>3</majorTickSteps>
+                        </yAxis>
+
+                        <xField>time_stamp</xField>
+                        <series>
+                            <seriesDef>
+                                <yField>PortUtilizationPercent</yField>
+                                <displayName>Utilization (%)</displayName>
+                                <style>
+                                    <size>5</size>
+                                </style>
+                            </seriesDef>
+                        </series>
+                        <data>
+                            <statistics>
+                                <statistic>
+                                    <statisticName>PortUtilizationPercent</statisticName>
+                                    <alias>PortUtilizationPercent</alias>
+                                </statistic>
+                            </statistics>
+                        </data>
+                        <legend>
+                            <display>right</display>
+                        </legend>
+
+                    </linechart>
+                </items>
+            </panel>
+
+            <panel> <!-- Interface Availability panel -->
+                <layout>fit</layout>
+                <minHeight>175</minHeight>
+                <items>
+                    <linechart>
+                        <title>Interface Availability</title>
+                        <ui>extr-bordered-panel-esw</ui>
+                        <dateType>Hourly</dateType>
+                        <dateRange>Last 3 Days</dateRange>
+                        <xAxis>
+                            <type>time</type>
+                        </xAxis>
+                        <yAxis>
+                            <type>numeric</type>
+                            <renderer>renderPercent</renderer>
+                            <maximum>100</maximum>
+                            <majorTickSteps>3</majorTickSteps>
+                        </yAxis>
+
+                        <xField>time_stamp</xField>
+                        <series>
+                            <seriesDef>
+                                <yField>PortAvailabilityPercent</yField>
+                                <displayName>Availability (%)</displayName>
+                                <style>
+                                    <size>5</size>
+                                </style>
+                            </seriesDef>
+                        </series>
+                        <data>
+                            <statistics>
+                                <statistic>
+                                    <statisticName>PortAvailabilityPercent</statisticName>
+                                    <alias>PortAvailabilityPercent</alias>
+                                </statistic>
+                            </statistics>
+                        </data>
+                        <legend>
+                            <display>right</display>
+                        </legend>
+
+                    </linechart>
+                </items>
+            </panel>
+
+            <panel> <!-- bottom tabbed panel -->
+                <layout>fit</layout>
+                <minHeight>175</minHeight>
+                <ui>extr-bordered-panel-esw</ui>
+                <items>
+                    <tabpanel>
+                        <tab> <!-- Bandwidth tab -->
+                            <tabtitle>Bandwidth</tabtitle>
+                            <panel>
+                                <layout>vbox</layout>
+                                <items>
+                                    <panel>  <!-- Bandwidth panel -->
+                                        <layout>fit</layout>
+                                        <items>
+                                            <linechart>
+                                                <dateType>Hourly</dateType>
+                                                <dateRange>Last 3 Days</dateRange>
+                                                <xAxis>
+                                                    <type>time</type>
+                                                </xAxis>
+                                                <yAxis>
+                                                    <type>numeric</type>
+                                                    <renderer>renderOctetsKbps</renderer>
+                                                    <majorTickSteps>3</majorTickSteps>
+                                                </yAxis>
+
+                                                <xField>time_stamp</xField> <!-- must match db column name -->
+                                                <series>
+                                                    <seriesDef>
+                                                        <yField>PortInOctets</yField>
+                                                        <displayName>In Bandwidth</displayName>
+                                                        <style>
+                                                            <size>5</size>
+                                                        </style>
+                                                    </seriesDef>
+                                                    <seriesDef>
+                                                        <yField>PortOutOctets</yField>
+                                                        <displayName>Out Bandwidth</displayName>
+                                                        <style>
+                                                            <size>5</size>
+                                                        </style>
+                                                    </seriesDef>
+                                                    <seriesDef>
+                                                        <yField>PortTotalBwKbps</yField>
+                                                        <displayName>Total Bandwidth</displayName>
+                                                        <style>
+                                                            <size>5</size>
+                                                        </style>
+                                                    </seriesDef>
+                                                </series>
+                                                <data>
+                                                    <statistics>
+                                                        <statistic>
+                                                            <statisticName>PortInOctets</statisticName>
+                                                            <alias>PortInOctets</alias>
+                                                        </statistic>
+                                                        <statistic>
+                                                            <statisticName>PortOutOctets</statisticName>
+                                                            <alias>PortOutOctets</alias>
+                                                        </statistic>
+                                                        <statistic>
+                                                            <statisticName>PortTotalBwKbps</statisticName>
+                                                            <alias>PortTotalBwKbps</alias>
+                                                        </statistic>
+                                                    </statistics>
+                                                </data>
+                                                <legend>
+                                                    <display>right</display>
+                                                </legend>
+
+                                            </linechart>
+                                        </items>
+                                    </panel>
+                                </items>
+                            </panel>
+                        </tab>
+
+                        <tab> <!-- Packets tab -->
+                            <tabtitle>Packets</tabtitle>
+                            <panel>
+                                <layout>vbox</layout>
+                                <items>
+                                    <panel> <!-- Packets panel -->
+                                        <layout>fit</layout>
+                                        <items>
+                                            <areachart>
+                                                <dateType>Hourly</dateType>
+                                                <dateRange>Last 3 Days</dateRange>
+                                                <xAxis>
+                                                    <type>time</type>
+                                                </xAxis>
+                                                <yAxis>
+                                                    <type>numeric</type>
+                                                    <maximum>100</maximum>
+                                                    <renderer>renderPercent</renderer>
+                                                    <majorTickSteps>3</majorTickSteps>
+                                                </yAxis>
+
+                                                <xField>time_stamp</xField>
+                                                <series>
+                                                    <seriesDef>
+                                                        <yField>PortErrorPacketsPercent</yField>
+                                                        <displayName>Error Packets (%)</displayName>
+                                                        <style>
+                                                            <size>5</size>
+                                                        </style>
+                                                    </seriesDef>
+                                                    <seriesDef>
+                                                        <yField>PortValidPacketsPercent</yField>
+                                                        <displayName>Valid Packets (%)</displayName>
+                                                        <style>
+                                                            <size>5</size>
+                                                        </style>
+                                                    </seriesDef>
+                                                </series>
+                                                <data>
+                                                    <statistics>
+                                                        <statistic>
+                                                            <statisticName>PortErrorPacketsPercent</statisticName>
+                                                            <alias>PortErrorPacketsPercent</alias>
+                                                        </statistic>
+                                                        <statistic>
+                                                            <statisticName>PortValidPacketsPercent</statisticName>
+                                                            <alias>PortValidPacketsPercent</alias>
+                                                        </statistic>
+                                                    </statistics>
+                                                </data>
+                                                <legend>
+                                                    <display>right</display>
+                                                </legend>
+
+                                            </areachart>
+                                        </items>
+                                    </panel>
+                                </items>
+                            </panel>
+                        </tab>
+
+                        <tab> <!-- Flows tab -->
+                            <tabtitle>Flows </tabtitle>
+                            <panel> <!-- Flows panel -->
+                                <layout>fit</layout>
+                                <items>
+                                    <linechart>
+                                        <xAxis>
+                                            <type>time</type>
+                                        </xAxis>
+                                        <yAxis>
+                                            <type>numeric</type>
+                                            <renderer>renderFloatAndInteger</renderer>
+                                            <majorTickSteps>3</majorTickSteps>
+                                        </yAxis>
+
+                                        <xField>time_stamp</xField>
+                                        <series>
+                                            <seriesDef>
+                                                <yField>PortActiveFlows</yField>
+                                                <displayName>Flows</displayName>
+                                                <style>
+                                                    <size>2</size>
+                                                    <linesize>2</linesize>
+                                                </style>
+                                            </seriesDef>
+                                        </series>
+                                        <data>
+                                            <statistics>
+                                                <statistic>
+                                                    <statisticName>PortActiveFlows</statisticName>
+                                                    <alias>PortActiveFlows</alias>
+                                                </statistic>
+                                            </statistics>
+                                        </data>
+                                    </linechart>
+                                </items>
+                            </panel>
+                        </tab>
+
+                    </tabpanel>
+                </items>
+            </panel>
+        </items>
+    </panel>
+</report>
