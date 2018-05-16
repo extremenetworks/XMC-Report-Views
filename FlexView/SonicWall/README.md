@@ -4,7 +4,7 @@ Community Driven repository
 
 
 ## FlexViews
-* [System information](tpl/SonicWall_Info?raw=true)
+* [System information](tpl/SonicWall_Info.tpl?raw=true)
 * [What is the system utilization?](tpl/SonicWall_Utilization.tpl?raw=true)
 * [How are zones configured?](tpl/SonicWall_Zones.tpl?raw=true)
 
