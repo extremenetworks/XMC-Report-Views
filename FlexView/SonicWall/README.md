@@ -11,17 +11,17 @@ Community Driven repository
 ## Comments & Columns
 
 ##### System information?
-Tested with NSv_300_R144 6.5.0.2, MIBs are necesary for Extreme Management Center 8.1
+Tested with NSv_300_R144 6.5.0.2 & TZ300 6.5.1.1, MIBs are necesary for Extreme Management Center 8.1
 
 Model, Serial Number, Firmware Version, ROM Version
 
 ##### What is the system utilization?
-Tested with NSv_300_R144 6.5.0.2, MIBs are necesary for Extreme Management Center 8.1
+Tested with NSv_300_R144 6.5.0.2 & TZ300 6.5.1.1, MIBs are necesary for Extreme Management Center 8.1
 
 CPU Utilization, RAM Utilization, Conn Cache Entries, SSL Conn Count, SSL Conn Count HighWater, SSL Conn Count Max
 
 ##### How are zones configured?
-Tested with NSv_300_R144 6.5.0.2, MIBs are necesary for Extreme Management Center 8.1
+Tested with NSv_300_R144 6.5.0.2 & TZ300 6.5.1.1, MIBs are necesary for Extreme Management Center 8.1
 
 Zone Name, Zone Security, If Trust, Content Filtering, Client AV Enforcement, Client CF Enforcement, Gateway Anti-Virus, Anti-Spyware, IPS, App Control, SSL Control, SSL VPN Access
 
