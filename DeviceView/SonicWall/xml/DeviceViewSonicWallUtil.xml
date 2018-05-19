@@ -1,0 +1,27 @@
+<report>
+	<reportId>DeviceViewSonicWallUtil</reportId>
+	<title>Device View SonicWall Utilization</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>Utilization</viewTabTitle>
+		<viewOrder>1022</viewOrder>
+		<families>
+			<family>Network Security</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<flexviewgrid>
+				<hideToolbar>true</hideToolbar>
+				<viewId>SonicWall_Utilization</viewId>
+			</flexviewgrid>
+		</items>
+	</panel>
+</report>
+            

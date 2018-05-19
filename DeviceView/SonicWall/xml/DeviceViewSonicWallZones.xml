@@ -1,0 +1,27 @@
+<report>
+	<reportId>DeviceViewSonicWallZones</reportId>
+	<title>Device View SonicWall Zones</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>Zones</viewTabTitle>
+		<viewOrder>1023</viewOrder>
+		<families>
+			<family>Network Security</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<flexviewgrid>
+				<hideToolbar>true</hideToolbar>
+				<viewId>SonicWall_Zones</viewId>
+			</flexviewgrid>
+		</items>
+	</panel>
+</report>
+            
