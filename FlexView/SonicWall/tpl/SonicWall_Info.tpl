@@ -23,8 +23,5 @@
         <column comparator="com.ets.flextable.col.VarStringComparator" id="103" width="124" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="6">ROM Version
             <notes></notes>
             <dataField>OID::snwlSysROMVersion:::SNMP::SNMP;true;15;6;false;false;1;2;0;0;0;0;0</dataField></column>
-        <column comparator="com.ets.flextable.col.VarStringComparator" id="104" width="1194" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="7">Asset Number
-            <notes></notes>
-            <dataField>OID::snwlSysAssetNumber:::SNMP::SNMP;true;15;7;false;false;1;2;0;0;0;0;0</dataField></column>
         <notes></notes>
         <dataField>TBLHASH::::TBLHDR::0;0;true;30;None;V.0.3.3.0;0;0;105</dataField></flextable></flextablelist>
