@@ -4,5 +4,6 @@ Starting with Extreme Management Center version 8.0.4 you may import/modify the 
 
 * [Cisco Catalyst](Cisco/README.md)
 * [Aruba HP switches](Aruba-HP/README.md)
+* [SonicWall Firewalls](SonicWall/README.md)
 
 >Be Extreme

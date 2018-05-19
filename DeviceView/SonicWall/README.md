@@ -12,7 +12,7 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 | Product  | DeviceView   | FlexView   | Buildin FlexView | Example   |
 | -------- | ------------ |:----------:|:----------------:| --------- |
 | TZ |[System Info](xml/DeviceViewSonicWallInfo.xml)|SonicWall_Info| - |[png](sample/DeviceViewSonicWallInfo.png?raw=true)|
-| TZ |[Utilization](xml/DDeviceViewSonicWallUtil.xml)|SonicWall_Utilization| - |[png](sample/DeviceViewSonicWallUtil.png?raw=true)|
+| TZ |[Utilization](xml/DeviceViewSonicWallUtil.xml)|SonicWall_Utilization| - |[png](sample/DeviceViewSonicWallUtil.png?raw=true)|
 | TZ |[Zones](xml/DeviceViewSonicWallZones.xml)|SonicWall_Zones| - |[png](sample/DeviceViewSonicWallZones.png?raw=true)|
 
 >Be Extreme
