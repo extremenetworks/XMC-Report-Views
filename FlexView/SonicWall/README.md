@@ -13,7 +13,7 @@ Community Driven repository
 ##### System information?
 Tested with NSv_300_R144 6.5.0.2, MIBs are necesary for Extreme Management Center 8.1
 
-Model, Serial Number, Firmware Version, ROM Version, Asset Number
+Model, Serial Number, Firmware Version, ROM Version
 
 ##### What is the system utilization?
 Tested with NSv_300_R144 6.5.0.2, MIBs are necesary for Extreme Management Center 8.1
@@ -26,9 +26,9 @@ Tested with NSv_300_R144 6.5.0.2, MIBs are necesary for Extreme Management Cente
 Zone Name, Zone Security, If Trust, Content Filtering, Client AV Enforcement, Client CF Enforcement, Gateway Anti-Virus, Anti-Spyware, IPS, App Control, SSL Control, SSL VPN Access
 
 ## Examples
-* [System information](sample/SonicWall_Info.png)
-* [What is the system utilization?](sample/SonicWall_Utilization.png)
-* [How are zones configured?](sample/SonicWall_Zones.png)
+* [System information](sample/SonicWall_Info.png?raw=true)
+* [What is the system utilization?](sample/SonicWall_Utilization.png?raw=true)
+* [How are zones configured?](sample/SonicWall_Zones.png?raw=true)
 
 ## MIBs
 * [Official SonicWall mibs](https://www.sonicwall.com/en-us/support/knowledge-base/170503581936826)
