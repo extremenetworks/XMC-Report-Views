@@ -1,0 +1,49 @@
+<report>
+	<reportId>DeviceViewInfoBloxDHCPDNS</reportId>
+	<title>Device View InfoBlox DHCP-DNS</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>DHCP DNS</viewTabTitle>
+		<viewOrder>1081</viewOrder>
+		<families>
+			<family>InfoBlox DDI IPAM</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<panel>
+				<title>DHCP</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+				<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>InfoBlox_DHCPStatistics</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+			<splitter>
+				<collapsible>true</collapsible>
+				<showMiniCollapse>true</showMiniCollapse>
+			</splitter>
+			<panel>
+				<title>DNS updates</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>InfoBlox_DNSupdates_Statistics</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+		</items>
+	</panel>
+</report>
+            

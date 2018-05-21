@@ -1,0 +1,49 @@
+<report>
+	<reportId>DeviceViewInfoBloxDHCP6DNS6</reportId>
+	<title>Device View InfoBlox DHCP6-DNS6</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>DHCP6 DNS6</viewTabTitle>
+		<viewOrder>1082</viewOrder>
+		<families>
+			<family>InfoBlox DDI IPAM</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<panel>
+				<title>DHCP6</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+				<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>InfoBlox_DHCP6Statistics</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+			<splitter>
+				<collapsible>true</collapsible>
+				<showMiniCollapse>true</showMiniCollapse>
+			</splitter>
+			<panel>
+				<title>DNS6 updates</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>InfoBlox_DNS6updates_Statistics</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+		</items>
+	</panel>
+</report>
+            
