@@ -8,7 +8,7 @@
 		<viewTabTitle>System Info</viewTabTitle>
 		<viewOrder>1080</viewOrder>
 		<families>
-			<family>InfoBlox DDI IPAM</family>
+			<family>InfoBlox DDI</family>
 		</families>
 	</deviceViewTab>
 	<panel>
