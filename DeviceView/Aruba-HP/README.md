@@ -5,7 +5,7 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 1. Make sure all flexviews are working. If not check relevant mibs are imported.
 2. Upload reports to the appdata/OneView/MyReports directory.
-3. Restart nsserver service.
+3. Reports -> Reports -> Refresh.
 
 ## XMC 8.1.2
 
