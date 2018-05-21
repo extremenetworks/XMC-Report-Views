@@ -31,12 +31,12 @@ Number of Solicits, Requests, Releases, Advertises, Replies, Renews, Rebinds, In
 ##### DNS updates statistics
 Tested with 8.2.4, MIBs are necesary for Extreme Management Center 8.1
 
-Timout Count 5s, 15s, 1m, 1d, Avg Latency 5s, 15s, 1m, 1d
+Timeout Count 5s, 15s, 1m, 1d, Avg Latency 5s, 15s, 1m, 1d
 
 ##### DNSv6 updates statistics
 Tested with 8.2.4, MIBs are necesary for Extreme Management Center 8.1
 
-Timout Count 5s, 15s, 1m, 1d, Avg Latency 5s, 15s, 1m, 1d
+Timeout Count 5s, 15s, 1m, 1d, Avg Latency 5s, 15s, 1m, 1d
 
 
 ## MIBs
