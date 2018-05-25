@@ -11,6 +11,7 @@ Community Driven repository
 * [IRF Port Binding](tpl/IRF_Port_Binding.tpl?raw=true)
 * [IRF Role](tpl/IRF_Role.tpl?raw=true)
 * [IRF Topology](tpl/IRF_Topology.tpl?raw=true)
+* [802_1Q VLAN Static Table HP](tpl/802_1Q VLAN Static Table HP.tpl?raw=true)
 
 
 ## Comments & Columns
@@ -34,6 +35,10 @@ IRF Role, IRF Unit Belong to Member
 
 ##### IRF Topology
 IRF Port Enable, IRF Port Status, IRF Neighbor 
+
+##### 802_1Q VLAN Static Table HP
+VLAN ID, VLAN Name, Static Egress Ports, Static Untagged Ports, VLAN Status
+
 
 ## MIBs
 
