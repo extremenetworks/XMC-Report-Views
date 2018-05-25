@@ -9,7 +9,7 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 ## XMC 8.1.2
 
-Product Family needs to be configured as "Network Security"
+Product Family needs to be configured as [Network Security](sample/VendorProfile-SonicWall.png?raw=true)
 
 | Product  | DeviceView   | FlexView   | Buildin FlexView | Example   |
 | -------- | ------------ |:----------:|:----------------:| --------- |

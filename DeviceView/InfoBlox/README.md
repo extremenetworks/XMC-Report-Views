@@ -9,7 +9,7 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 ## XMC 8.1.2
 
-Product Family needs to be configured as "InfoBlox DDI"
+Product Family needs to be configured as [InfoBlox DDI](sample/VendorProfile-InfoBlox.png?raw=true)
 
 | Product  | DeviceView   | FlexView   | Buildin FlexView | Example   |
 | -------- | ------------ |:----------:|:----------------:| --------- |
