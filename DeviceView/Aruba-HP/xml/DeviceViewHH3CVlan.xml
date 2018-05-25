@@ -8,7 +8,7 @@
 		<viewTabTitle>VLAN</viewTabTitle>
 		<viewOrder>715</viewOrder>
 		<families>
-			<family>HP</family>
+			<family>Comware</family>
                 </families>
 	</deviceViewTab>
 	<panel>
@@ -25,7 +25,7 @@
 				<items>
 					<flexviewgrid>
 						<hideToolbar>true</hideToolbar>
-						<viewId>VLAN Static Table HP</viewId>
+						<viewId>802_1Q VLAN Static Table HP</viewId>
 					</flexviewgrid>
 				</items>
 			</panel>

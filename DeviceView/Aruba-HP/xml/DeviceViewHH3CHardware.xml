@@ -8,7 +8,7 @@
 		<viewTabTitle>Device and Modules informations</viewTabTitle>
 		<viewOrder>735</viewOrder>
 		<families>
-			<family>HP</family>
+			<family>Comware</family>
                          
 		</families>
 	</deviceViewTab>
@@ -26,7 +26,7 @@
 				<items>
 					<flexviewgrid>
 						<hideToolbar>true</hideToolbar>
-						<viewId>HP System Informations</viewId>
+						<viewId>HP_System_Informations</viewId>
 					</flexviewgrid>
 				</items>
 			</panel>
@@ -41,7 +41,7 @@
 				<items>
 					<flexviewgrid>
 						<hideToolbar>true</hideToolbar>
-						<viewId>HP System Ressource</viewId>
+						<viewId>HP_System_Ressource</viewId>
 					</flexviewgrid>
 				</items>
 			</panel>
@@ -56,7 +56,7 @@
 				<items>
 					<flexviewgrid>
 						<hideToolbar>true</hideToolbar>
-						<viewId>HP Process Utilization</viewId>
+						<viewId>HP_Process_Utilization</viewId>
 					</flexviewgrid>
 				</items>
 			</panel>

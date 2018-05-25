@@ -8,7 +8,7 @@
 		<viewTabTitle>IRF</viewTabTitle>
 		<viewOrder>725</viewOrder>
 		<families>
-			<family>HP</family>
+			<family>Comware</family>
                          
 		</families>
 	</deviceViewTab>
@@ -26,7 +26,7 @@
 				<items>
 					<flexviewgrid>
 						<hideToolbar>true</hideToolbar>
-						<viewId>IRF Basic Settings</viewId>
+						<viewId>IRF_Basic_Settings</viewId>
 					</flexviewgrid>
 				</items>
 			</panel>
@@ -41,7 +41,7 @@
 				<items>
 					<flexviewgrid>
 						<hideToolbar>true</hideToolbar>
-						<viewId>IRF Role</viewId>
+						<viewId>IRF_Role</viewId>
 					</flexviewgrid>
 				</items>
 			</panel>
@@ -57,7 +57,7 @@
 				<items>
 					<flexviewgrid>
 						<hideToolbar>true</hideToolbar>
-						<viewId>IRF Port Binding</viewId>
+						<viewId>IRF_Port_Binding</viewId>
 					</flexviewgrid>
 				</items>
 			</panel>
@@ -73,7 +73,7 @@
 				<items>
 					<flexviewgrid>
 						<hideToolbar>true</hideToolbar>
-						<viewId>IRF Topology</viewId>
+						<viewId>IRF_Topology</viewId>
 					</flexviewgrid>
 				</items>
 			  </panel>
