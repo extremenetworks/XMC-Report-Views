@@ -9,10 +9,12 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 ## XMC 8.1.2
 
+Product Family needs to be configured as [Comware](sample/VendorProfile-Comware.png?raw=true)
+
 | Product | DeviceView   | GitHub FlexView   | XMC Build-in FlexView | Example   |
 | ------- | ------------ |:----------:|:----------------:| --------- |
-| Comware |[VLANS](xml/DeviceViewHH3CVlan.xml)|VLAN Static Table HP| Port Status VLAN |[png](sample/VLAN.png)|
-| Comware |[IRF](xml/DeviceViewHH3CIRF.xml)|IRF Basic Settings, IRF Role, IRF Port Binding, IRF Topology| - |[png](sample/IRF.png)|
-| Comware |[Device and Modules informations](xml/DeviceViewHH3CHardware.xml)|HP System Informations, HP System Ressource, HP Process Utilization| - |[png](sample/Modules.png)|
+| Comware |[VLANS](xml/DeviceViewHH3CVlan.xml)|802_1Q VLAN Static Table HP| Port Status VLAN |[png](sample/VLAN.png?raw=true)|
+| Comware |[IRF](xml/DeviceViewHH3CIRF.xml)|IRF_Basic_Settings, IRF_Role, IRF_Port_Binding, IRF_Topology| - |[png](sample/IRF.png?raw=true)|
+| Comware |[Device and Modules informations](xml/DeviceViewHH3CHardware.xml)|HP_System_Informations, HP_System_Ressource, HP_Process_Utilization| - |[png](sample/Modules.png?raw=true)|
 
 >Be Extreme
