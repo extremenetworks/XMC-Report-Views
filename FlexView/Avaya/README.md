@@ -11,8 +11,10 @@ Community Driven repository
 * [License](tpl/VOSS_License.tpl?raw=true)
 * [Port Configuration Advanced](tpl/VOSS_Port_Advanced_Config.tpl?raw=true)
 * [Port Vlan](tpl/VOSS_Port_Vlan_Table.tpl?raw=true)
-* [Power Suppliy](tpl/VOSS_PowerSupply.tpl?raw=true)
+* [Power Supply](tpl/VOSS_PowerSupply.tpl?raw=true)
 * [Vlan table](tpl/VOSS_Vlan_Table.tpl?raw=true)
+* [Line Cards](tpl/VOSS_Line_Cards.tpl?raw=true)
+
 
 
 ## Comments & Columns
@@ -40,13 +42,18 @@ rcPortIndex, ifName, ifDescr, ifOperStatus, rcPortLocked, rcPortNumStateTransiti
 ##### Port Vlan
 rcVlanPortIndex, ifName, ifAdminStatus, ifOperStatus, ifDescr, ifAlias, rcVlanPortNumVlanIds,  rcVlanPortType, rcVlanPortDiscardTaggedFrames, rcVlanPortDiscardUntaggedFrames, rcVlanPortDefaultVlanId, 
 
-##### Power Suppliy
+##### Power Supply
 rcChasPowerSupplyId, rcChasPowerSupplyOperStatus, rcChasPowerSupplyDetailId, rcChasPowerSupplyDetailType, rcChasPowerSupplyDetailSerialNumber, rcChasPowerSupplyDetailPartNumber, rcChasPowerSupplyDetailDescription, rcChasPowerSupplyDetailInputLineVoltage
 
 ##### Vlan Table
 rcVlanId, rcVlanStgId, rcVlanPlsbIsid, rcVlanType, rcVlanName, rcVlanColor, rcVlanVrfId, rcVlanRowStatus, rcVlanRmonEnable, rcVlanResult
 
+##### Line Cards
+Card Index, Card Type, Card Description, Admin status, Oper Status, Serial Number, HW Version, Part Number, Date Code, Daviations, Slot Power
+
 ## Examples
+* [Power Supply](sample/VOSS_PowerSupply.png?raw=true)
+* [Line Cards](sample/VOSS_PowerSupply.png?raw=true)
 
 ## MIBs
 All necessary MIBs are included in the Extreme Management (NetSight) version 8.0.4 and newer.
