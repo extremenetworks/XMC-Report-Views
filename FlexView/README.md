@@ -7,7 +7,7 @@ This repository is to be used for hosting custom FlexViews.
 * [Extreme Wireless](Extreme_Wireless/README.md)
 * [Enterasys EOS](EOS/README.md)
 * [Enterasys AP3000 Wireless](AP3000/README.md)
-* [Avaya VOSS](Avaya/README.md)
+* [Extreme/Avaya VOSS](Avaya/README.md)
 * [Cisco Systems](Cisco_Systems/README.md)
 * [HP Aruba](HP_Aruba/README.md)
 * [Juniper Junos](JunOS/README.md)

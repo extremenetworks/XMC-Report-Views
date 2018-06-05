@@ -43,7 +43,7 @@ rcPortIndex, ifName, ifDescr, ifOperStatus, rcPortLocked, rcPortNumStateTransiti
 rcVlanPortIndex, ifName, ifAdminStatus, ifOperStatus, ifDescr, ifAlias, rcVlanPortNumVlanIds,  rcVlanPortType, rcVlanPortDiscardTaggedFrames, rcVlanPortDiscardUntaggedFrames, rcVlanPortDefaultVlanId, 
 
 ##### Power Supply
-rcChasPowerSupplyId, rcChasPowerSupplyOperStatus, rcChasPowerSupplyDetailId, rcChasPowerSupplyDetailType, rcChasPowerSupplyDetailSerialNumber, rcChasPowerSupplyDetailPartNumber, rcChasPowerSupplyDetailDescription, rcChasPowerSupplyDetailInputLineVoltage
+Power Supply, Oper Status, PS Detail ID, Type, Serial Number, Part Number Description, Input Line Voltage
 
 ##### Vlan Table
 rcVlanId, rcVlanStgId, rcVlanPlsbIsid, rcVlanType, rcVlanName, rcVlanColor, rcVlanVrfId, rcVlanRowStatus, rcVlanRmonEnable, rcVlanResult
@@ -53,7 +53,7 @@ Card Index, Card Type, Card Description, Admin status, Oper Status, Serial Numbe
 
 ## Examples
 * [Power Supply](sample/VOSS_PowerSupply.png?raw=true)
-* [Line Cards](sample/VOSS_PowerSupply.png?raw=true)
+* [Line Cards](sample/VOSS_Line_Cards.png?raw=true)
 
 ## MIBs
 All necessary MIBs are included in the Extreme Management (NetSight) version 8.0.4 and newer.
