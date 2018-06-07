@@ -12,7 +12,7 @@
 3) Use the "Refresh" button to reload the reports. (this will reload the cache)
 
 ## Example
-![InterfaceHistory](InterfaceHistory.png)
+![InterfaceHistory](InterfaceHistory.png?raw=true)
 
 ## Support
 Please visit us on [The Hub](https://community.extremenetworks.com/extreme) if you have any questions or encounter issues.
