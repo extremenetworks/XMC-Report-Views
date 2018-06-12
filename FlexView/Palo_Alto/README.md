@@ -31,6 +31,6 @@ ifDescr, panIfActiveTcpCps, panIfActiveUdpCps, panIfActiveOtherIpCps
 * [How are zones utilized?](sample/PaloAltoZones.png)
 
 ## MIBs
-* [Official Palo Alto mibs](https://www.paloaltonetworks.com/documentation/misc/snmp-mibs.html) file PAN-TRAPS.my is not compatible with XMC version 8.1, you need to replace undescore "_" with minus "-" and will be good.
+* [Official Palo Alto mibs](https://www.paloaltonetworks.com/documentation/misc/snmp-mibs.html) file PAN-TRAPS.my is not compatible with XMC version 8.1, you need to replace undescore "_" with minus "-" and will be good. File PAN-COMMON-MIB.my is not compatible with XMC version 8.1, you need to replace ifIndex with panIfIndex and ifDescr with panIfDescr.
 
 >Be Extreme
