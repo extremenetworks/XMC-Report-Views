@@ -3,7 +3,7 @@
 
 The DeviceView does use reports in the MyReports directory. Those reports use FlexViews, FlexViews does use MIBs.
 
-1. Make sure all flexviews are working. If not check relevant mibs are imported.
+1. Make sure all [FlexViews](../../FlexView/Cisco_Systems/README.md) are working. If not check relevant mibs are imported.
 2. Upload reports to the appdata/OneView/MyReports directory.
 3. Reports -> Reports -> Refresh.
 
