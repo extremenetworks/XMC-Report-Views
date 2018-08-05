@@ -1,0 +1,67 @@
+<report>
+	<reportId>DeviceViewCheckPointFW</reportId>
+	<title>Device View Check Point FW</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>Firewall</viewTabTitle>
+		<viewOrder>1024</viewOrder>
+		<families>
+			<family>Gaia</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<panel>
+				<title>Firewall</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+				<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>CheckPoint_Firewall</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+			<panel>
+				<title>Firewall Interfaces</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>CheckPoint_Firewall_Interfaces</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+			<panel>
+				<title>Firewall Interfaces Stats</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>CheckPoint_Firewall_Interfaces_stats</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+			<panel>
+				<title>Firewall Policy</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>CheckPoint_Firewall_Policy</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+		</items>
+	</panel>
+</report>
+            

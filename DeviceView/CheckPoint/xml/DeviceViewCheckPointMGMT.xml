@@ -1,0 +1,27 @@
+<report>
+	<reportId>DeviceViewCheckPointMGMT</reportId>
+	<title>Device View Check Point MGMT</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>Management</viewTabTitle>
+		<viewOrder>1023</viewOrder>
+		<families>
+			<family>Gaia</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<flexviewgrid>
+				<hideToolbar>true</hideToolbar>
+				<viewId>CheckPoint_Mgmt</viewId>
+			</flexviewgrid>
+		</items>
+	</panel>
+</report>
+            
