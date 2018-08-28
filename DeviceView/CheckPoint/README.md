@@ -15,9 +15,9 @@ Product Family needs to be configured as [CheckPoint Security Gateway](sample/De
 | -------- | ------------ |:----------:|:----------------:| --------- |
 |  |[Firewall](xml/DeviceViewCheckPointFW.xml)|CheckPoint_Firewall, CheckPoint_Firewall_Interfaces, CheckPoint_Firewall_Interfaces_stats, CheckPoint_Firewall_Policy| - |[png](sample/DeviceView-FW.png?raw=true)|
 |  |[Management](xml/DeviceViewCheckPointMGMT.xml)|CheckPoint_Mgmt| - |[png](sample/DeviceView-Mgmt.png?raw=true)|
-|  |[Device and Modules informations](xml/DeviceViewCheckPointHardware.xml)|CheckPoint_Hardware_Information, CheckPoint_Disk_Usage, CheckPoint_Multi_Disk_Usage| - |[png](sample/DeviceView-DeviceAndModules.png?raw=true)|
-|  |[Device and Modules informations](xml/DeviceViewCheckPointNetworkinfo.xml)|CheckPoint_Interface_table, CheckPoint_Routing_Table| - |[png](sample/DeviceView-IPNetwork.png?raw=true)|
-|  |[Device and Modules informations](xml/DeviceViewCheckPointSoftwareinfo.xml)|CheckPoint_SVN_info, CheckPoint_Licensing_Information| - |[png](sample/DeviceView-Software.png?raw=true)|
+|  |[Device and Modules information](xml/DeviceViewCheckPointHardware.xml)|CheckPoint_Hardware_Information, CheckPoint_Disk_Usage, CheckPoint_Multi_Disk_Usage| - |[png](sample/DeviceView-DeviceAndModules.png?raw=true)|
+|  |[IP Network information](xml/DeviceViewCheckPointNetworkinfo.xml)|CheckPoint_Interface_table, CheckPoint_Routing_Table| - |[png](sample/DeviceView-IPNetwork.png?raw=true)|
+|  |[Software information](xml/DeviceViewCheckPointSoftwareinfo.xml)|CheckPoint_SVN_info, CheckPoint_Licensing_Information| - |[png](sample/DeviceView-Software.png?raw=true)|
 
 
 >Be Extreme

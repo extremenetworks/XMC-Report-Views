@@ -5,7 +5,7 @@
 	<showInTree>false</showInTree>
 	<iconCls>table-icon</iconCls>
 	<deviceViewTab>
-		<viewTabTitle>Device and Modules informations</viewTabTitle>
+		<viewTabTitle>Device and Modules information</viewTabTitle>
 		<viewOrder>736</viewOrder>
 		<families>
 			<family>CheckPoint Security Gateway</family>

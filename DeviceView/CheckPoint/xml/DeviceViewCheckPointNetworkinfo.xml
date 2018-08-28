@@ -5,7 +5,7 @@
 	<showInTree>false</showInTree>
 	<iconCls>table-icon</iconCls>
 	<deviceViewTab>
-		<viewTabTitle>IP Network informations</viewTabTitle>
+		<viewTabTitle>IP Network information</viewTabTitle>
 		<viewOrder>738</viewOrder>
 		<families>
 			<family>CheckPoint Security Gateway</family>
