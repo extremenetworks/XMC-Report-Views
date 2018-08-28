@@ -1,0 +1,68 @@
+<report>
+	<reportId>DeviceViewCheckpointHardware</reportId>
+	<title>Device View Hardware CheckPoint</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>Device and Modules informations</viewTabTitle>
+		<viewOrder>736</viewOrder>
+		<families>
+			<family>CheckPoint Security Gateway</family>
+                         
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>vbox</layout>
+		<flex>1</flex>
+		<title>DeviceView Checkpoint Hardware information</title>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+		        <panel>
+				<title>Chassis Informations</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>CheckPoint_Hardware_Information</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+                        <splitter>
+				<collapsible>true</collapsible>
+				<showMiniCollapse>true</showMiniCollapse>
+			</splitter>
+                        <panel>
+				<title>Disk Usage</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>CheckPoint_Disk_Usage</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+                        <splitter>
+				<collapsible>true</collapsible>
+				<showMiniCollapse>true</showMiniCollapse>
+			</splitter>
+                        <panel>
+				<title>File System Usage</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>CheckPoint_Multi_Disk_Usage</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+
+                        
+		   </items>
+	</panel>
+</report>
+            

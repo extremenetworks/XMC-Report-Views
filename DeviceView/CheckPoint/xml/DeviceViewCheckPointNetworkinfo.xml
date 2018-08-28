@@ -1,0 +1,52 @@
+<report>
+	<reportId>DeviceViewCheckpointNetworkInfo</reportId>
+	<title>Device View CheckPoint Network Information</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>IP Network informations</viewTabTitle>
+		<viewOrder>738</viewOrder>
+		<families>
+			<family>CheckPoint Security Gateway</family>
+                         
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>vbox</layout>
+		<flex>1</flex>
+		<title>Device View CheckPoint Network Information</title>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+		        <panel>
+				<title>IP interfaces Informations</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>CheckPoint_Interface_table</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+                        <splitter>
+				<collapsible>true</collapsible>
+				<showMiniCollapse>true</showMiniCollapse>
+			</splitter>
+                        <panel>
+				<title>IP Routing Table</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>CheckPoint_Routing_Table</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+                                                
+		   </items>
+	</panel>
+</report>
+            

@@ -1,14 +1,14 @@
 <report>
-	<reportId>DeviceViewCheckPointMGMT</reportId>
-	<title>Device View Check Point MGMT</title>
+	<reportId>DeviceViewISWDDMI</reportId>
+	<title>Device View ISW DDMI</title>
 	<category>Device</category>
 	<showInTree>false</showInTree>
 	<iconCls>table-icon</iconCls>
 	<deviceViewTab>
-		<viewTabTitle>Management</viewTabTitle>
-		<viewOrder>1023</viewOrder>
+		<viewTabTitle>Transceivers</viewTabTitle>
+		<viewOrder>1003</viewOrder>
 		<families>
-			<family>CheckPoint Security Gateway</family>
+			<family>ISW-Series</family>
 		</families>
 	</deviceViewTab>
 	<panel>
@@ -19,7 +19,7 @@
 		<items>
 			<flexviewgrid>
 				<hideToolbar>true</hideToolbar>
-				<viewId>CheckPoint_Mgmt</viewId>
+				<viewId>ISW_DDMI</viewId>
 			</flexviewgrid>
 		</items>
 	</panel>

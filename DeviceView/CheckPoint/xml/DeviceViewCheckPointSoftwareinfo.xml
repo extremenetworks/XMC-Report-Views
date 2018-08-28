@@ -1,0 +1,52 @@
+<report>
+	<reportId>DeviceViewCheckpointSoftware</reportId>
+	<title>Device View CheckPoint Software</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>Software information</viewTabTitle>
+		<viewOrder>737</viewOrder>
+		<families>
+			<family>CheckPoint Security Gateway</family>
+                         
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>vbox</layout>
+		<flex>1</flex>
+		<title>DeviceView Checkpoint Software information</title>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+		        <panel>
+				<title>Release Software Information</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>CheckPoint_SVN_info</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+                        <splitter>
+				<collapsible>true</collapsible>
+				<showMiniCollapse>true</showMiniCollapse>
+			</splitter>
+                        <panel>
+				<title>License information</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>CheckPoint_Licensing_Information</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+                                                
+		   </items>
+	</panel>
+</report>
+            

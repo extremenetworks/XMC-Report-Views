@@ -6,9 +6,9 @@
 	<iconCls>table-icon</iconCls>
 	<deviceViewTab>
 		<viewTabTitle>Firewall</viewTabTitle>
-		<viewOrder>1024</viewOrder>
+		<viewOrder>740</viewOrder>
 		<families>
-			<family>Gaia</family>
+			<family>CheckPoint Security Gateway</family>
 		</families>
 	</deviceViewTab>
 	<panel>
