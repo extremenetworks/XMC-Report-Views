@@ -7,5 +7,7 @@ Starting with Extreme Management Center version 8.0.4 you may import/modify the 
 * [HPE Comware switches](Aruba-HP/README.md)
 * [SonicWall Firewalls](SonicWall/README.md)
 * [InfoBlox](InfoBlox/README.md)
+* [FortiGate](FortiGate/README.md)
+
 
 >Be Extreme

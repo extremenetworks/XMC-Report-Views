@@ -1,0 +1,26 @@
+<report>
+	<reportId>DeviceViewFortigateFW</reportId>
+	<title>Device View FortiGate FW</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>Firewall</viewTabTitle>
+		<viewOrder>1103</viewOrder>
+		<families>
+			<family>FortiGate</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<flexviewgrid>
+				<hideToolbar>true</hideToolbar>
+				<viewId>FortiGate_Firewall</viewId>
+			</flexviewgrid>
+		</items>
+	</panel>
+</report>
