@@ -5,9 +5,9 @@
 ## Installation
 * Requires Extreme Management Center (Netsight) Server 8.1 or later
 
-1) Copy the above provided XML file in `/usr/local/Extreme_Networks/NetSight/appdata/OneView/MyReports`.
+1) Copy the [XML](InterfaceHistory.xml) file to `/usr/local/Extreme_Networks/NetSight/appdata/OneView/MyReports`.
 
-2) Once the files are on the server, go to the reports tab.
+2) Once the files are on the server, go to the reports menu.
 
 3) Use the "Refresh" button to reload the reports. (this will reload the cache)
 
