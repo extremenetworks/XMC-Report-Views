@@ -1,0 +1,27 @@
+<report>
+	<reportId>DeviceViewJuniperVLANPorts</reportId>
+	<title>Device View Juniper VLANPorts</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>VLAN-Port</viewTabTitle>
+		<viewOrder>1204</viewOrder>
+		<families>
+			<family>Juniper EX</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<flexviewgrid>
+				<hideToolbar>true</hideToolbar>
+				<viewId>Juniper_VLAN_port</viewId>
+			</flexviewgrid>
+		</items>
+	</panel>
+</report>
+            
