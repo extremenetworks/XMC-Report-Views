@@ -1,4 +1,4 @@
-# Extreme Management Center DeviceView for InfoBlox
+# Extreme Management Center DeviceView for Infoblox
 >Community maintained content
 
 The DeviceView does use reports in the MyReports directory. Those reports use FlexViews, FlexViews does use MIBs.

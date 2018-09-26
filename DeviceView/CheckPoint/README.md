@@ -4,7 +4,7 @@
 The DeviceView does use reports in the MyReports directory. Those reports use FlexViews, FlexViews does use MIBs.
 
 1. Make sure all flexviews are working. If not check relevant mibs are imported.
-2. Upload reports to the 'appdata/OneView/MyReports' directory.
+2. Upload reports to the `appdata/OneView/MyReports` directory.
 3. Reports -> Reports -> Refresh.
 
 ## XMC 8.1.3

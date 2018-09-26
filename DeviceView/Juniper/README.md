@@ -9,7 +9,7 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 ## XMC 8.1.4
 
-Product Family needs to be configured as [Juniper EX](sample/DeviceFamily.png?raw=true)
+Product Family needs to be configured as [Juniper EX](sample/VendorProfile.PNG?raw=true)
 
 | Product  | DeviceView   | FlexView   | Buildin FlexView | Example   |
 | -------- | ------------ |:----------:|:----------------:| --------- |
