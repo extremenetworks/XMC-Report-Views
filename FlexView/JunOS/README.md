@@ -121,5 +121,6 @@ Interface, Port Mode, Tagness, VLAN ID, VLAN Name
 
 ## MIBs
 
+* [Official Juniper mibs](https://www.juniper.net/documentation/en_US/release-independent/junos/mibs/mibs.html)
 
 >Be Extreme
