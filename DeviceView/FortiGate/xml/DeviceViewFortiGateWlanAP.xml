@@ -1,0 +1,64 @@
+<report>
+	<reportId>DeviceViewFortigateWlanAP</reportId>
+	<title>Device View FortiGate Wlan AP</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>WLAN AP</viewTabTitle>
+		<viewOrder>1104</viewOrder>
+		<families>
+			<family>FortiGate</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<panel>
+				<title>AP config</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+				<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>FortiGate_Wlan_AP</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+			<splitter>
+				<collapsible>true</collapsible>
+				<showMiniCollapse>true</showMiniCollapse>
+			</splitter>
+			<panel>
+				<title>AP HW</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>FortiGate_Wlan_AP_HW</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+			<splitter>
+				<collapsible>true</collapsible>
+				<showMiniCollapse>true</showMiniCollapse>
+			</splitter>
+			<panel>
+				<title>AP Stats</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>FortiGate_Wlan_AP_Stats</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+		</items>
+	</panel>
+</report>
+            

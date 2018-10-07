@@ -10,6 +10,13 @@ Community Driven repository
 * [System Info](tpl/FortiGate_SystemInfo.tpl?raw=true)
 * [VDOM](tpl/FortiGate_Vdom.tpl?raw=true)
 * [VDOM Info](tpl/FortiGate_VdomInfo.tpl?raw=true)
+* [WLAN AP](tpl/FortiGate_Wlan_AP.tpl?raw=true)
+* [WLAN AP Hardware](tpl/FortiGate_Wlan_AP_HW.tpl?raw=true)
+* [WLAN AP Stats](tpl/FortiGate_Wlan_AP_Stats.tpl?raw=true)
+* [WLAN Mobile Units](tpl/FortiGate_Wlan_MU.tpl?raw=true)
+* [WLAN Radio](tpl/FortiGate_Wlan_Radio.tpl?raw=true)
+* [WLAN SSID](tpl/FortiGate_Wlan_SSID.tpl?raw=true)
+* [WLAN Virtual AP](tpl/FortiGate_Wlan_VAP.tpl?raw=true)
 
 ## Comments & Columns
 
@@ -43,6 +50,40 @@ Tested with FortiGate: v5.6.2 build1486 (GA), MIBs are necesary for Extreme Mana
 
 Vd Number, VD Max Vdoms, Vd Enabled
 
+##### WLAN AP
+Tested with FortiGate: v5.6.4,build1575b1575,180425 (GA), MIBs are necesary for Extreme Management Center 8.1
+
+Name, Admin State, Location, Profile, Scan, VAP All, Vaps
+
+##### WLAN AP Hardware
+Tested with FortiGate: v5.6.4,build1575b1575,180425 (GA), MIBs are necesary for Extreme Management Center 8.1
+
+Mac Address, Address, Local Address, State, Profile, AP Model, HW Version, AP Boot, Region, Memory Capacity
+
+##### WLAN AP Stats
+Tested with FortiGate: v5.6.4,build1575b1575,180425 (GA), MIBs are necesary for Extreme Management Center 8.1
+
+Address, Local Address, State, Profile, Up Time, Daemon Up Time, Session Up Time, Station Count, Byte Rx, Byte Tx, Cpu Util Perc., Memory Util Perc.
+
+##### WLAN Mobile Units
+Tested with FortiGate: v5.6.4,build1575b1575,180425 (GA), MIBs are necesary for Extreme Management Center 8.1
+
+Address, WLAN, Radio ID,  VLAN, VCI, Host, User, Group, Signal, Noise, Idle, Tx kbps, Rx kbps, Channel, Type, Security, Encrypt, Online
+
+##### WLAN Radio
+Tested with FortiGate: v5.6.4,build1575b1575,180425 (GA), MIBs are necesary for Extreme Management Center 8.1
+
+BSSID, Radio Mode, Chountry, Channel, Power, Station Count
+
+##### WLAN SSID
+Tested with FortiGate: v5.6.4,build1575b1575,180425 (GA), MIBs are necesary for Extreme Management Center 8.1
+
+SSID, Visible, Security Encryption, Authentication, Radius Server, User Group, Local Bridging, Vlan, Mesh Backhoul, Capacity, Stations
+
+##### WLAN Virtual AP
+Tested with FortiGate: v5.6.4,build1575b1575,180425 (GA), MIBs are necesary for Extreme Management Center 8.1
+
+Radio ID, SSID, Stations, Byte Rx, Byte Tx
 
 ## Examples
 * [CPU](sample/FortiGateCPU.png?raw=true)
@@ -51,6 +92,14 @@ Vd Number, VD Max Vdoms, Vd Enabled
 * [System Info](sample/FortiGateSystemInfo.png?raw=true)
 * [VDOM](sample/FortiGateVdom.png?raw=true)
 * [VDOM Info](sample/FortiGateVdomInfo.png?raw=true)
+* [WLAN AP](sample/FortiGate_Wlan_AP.PNG?raw=true)
+* [WLAN AP Hardware](sample/FortiGate_Wlan_AP_HW.PNG?raw=true)
+* [WLAN AP Stats](sample/FortiGate_Wlan_AP_Stats.PNG?raw=true)
+* [WLAN Mobile Units](sample/FortiGate_Wlan_MU.PNG?raw=true)
+* [WLAN Radio](sample/FortiGate_Wlan_Radio.PNG?raw=true)
+* [WLAN SSID](sample/FortiGate_Wlan_SSID.PNG?raw=true)
+* [WLAN Virtual AP](sample/FortiGate_Wlan_VAP.PNG?raw=true)
+
 
 
 ## MIBs
