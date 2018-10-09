@@ -58,12 +58,12 @@ Name, Admin State, Location, Profile, Scan, VAP All, Vaps
 ##### WLAN AP Hardware
 Tested with FortiGate: v5.6.4,build1575b1575,180425 (GA), MIBs are necesary for Extreme Management Center 8.1
 
-Mac Address, Address, Local Address, State, Profile, AP Model, HW Version, AP Boot, Region, Memory Capacity
+Name, Mac Address, Address, Local Address, State, Profile, AP Model, HW Version, AP Boot, Region, Memory Capacity
 
 ##### WLAN AP Stats
 Tested with FortiGate: v5.6.4,build1575b1575,180425 (GA), MIBs are necesary for Extreme Management Center 8.1
 
-Address, Local Address, State, Profile, Up Time, Daemon Up Time, Session Up Time, Station Count, Byte Rx, Byte Tx, Cpu Util Perc., Memory Util Perc.
+Name, Address, Local Address, State, Profile, Up Time, Daemon Up Time, Session Up Time, Stations, Byte Rx, Byte Tx, Cpu Util Perc., Memory Util Perc.
 
 ##### WLAN Mobile Units
 Tested with FortiGate: v5.6.4,build1575b1575,180425 (GA), MIBs are necesary for Extreme Management Center 8.1
@@ -73,7 +73,7 @@ Address, WLAN, Radio ID,  VLAN, VCI, Host, User, Group, Signal, Noise, Idle, Tx 
 ##### WLAN Radio
 Tested with FortiGate: v5.6.4,build1575b1575,180425 (GA), MIBs are necesary for Extreme Management Center 8.1
 
-BSSID, Radio Mode, Chountry, Channel, Power, Station Count
+Name, BSSID, Radio Mode, Chountry, Channel, Power, Stations
 
 ##### WLAN SSID
 Tested with FortiGate: v5.6.4,build1575b1575,180425 (GA), MIBs are necesary for Extreme Management Center 8.1
@@ -83,7 +83,7 @@ SSID, Visible, Security Encryption, Authentication, Radius Server, User Group, L
 ##### WLAN Virtual AP
 Tested with FortiGate: v5.6.4,build1575b1575,180425 (GA), MIBs are necesary for Extreme Management Center 8.1
 
-Radio ID, SSID, Stations, Byte Rx, Byte Tx
+Name, Radio ID, SSID, Stations, Byte Rx, Byte Tx
 
 ## Examples
 * [CPU](sample/FortiGateCPU.png?raw=true)
