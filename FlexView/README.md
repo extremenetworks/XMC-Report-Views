@@ -4,6 +4,7 @@ Community Driven Repository
 This repository is to be used for hosting custom FlexViews.
 
 * [Extreme EXOS](EXOS/README.md)
+* [Extreme ISW](ISW/README.md)
 * [Extreme Wireless](Extreme_Wireless/README.md)
 * [Enterasys EOS](EOS/README.md)
 * [Enterasys AP3000 Wireless](AP3000/README.md)
@@ -12,6 +13,7 @@ This repository is to be used for hosting custom FlexViews.
 * [Check Point](CheckPoint/README.md)
 * [HP Aruba](HP_Aruba/README.md)
 * [Juniper Junos](JunOS/README.md)
+* [FortiGate](FortiGate/README.md)
 * [Palo Alto Networks](Palo_Alto/README.md)
 * [SonicWall](SonicWall/README.md)
 * [Vendor independent networking](Networking/README.md) 
