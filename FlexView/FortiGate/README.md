@@ -17,6 +17,7 @@ Community Driven repository
 * [WLAN Radio](tpl/FortiGate_Wlan_Radio.tpl?raw=true)
 * [WLAN SSID](tpl/FortiGate_Wlan_SSID.tpl?raw=true)
 * [WLAN Virtual AP](tpl/FortiGate_Wlan_VAP.tpl?raw=true)
+* [WLAN Profile](tpl/FortiGate_Wlan_Profile.tpl?raw=true)
 
 ## Comments & Columns
 
@@ -53,27 +54,27 @@ Vd Number, VD Max Vdoms, Vd Enabled
 ##### WLAN AP
 Tested with FortiGate: v5.6.4,build1575b1575,180425 (GA), MIBs are necesary for Extreme Management Center 8.1
 
-Name, Admin State, Location, Profile, Scan, VAP All, Vaps
+Serial Number, Name, Admin State, Location, Profile, Scan, VAP All, Vaps
 
 ##### WLAN AP Hardware
 Tested with FortiGate: v5.6.4,build1575b1575,180425 (GA), MIBs are necesary for Extreme Management Center 8.1
 
-Name, Mac Address, Address, Local Address, State, Profile, AP Model, HW Version, AP Boot, Region, Memory Capacity
+Serial Number, Name, Mac Address, Address, Local Address, State, Profile, AP Model, HW Version, AP Boot, Region, Memory Capacity
 
 ##### WLAN AP Stats
 Tested with FortiGate: v5.6.4,build1575b1575,180425 (GA), MIBs are necesary for Extreme Management Center 8.1
 
-Name, Address, Local Address, State, Profile, Up Time, Daemon Up Time, Session Up Time, Stations, Byte Rx, Byte Tx, Cpu Util Perc., Memory Util Perc.
+Serial Number, Name, Address, Local Address, State, Profile, Up Time, Daemon Up Time, Session Up Time, Stations, Byte Rx, Byte Tx, Cpu Util Perc., Memory Util Perc.
 
 ##### WLAN Mobile Units
 Tested with FortiGate: v5.6.4,build1575b1575,180425 (GA), MIBs are necesary for Extreme Management Center 8.1
 
-Address, WLAN, Radio ID,  VLAN, VCI, Host, User, Group, Signal, Noise, Idle, Tx kbps, Rx kbps, Channel, Type, Security, Encrypt, Online
+MAC, Address, WLAN, Radio ID,  VLAN, VCI, Host, User, Group, Signal, Noise, Idle, Tx kbps, Rx kbps, Channel, Type, Security, Encrypt, Online
 
 ##### WLAN Radio
 Tested with FortiGate: v5.6.4,build1575b1575,180425 (GA), MIBs are necesary for Extreme Management Center 8.1
 
-Name, BSSID, Radio Mode, Chountry, Channel, Power, Stations
+Serial Number, Name, BSSID, Radio Mode, Chountry, Channel, Power, Stations
 
 ##### WLAN SSID
 Tested with FortiGate: v5.6.4,build1575b1575,180425 (GA), MIBs are necesary for Extreme Management Center 8.1
@@ -83,7 +84,13 @@ SSID, Visible, Security Encryption, Authentication, Radius Server, User Group, L
 ##### WLAN Virtual AP
 Tested with FortiGate: v5.6.4,build1575b1575,180425 (GA), MIBs are necesary for Extreme Management Center 8.1
 
-Name, Radio ID, SSID, Stations, Byte Rx, Byte Tx
+Serial Number, Name, Radio ID, SSID, Stations, Byte Rx, Byte Tx
+
+##### WLAN Profile
+Tested with FortiGate: v5.6.4,build1575b1575,180425 (GA), MIBs are necesary for Extreme Management Center 8.1
+
+Name, Platform, Channel Dtls Policy, Country
+
 
 ## Examples
 * [CPU](sample/FortiGateCPU.png?raw=true)
@@ -99,11 +106,23 @@ Name, Radio ID, SSID, Stations, Byte Rx, Byte Tx
 * [WLAN Radio](sample/FortiGate_Wlan_Radio.PNG?raw=true)
 * [WLAN SSID](sample/FortiGate_Wlan_SSID.PNG?raw=true)
 * [WLAN Virtual AP](sample/FortiGate_Wlan_VAP.PNG?raw=true)
-
+* [WLAN Profile](sample/FortiGate_Wlan_Profile.PNG?raw=true)
 
 
 ## MIBs
 * You can download MIBs from the FortiGate System -> SNMP -> Download FortiGate MIB File & Download Fortinet Core MIB File.
-FORTINET-CORE-MIB.mib FORTINET-FORTIGATE-MIB.mib
+##### FORTINET-CORE-MIB.mib 
+##### FORTINET-FORTIGATE-MIB.mib = this file needs to be modified if you want flexviews to work properly. find following objects (OBJECT-TYPE) and change from no-accessible to read-only:
+- fgWcWtpProfileName
+- fgWcWtpProfileRadioProfileName
+- fgWcWtpProfileRadioRadioId
+- fgWcWtpConfigWtpId
+- fgWcWtpSessionWtpId
+- fgWcWtpSessionRadioWtpId
+- fgWcWtpSessionRadioRadioId
+- fgWcWtpSessionVapWtpId
+- fgWcWtpSessionVapRadioId
+- fgWcStaMacAddress
+
 
 >Be Extreme
