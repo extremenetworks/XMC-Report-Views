@@ -19,10 +19,10 @@
             <dataField>OID::entPhysicalSerialNum:::SNMP::SNMPW;false;4;4;true;false;4;2;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="102" width="222" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" filtered="true" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="5">Serial Number
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;5;false;false;1;2;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;5;false;false;1;2;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="104" width="221" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="6">Date code
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;6;false;false;1;2;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;6;false;false;1;2;0;0;0</dataField></column>
         <column comparator="com.ets.flextable.col.VarStringComparator" id="103" width="224" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="7">sysLocation
             <notes></notes>
             <dataField>OID::sysLocation:::SNMP::SNMPW;true;15;7;true;false;2;2;0;0;0</dataField></column>

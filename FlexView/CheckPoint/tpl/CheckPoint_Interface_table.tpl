@@ -34,10 +34,10 @@
             <dataField>OID::svnNetIfState:::SNMP::SNMP;false;2;9;false;false;4;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="118" width="142" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendExpression" modelIndex="10">Interface Admin State
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;10;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;10;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="119" width="239" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendExpression" modelIndex="11">Interface Operationnal State
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;11;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;11;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.flextable.col.IntStringComparator" id="109" width="160" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" hidden="true" modelIndex="12">Interface Operation State
             <notes></notes>
             <dataField>OID::svnNetIfOperState:::SNMP::SNMP;false;2;12;false;false;4;2;0;0;0;0;0</dataField></column>

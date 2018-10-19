@@ -13,19 +13,19 @@
             <dataField>OID::Instance:::SNMP::Instance</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="122" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="3">STP version
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;3;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;3;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.enterasys.netsight.console.client.flexview.FvCompMibEnum" id="119" width="76" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="4" hidden="true">dot1dStpVersion
             <notes>The version of Spanning Tree Protocol the bridge is currently running. The value 'stpCompatible(0)' indicates the Spanning Tree Protocol specified in IEEE 802.1D and 'rstp(2)' indicates the Rapid Spanning   Tree Protocol specified in IEEE 802.1w.</notes>
             <dataField>OID::dot1dStpVersion:::SNMP::SNMPW;true;2;4;true;false;3;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="114" width="112" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="5">Time Since Change
             <notes>The time (in hundredths of a second) since the last time a topology change was detected by the bridge.</notes>
-            <dataField>SNMP::EXPR;true;2;5;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;5;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="116" width="97" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="6">Topology Changes
             <notes>The total number of topology changes detected by the bridge since the management entity was last reset or initialized.</notes>
-            <dataField>SNMP::EXPR;true;2;6;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;6;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="118" width="82" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendExpression" modelIndex="7">Cost to Root
             <notes>The cost of the path to the root as seen from the bridge.</notes>
-            <dataField>SNMP::EXPR;true;2;7;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;7;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.flextable.col.IntStringComparator" id="101" width="104" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" hidden="true" modelIndex="8">dot1dStpRootCost
             <notes>Displays the cost of the data path from the device to the Root Bridge.</notes>
             <dataField>OID::dot1dStpRootCost:::SNMP::SNMP;true;2;8;false;false;1;2;0;0;0;0;0</dataField></column>
@@ -37,7 +37,7 @@
             <dataField>OID::dot1dStpDesignatedRoot:::SNMP::SNMP;true;4;10;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="117" width="84" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="11">Default Settings
             <notes>Whether or not the STP settings are default settings.</notes>
-            <dataField>SNMP::EXPR;true;2;11;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;11;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.flextable.col.LongStringComparator" id="104" width="113" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" hidden="true" modelIndex="12">StpTopChanges
             <notes>The total number of topology changes detected by the device since it was last reset or initialized.</notes>
             <dataField>OID::dot1dStpTopChanges:::SNMP::SNMP;true;65;12;false;false;1;2;0;0;0;0;0</dataField></column>

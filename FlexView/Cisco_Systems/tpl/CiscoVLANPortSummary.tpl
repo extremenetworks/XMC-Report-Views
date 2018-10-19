@@ -26,7 +26,7 @@
         <column comparator="com.ets.nac.tables.TbCompExpression" id="109" width="92" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendExpression" modelIndex="7">Current Link
             <notes>The current operational status of the interface's connection (link) with a remote port.
 A colored icon is included to provide quick visual status.</notes>
-            <dataField>SNMP::EXPR;true;2;7;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;7;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.flextable.col.IntStringComparator" id="115" width="76" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="8">VLAN
             <notes>The VLAN id of the VLAN the port is assigned to when vmVlanType is set to static or dynamic. This object is not instantiated if not applicable.</notes>
             <dataField>OID::vmVlan:::SNMP::SNMPW;false;2;8;true;false;5;2;0;0;0;0;0</dataField></column>

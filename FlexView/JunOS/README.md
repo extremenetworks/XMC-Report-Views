@@ -104,7 +104,8 @@ Tested with 12.3.R3.4
 Interface, Port Mode, Tagness, VLAN ID, VLAN Name
 
 ## Examples
-* [AAA Access stats](sample/Juniper_AAA_Global.PNG?raw=true)
+* [AAA Access stats](sample/Juniper_AAA_Access.PNG?raw=true)
+* [AAA Global stats](sample/Juniper_AAA_Global.PNG?raw=true)
 * [AAA Port settings](sample/Juniper_AAA_Port.PNG?raw=true)
 * [Device Anatomy](sample/Juniper_Anatomy.PNG?raw=true)
 * [Device Contens](sample/Juniper_Contens.PNG?raw=true)
@@ -112,6 +113,7 @@ Interface, Port Mode, Tagness, VLAN ID, VLAN Name
 * [Modules filled](sample/Juniper_Filled.PNG?raw=true)
 * [Field Replaceable Units](sample/Juniper_FRU.PNG?raw=true)
 * [LEDs](sample/Juniper_LEDs.PNG?raw=true)
+* [Modules filled](sample/Juniper_Modules.PNG?raw=true)
 * [Device Redundancy status](sample/Juniper_Redundancy.PNG?raw=true)
 * [CPU and Memory utilization](sample/Junper_CPU_Memory.PNG?raw=true)
 * [VLAN Interfaces information](sample/Juniper_Vlan_Interfaces.PNG?raw=true)

@@ -61,7 +61,7 @@
             <dataField>OID::jnxOperatingRestartTime:::SNMP::SNMP;false;4;18;false;false;4;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="118" width="105" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="19">Up Time in sec
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;19;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;19;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.enterasys.netsight.console.client.flexview.FvCompMibEnum" id="112" width="99" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="20">Chassis Id
             <notes></notes>
             <dataField>OID::jnxOperatingChassisId:::SNMP::SNMP;false;2;20;false;false;4;2;0;0;0;0;0</dataField></column>

@@ -16,13 +16,13 @@
             <dataField>OID::sonicCurrentCPUUtil:::SNMP::SNMP;true;66;3;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="106" width="83" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="4">CPU Utilization
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;4;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;4;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.flextable.col.LongStringComparator" id="101" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" hidden="true" modelIndex="5">RAM Util
             <notes>Instantaneous RAM Utilization in percent</notes>
             <dataField>OID::sonicCurrentRAMUtil:::SNMP::SNMP;true;66;5;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="107" width="98" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="6">RAM Utilization
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;6;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;6;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.flextable.col.LongStringComparator" id="102" width="117" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="7">Conn Cache Entries
             <notes>Number of active connection cache entries through the firewall</notes>
             <dataField>OID::sonicCurrentConnCacheEntries:::SNMP::SNMP;true;66;7;false;false;1;2;0;0;0;0;0</dataField></column>

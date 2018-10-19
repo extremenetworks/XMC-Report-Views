@@ -16,22 +16,22 @@
             <dataField>OID::chEnvAmbientTemp:::SNMP::SNMP;true;2;3;false;false;1;2;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="111" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="4">AmbientTemp
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;4;false;false;1;2;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;4;false;false;1;2;0;0;0;0</dataField></column>
         <column comparator="com.enterasys.netsight.console.client.flexview.FvCompMibEnum" id="101" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="5">AmbientStatus
             <notes></notes>
             <dataField>OID::chEnvAmbientStatus:::SNMP::SNMP;true;2;5;false;false;1;2;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="112" width="107" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="6">AmbientHotTemp
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;6;false;false;1;2;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;6;false;false;1;2;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="113" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="7">AmbientWarmTemp
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;7;false;false;1;2;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;7;false;false;1;2;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="114" width="109" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="8">AmbientCoolTemp
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;8;false;false;1;2;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;8;false;false;1;2;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="115" width="109" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="9">AmbientColdTemp
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;9;false;false;1;2;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;9;false;false;1;2;0;0;0;0</dataField></column>
         <column comparator="com.ets.flextable.col.IntStringComparator" id="102" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="10">Humidity
             <notes></notes>
             <dataField>OID::chEnvHumidity:::SNMP::SNMP;true;2;10;false;false;1;2;0;0;0;0</dataField></column>

@@ -31,10 +31,10 @@
             <dataField>OID::jnxContainersCount:::SNMP::SNMP;false;2;8;false;false;4;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="106" width="73" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="9">View
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;9;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;9;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="107" width="810" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="10">Level
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;10;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;10;false;false;1;2;0;0;0;0;0</dataField></column>
         <notes></notes>
         <dataField>TBLHASH::::TBLHDR::0;0;true;30;None;V.0.3.3.0;0;0;108::::GEMHASH::::00001:Level::routine 107 IF ({ "jnxContainersLevel":102:# }   == 0) THEN "Chassis" ELSE
 IF ({ "jnxContainersView":101:# }  == 1) THEN "FPC" ELSE

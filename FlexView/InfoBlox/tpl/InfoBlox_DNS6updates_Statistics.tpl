@@ -37,15 +37,15 @@
             <dataField>OID::ibDHCPv6DDNSTimeoutCount1440:::SNMP::SNMP;true;71;10;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="108" width="126" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="11">Avg Latency 5s
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;11;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;11;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="109" width="125" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="12">Avg Latency 15s
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;12;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;12;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="110" width="110" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="13">Avg Latency 1m
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;13;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;13;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="111" width="127" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="14">Avg Latency 1d
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;14;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;14;false;false;1;2;0;0;0;0;0</dataField></column>
         <notes></notes>
         <dataField>TBLHASH::::TBLHDR::0;0;true;30;None;V.0.3.3.0;0;0;113::::GEMHASH::::00001:Avg Latency 15s::routine 109 { "ibDHCPv6DDNSAvgLatency15":101 }   + " us":::00000:Avg Latency 5s::routine 108 { "ibDHCPv6DDNSAvgLatency5":100 } + " us":::00003:Avg Latency 1d::routine 111 { "ibDHCPv6DDNSAvgLatency1440":103 }   + " us":::00002:Avg Latency 1m::routine 110 { "ibDHCPv6DDNSAvgLatency60":102 }  + " us"</dataField></flextable></flextablelist>

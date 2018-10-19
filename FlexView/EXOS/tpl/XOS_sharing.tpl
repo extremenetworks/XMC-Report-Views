@@ -28,7 +28,7 @@
             <dataField>OID::ifOperStatus:::SNMP::SNMP;false;2;7;false;false;5;2;0;2;1;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="107" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendExpression" modelIndex="8">CurrentLink
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;8;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;8;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.flextable.col.VarStringComparator" id="101" width="222" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="9">MasterPort
             <notes></notes>
             <dataField>OID::ifName:::SNMP::SNMP;false;15;9;false;false;5;2;0;1;1;0;0</dataField></column>

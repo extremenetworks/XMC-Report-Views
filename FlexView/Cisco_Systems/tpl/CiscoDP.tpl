@@ -13,7 +13,7 @@
             <dataField>OID::Instance:::SNMP::Instance</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="165" width="101" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="3">InterfaceIndex
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;3;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;3;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.flextable.col.VarStringComparator" id="146" width="127" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="4">NeighborId
             <notes></notes>
             <dataField>OID::cdpCacheDeviceId:::SNMP::SNMP;false;15;4;false;false;4;2;0;0;0;0;0</dataField></column>

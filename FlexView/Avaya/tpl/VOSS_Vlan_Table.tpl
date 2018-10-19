@@ -37,7 +37,7 @@
             <dataField>OID::rcVlanRowStatus:::SNMP::SNMPW;false;2;10;true;false;4;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="111" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendExpression" modelIndex="11">Status
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;11;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;11;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.enterasys.netsight.console.client.flexview.FvCompMibEnum" id="112" width="192" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="12">Vlan Rmon Enable
             <notes></notes>
             <dataField>OID::rcVlanRmonEnable:::SNMP::SNMPW;false;2;12;true;false;4;2;0;0;0;0;0</dataField></column>

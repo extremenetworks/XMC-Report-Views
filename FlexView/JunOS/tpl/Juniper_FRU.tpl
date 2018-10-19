@@ -40,7 +40,7 @@
             <dataField>OID::jnxFruPowerUpTime:::SNMP::SNMP;false;2;11;false;false;4;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="112" width="97" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="12">Up Time sec
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;12;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;12;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.enterasys.netsight.console.client.flexview.FvCompMibEnum" id="109" width="90" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="13">Chassis Id
             <notes></notes>
             <dataField>OID::jnxFruChassisId:::SNMP::SNMP;false;2;13;false;false;4;2;0;0;0;0;0</dataField></column>

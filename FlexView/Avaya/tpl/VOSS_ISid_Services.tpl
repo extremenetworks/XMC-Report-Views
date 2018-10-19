@@ -22,7 +22,7 @@
             <dataField>OID::rcIsidServiceRowStatus:::SNMP::SNMPW;false;2;5;true;false;5;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="108" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendExpression" modelIndex="6">Service Status
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;6;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;6;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.flextable.col.IntStringComparator" id="104" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="7">Service Max Mac Limit
             <notes></notes>
             <dataField>OID::rcIsidServiceMaxMacLimit:::SNMP::SNMPW;false;2;7;true;false;4;2;0;4;7;0;0</dataField></column>

@@ -16,7 +16,7 @@
             <dataField>OID::fgFwPolID:::SNMP::SNMPNA;false;2;3;false;false;4;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="106" width="121" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="4">PolicyID
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;4;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;4;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.flextable.col.LongStringComparator" id="101" width="159" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="5">FW Pol Pkt Count
             <notes>Number of packets matched to policy (passed or blocked, depending on policy action). Count is from the time the policy became active.</notes>
             <dataField>OID::fgFwPolPktCount:::SNMP::SNMP;false;65;5;false;false;4;2;0;0;0;0;0</dataField></column>

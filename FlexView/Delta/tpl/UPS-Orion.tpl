@@ -37,21 +37,21 @@
             <dataField>OID::dcSystemPower:::SNMP::SNMP;true;2;10;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="108" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="11">SystemVoltage
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;11;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;11;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="109" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="12">LoadCurrent
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;12;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;12;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="110" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="13">BateryCurrent
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;13;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;13;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="111" width="173" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="14">BateryTemperature
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;14;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;14;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="112" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="15">RectifierCurrent
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;15;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;15;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="113" width="352" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="16">SystemPower
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;16;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;16;false;false;1;2;0;0;0;0;0</dataField></column>
         <notes></notes>
         <dataField>TBLHASH::::TBLHDR::0;0;true;30;None;V.0.3.3.0;0;0;114::::GEMHASH::::00001:LoadCurrent::routine 109 { "dcLoadCurrent":101:# }  / 10 + " A":::00002:BateryCurrent::routine 110 { "dcBatteryCurrent":102:# }  / 10 +" A":::00005:SystemPower::routine 113 { "dcSystemPower":107:# } + " W":::00004:RectifierCurrent::routine 112 { "dcRectifierCurrent":106 }   / 10 + " A":::00000:SystemVoltage::routine 108 { "dcSystemVoltage":100:# } / 100+" V":::00003:BateryTemperature::routine 111 { "dcBatteryTemperature":103 }   / 10 +" C"</dataField></flextable></flextablelist>

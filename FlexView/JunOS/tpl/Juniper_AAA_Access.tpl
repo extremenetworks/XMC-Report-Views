@@ -13,7 +13,7 @@
             <dataField>OID::Instance:::SNMP::Instance</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="100" width="87" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="3">Authentication
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;3;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;3;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.flextable.col.LongStringComparator" id="101" width="124" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="4">Request Received
             <notes></notes>
             <dataField>OID::jnxUserAAAStatRequestReceived:::SNMP::SNMP;false;70;4;false;false;4;2;0;0;0;0;0</dataField></column>

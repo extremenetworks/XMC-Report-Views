@@ -16,7 +16,7 @@
             <dataField>OID::etsysResourceStorageTypeID:::SNMP::SNMPNA;false;71;3;false;false;4;2;0;1;1</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="123" width="76" sortOrder="ascending" class="com.enterasys.netsight.console.client.flexview.FvColumn" sorted="true" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="4">Slot
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;4;false;false;1;2;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;4;false;false;1;2;0;0;0</dataField></column>
         <column comparator="com.ets.flextable.col.VarStringComparator" id="119" width="161" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="5">Description
             <notes></notes>
             <dataField>OID::etsysResourceStorageDescr:::SNMP::SNMP;false;4;5;false;false;4;2;0;0;0</dataField></column>

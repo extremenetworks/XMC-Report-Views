@@ -13,7 +13,7 @@
             <dataField>OID::Instance:::SNMP::Instance</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="105" width="148" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="3">Disk Usage
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;3;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;3;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.flextable.col.IntStringComparator" id="102" width="287" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" hidden="true" modelIndex="4">diskPercent
             <notes></notes>
             <dataField>OID::diskPercent:::SNMP::SNMP;true;2;4;false;false;1;2;0;0;0;0;0</dataField></column>

@@ -19,7 +19,7 @@
             <dataField>OID::sysLocation:::SNMP::SNMPW;true;15;4;true;false;2;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="109" width="109" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="5">Interface Name
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;5;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;5;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.flextable.col.VarStringComparator" id="105" width="162" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" hidden="true" modelIndex="6">Port Name
             <notes></notes>
             <dataField>OID::ifName:::SNMP::SNMP;false;15;6;false;false;5;2;0;0;0;0;0</dataField></column>
@@ -34,7 +34,7 @@
             <dataField>OID::ifLastChange:::SNMP::SNMP;false;67;9;false;false;4;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="102" width="301" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendExpression" modelIndex="10">Time in Current State
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;10;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;10;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.enterasys.netsight.console.client.flexview.FvCompMibEnum" id="104" width="300" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" hidden="true" modelIndex="11">Current Operational Status
             <notes></notes>
             <dataField>OID::ifOperStatus:::SNMP::SNMP;false;2;11;false;false;4;2;0;0;0;0;0</dataField></column>
@@ -49,7 +49,7 @@
             <dataField>OID::ifDescr:::SNMP::SNMP;false;15;14;false;false;4;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="110" width="1006" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="15">Current Operational Mode
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;15;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;15;false;false;1;2;0;0;0;0;0</dataField></column>
         <notes></notes>
         <dataField>TBLHASH::::IDS_GRAPH_COLUMNS::102:::IDS_GRAPH_TYPE::0:::IDS_GRAPH_AUTO_EXPORT_TYPE::0:::TBLHDR::0;0;true;0;ifEntry;V.0.3.3.0;0;0;114::::GEMHASH::::00001:Interface Name::routine 109 if ({ "Port Name":105 } == "-" || { "Port Name":105 } == "")
 then ({ "ifIndex":107 } + " -- " + { "ifDescr":108 } )

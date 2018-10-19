@@ -16,7 +16,7 @@
             <dataField>OID::extremePethSystemAdminEnable:::SNMP::SNMPW;true;2;3;true;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="106" width="136" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendExpression" modelIndex="4">PoE Enabled
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;4;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;4;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.enterasys.netsight.console.client.flexview.FvCompMibEnum" id="101" width="144" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="5">DisconnectPrecedence
             <notes></notes>
             <dataField>OID::extremePethSystemDisconnectPrecedence:::SNMP::SNMPW;true;2;5;true;false;1;2;0;0;0;0;0</dataField></column>
@@ -25,7 +25,7 @@
             <dataField>OID::extremePethSystemUsageThreshold:::SNMP::SNMPW;true;2;6;true;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="105" width="103" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="7">UsageThreshold
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;7;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;7;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.enterasys.netsight.console.client.flexview.FvCompMibEnum" id="103" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="8">PowerSupplyMode
             <notes></notes>
             <dataField>OID::extremePethSystemPowerSupplyMode:::SNMP::SNMPW;true;2;8;true;false;1;2;0;0;0;0;0</dataField></column>

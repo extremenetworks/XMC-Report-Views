@@ -13,7 +13,7 @@
             <dataField>OID::Instance:::SNMP::Instance</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="104" width="199" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="3">Running config needs to be saved
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;3;false;false;1;2;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;3;false;false;1;2;0;0;0</dataField></column>
         <column comparator="com.ets.flextable.col.VarStringComparator" id="101" width="256" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" hidden="true" modelIndex="4">StartupLastChanged
             <notes></notes>
             <dataField>OID::ccmHistoryStartupLastChanged:::SNMP::SNMP;true;67;4;false;false;1;2;0;0;0</dataField></column>

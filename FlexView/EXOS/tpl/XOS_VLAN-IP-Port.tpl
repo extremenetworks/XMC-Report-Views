@@ -25,7 +25,7 @@
             <dataField>OID::extremeVlanIpNetMask:::SNMP::SNMPW;false;64;6;true;false;6;2;0;1;1;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="105" width="55" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="7">Slot
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;7;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;7;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.flextable.col.VarStringComparator" id="100" width="87" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="8">Tagged Ports
             <notes></notes>
             <dataField>OID::extremeVlanOpaqueTaggedPorts:::SNMP::SNMP;false;4;8;false;false;4;2;0;0;0;0;0</dataField></column>

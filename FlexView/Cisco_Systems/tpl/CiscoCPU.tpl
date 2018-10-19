@@ -22,12 +22,12 @@
             <dataField>OID::cpmCPUTotal5minRev:::SNMP::SNMP;false;66;5;false;false;4;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="103" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="6">CPU Total 5sec
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;6;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;6;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="104" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="7">CPU Total 1min
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;7;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;7;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="105" width="138" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="8">CPU Total 5min
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;8;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;8;false;false;1;2;0;0;0;0;0</dataField></column>
         <notes></notes>
         <dataField>TBLHASH::::TBLHDR::0;0;false;30;None;V.0.3.3.0;0;0;106::::GEMHASH::::00001:CPU Total 1min::routine 104 { "cpmCPUTotal1minRev":101:$ }   + " %":::00000:CPU Total 5sec::routine 103 { "cpmCPUTotal5secRev":100:$ }  + " %":::00002:CPU Total 5min::routine 105 { "cpmCPUTotal5minRev":102:$ }   + " %"</dataField></flextable></flextablelist>

@@ -19,7 +19,7 @@
             <dataField>OID::rcChasFanOperStatus:::SNMP::SNMP;false;2;4;false;false;4;2;0;0;0;0;0</dataField></column>
         <column id="105" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="5">Fan  Oper Status
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;5;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;5;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.flextable.col.LongStringComparator" id="101" width="136" sortOrder="ascending" class="com.enterasys.netsight.console.client.flexview.FvColumn" sorted="true" modelIndex="6">Chassis Fan Ambient Temperature
             <notes></notes>
             <dataField>OID::rcChasFanAmbientTemperature:::SNMP::SNMP;false;66;6;false;false;4;2;0;0;0;0;0</dataField></column>

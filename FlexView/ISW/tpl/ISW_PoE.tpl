@@ -28,6 +28,6 @@
             <dataField>OID::vtssPoeConfigInterfaceParamMaxPower:::SNMP::SNMPW;false;2;7;true;false;4;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="106" width="2745" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="8">Max power
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;8;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;8;false;false;1;2;0;0;0;0;0</dataField></column>
         <notes></notes>
         <dataField>TBLHASH::::TBLHDR::0;0;true;30;vtssPoeCapabilitiesInterfaceEntry;V.0.3.3.0;0;0;107::::GEMHASH::::00000:Max Power::routine 106 { "vtssPoeConfigInterfaceParamMaxPower":103:# } / 10 + " W"</dataField></flextable></flextablelist>

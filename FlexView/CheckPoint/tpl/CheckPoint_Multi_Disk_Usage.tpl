@@ -22,7 +22,7 @@
             <dataField>OID::multiDiskFreeAvailablePercent:::SNMP::SNMP;false;2;5;false;false;4;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="109" width="203" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="6">Disk Free Available Percent
             <notes></notes>
-            <dataField>SNMP::EXPR;true;2;6;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>SNMP::EXPR;true;15;6;false;false;1;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.flextable.col.VarStringComparator" id="102" width="169" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="7">Disk Size
             <notes></notes>
             <dataField>OID::multiDiskSize:::SNMP::SNMP;false;15;7;false;false;4;2;0;0;0;0;0</dataField></column>
