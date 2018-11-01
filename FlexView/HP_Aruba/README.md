@@ -106,17 +106,17 @@ Port, Alias,PortType, Bcast Limit, Negotiation, FlowControl, Trunk Group, Trunk 
 
 
 ## Examples
-* [ArubaSwitch Dot1x](sample/ArubaSwitch_Dot1X.tpl?raw=true)
-* [ArubaSwitch EEE](sample/ArubaSwitch_EEE.tpl?raw=true)
-* [ArubaSwitch IGMP port](sample/ArubaSwitch_IGMP_port.tpl?raw=true)
-* [ArubaSwitch IGMP VLAN](sample/ArubaSwitch_IGMP_VLAN.tpl?raw=true)
-* [ArubaSwitch PoE](sample/ArubaSwitch_PoE.tpl?raw=true)
-* [ArubaSwitch PTP](sample/ArubaSwitch_PTP.tpl?raw=true)
-* [ArubaSwitch PVID](sample/ArubaSwitch_PVID.tpl?raw=true)
-* [ArubaSwitch Sensors](sample/ArubaSwitch_Sensors.tpl?raw=true)
-* [ArubaSwitch SNTP](sample/ArubaSwitch_SNTP.tpl?raw=true)
-* [ArubaSwitch SNTP Servers](sample/ArubaSwitch_SNTP_Servers.tpl?raw=true)
-* [ArubaSwitch Trunking](sample/ArubaSwitch_Trunking.tpl?raw=true)
+* [ArubaSwitch Dot1x](sample/ArubaSwitch_Dot1X.PNG?raw=true)
+* [ArubaSwitch EEE](sample/ArubaSwitch_EEE.PNG?raw=true)
+* [ArubaSwitch IGMP port](sample/ArubaSwitch_IGMP_port.PNG?raw=true)
+* [ArubaSwitch IGMP VLAN](sample/ArubaSwitch_IGMP_VLAN.PNG?raw=true)
+* [ArubaSwitch PoE](sample/ArubaSwitch_PoE.PNG?raw=true)
+* [ArubaSwitch PTP](sample/ArubaSwitch_PTP.PNG?raw=true)
+* [ArubaSwitch PVID](sample/ArubaSwitch_PVID.PNG?raw=true)
+* [ArubaSwitch Sensors](sample/ArubaSwitch_Sensors.PNG?raw=true)
+* [ArubaSwitch SNTP](sample/ArubaSwitch_SNTP.PNG?raw=true)
+* [ArubaSwitch SNTP Servers](sample/ArubaSwitch_SNTP_Servers.PNG?raw=true)
+* [ArubaSwitch Trunking](sample/ArubaSwitch_Trunking.PNG?raw=true)
 
 
 ## MIBs
