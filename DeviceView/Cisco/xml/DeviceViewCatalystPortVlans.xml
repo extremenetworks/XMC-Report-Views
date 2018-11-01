@@ -1,14 +1,14 @@
 <report>
-	<reportId>DeviceViewFortigateWlanMU</reportId>
-	<title>Device View FortiGate Wlan MU</title>
+	<reportId>DeviceViewCatalystPVIDs</reportId>
+	<title>Device View Catalyst PVIDs</title>
 	<category>Device</category>
 	<showInTree>false</showInTree>
 	<iconCls>table-icon</iconCls>
 	<deviceViewTab>
-		<viewTabTitle>WLAN MU</viewTabTitle>
-		<viewOrder>1106</viewOrder>
+		<viewTabTitle>Port Vlans</viewTabTitle>
+		<viewOrder>1010</viewOrder>
 		<families>
-			<family>FortiGate</family>
+			<family>Catalyst</family>
 		</families>
 	</deviceViewTab>
 	<panel>
@@ -19,8 +19,9 @@
 		<items>
 			<flexviewgrid>
 				<hideToolbar>true</hideToolbar>
-				<viewId>FortiGate_Wlan_MU</viewId>
+				<viewId>Cisco VLAN Port Summary</viewId>
 			</flexviewgrid>
 		</items>
 	</panel>
 </report>
+            

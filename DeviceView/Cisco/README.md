@@ -17,4 +17,14 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 | Catalyst |[Resources](xml/DeviceViewCiscoResources.xml)|CiscoCPU, CiscoMemory, CiscoFlash| - |[png](sample/Resources.png)|
 | Catalyst |[Port Vlans](xml/DeviceViewCiscoPortVlans.xml)| - |Cisco VLAN Port Summary|[png](sample/PortVlans.png)|
 
+## XMC 8.2.1
+
+| Product  | DeviceView   | FlexView   | Buildin FlexView | Example   |
+| -------- | ------------ |:----------:|:----------------:| --------- |
+| Catalyst |[VLANS](xml/DeviceViewCatalystVlans.xml)|CiscoVLANs| - |[png](sample/VLANs.png)|
+| Catalyst |[STP](xml/DeviceViewCatalystStp.xml)|CiscoSTP|Port Spanning Tree Information|[png](sample/STP.png)|
+| Catalyst |[VTP](xml/DeviceViewCatalystVtp.xml)|CiscoVTP| - |[png](sample/VTP.png)|
+| Catalyst |[Resources](xml/DeviceViewCatalystResources.xml)|CiscoCPU, CiscoMemory, CiscoFlash| - |[png](sample/Resources.png)|
+| Catalyst |[Port Vlans](xml/DeviceViewCatalystPortVlans.xml)| - |Cisco VLAN Port Summary|[png](sample/PortVlans.png)|
+
 >Be Extreme
