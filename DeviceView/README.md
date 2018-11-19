@@ -4,7 +4,7 @@ Starting with Extreme Management Center version 8.0.4 you may import/modify the 
 
 * [Cisco Catalyst](Cisco/README.md)
 * [Check Point](CheckPoint/README.md)
-* [HPE Comware switches](Aruba-HP/README.md)
+* [HPE switches](Aruba-HP/README.md)
 * [Juniper switches](Juniper/README.md)
 * [SonicWall Firewalls](SonicWall/README.md)
 * [InfoBlox](InfoBlox/README.md)

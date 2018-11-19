@@ -1,14 +1,14 @@
 <report>
-	<reportId>DeviceViewCheckPointMGMT</reportId>
-	<title>Device View Check Point MGMT</title>
+	<reportId>DeviceViewProcurvePVID</reportId>
+	<title>Device View Procurve PVID</title>
 	<category>Device</category>
 	<showInTree>false</showInTree>
 	<iconCls>table-icon</iconCls>
 	<deviceViewTab>
-		<viewTabTitle>Management</viewTabTitle>
-		<viewOrder>1023</viewOrder>
+		<viewTabTitle>PVID</viewTabTitle>
+		<viewOrder>1009</viewOrder>
 		<families>
-			<family>Check Point Security Gateway</family>
+			<family>Procurve</family>
 		</families>
 	</deviceViewTab>
 	<panel>
@@ -19,9 +19,8 @@
 		<items>
 			<flexviewgrid>
 				<hideToolbar>true</hideToolbar>
-				<viewId>CheckPoint_Mgmt</viewId>
+				<viewId>Port Status VLAN</viewId>
 			</flexviewgrid>
 		</items>
 	</panel>
 </report>
-            

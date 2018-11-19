@@ -9,7 +9,7 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 ## XMC 8.1.3
 
-Product Family needs to be configured as [CheckPoint Security Gateway](sample/DeviceFamily.png?raw=true)
+Product Family needs to be configured as [Check Point Security Gateway](sample/DeviceFamily.png?raw=true)
 
 | Product  | DeviceView   | FlexView   | Buildin FlexView | Example   |
 | -------- | ------------ |:----------:|:----------------:| --------- |

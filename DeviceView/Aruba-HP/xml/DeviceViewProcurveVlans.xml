@@ -1,14 +1,14 @@
 <report>
-	<reportId>DeviceViewCheckPointMGMT</reportId>
-	<title>Device View Check Point MGMT</title>
+	<reportId>DeviceViewProcurveVlans</reportId>
+	<title>Device View Procurve Vlans</title>
 	<category>Device</category>
 	<showInTree>false</showInTree>
 	<iconCls>table-icon</iconCls>
 	<deviceViewTab>
-		<viewTabTitle>Management</viewTabTitle>
-		<viewOrder>1023</viewOrder>
+		<viewTabTitle>VLANs</viewTabTitle>
+		<viewOrder>1005</viewOrder>
 		<families>
-			<family>Check Point Security Gateway</family>
+			<family>Procurve</family>
 		</families>
 	</deviceViewTab>
 	<panel>
@@ -19,9 +19,8 @@
 		<items>
 			<flexviewgrid>
 				<hideToolbar>true</hideToolbar>
-				<viewId>CheckPoint_Mgmt</viewId>
+				<viewId>802_1Q VLAN Current Table</viewId>
 			</flexviewgrid>
 		</items>
 	</panel>
 </report>
-            
