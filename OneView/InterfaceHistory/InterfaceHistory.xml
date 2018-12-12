@@ -149,14 +149,14 @@
                                                 <xField>time_stamp</xField> <!-- must match db column name -->
                                                 <series>
                                                     <seriesDef>
-                                                        <yField>PortInOctets</yField>
+                                                        <yField>PortRxBwKbps</yField>
                                                         <displayName>In Bandwidth</displayName>
                                                         <style>
                                                             <size>5</size>
                                                         </style>
                                                     </seriesDef>
                                                     <seriesDef>
-                                                        <yField>PortOutOctets</yField>
+                                                        <yField>PortTxBwKbps</yField>
                                                         <displayName>Out Bandwidth</displayName>
                                                         <style>
                                                             <size>5</size>
@@ -173,12 +173,12 @@
                                                 <data>
                                                     <statistics>
                                                         <statistic>
-                                                            <statisticName>PortInOctets</statisticName>
-                                                            <alias>PortInOctets</alias>
+                                                            <statisticName>PortRxBwKbps</statisticName>
+                                                            <alias>PortRxBwKbps</alias>
                                                         </statistic>
                                                         <statistic>
-                                                            <statisticName>PortOutOctets</statisticName>
-                                                            <alias>PortOutOctets</alias>
+                                                            <statisticName>PortTxBwKbps</statisticName>
+                                                            <alias>PortTxBwKbps</alias>
                                                         </statistic>
                                                         <statistic>
                                                             <statisticName>PortTotalBwKbps</statisticName>
