@@ -8,6 +8,7 @@ Community Driven repository
 * [How long is the port down/up?](tpl/Port_Status_Time_with_alias.tpl?raw=true)
 * [What ports are sending traps?](tpl/Port-Trap-SNMP-config.tpl?raw=true)
 * [What are LLDP neighbors?](tpl/LLDP_Remote_Systems--with-local-Switchport.tpl?raw=true)
+* [What MACs are on what port? with alias](tpl/Learned_MAC_Addresses_with_alias.tpl)
 
 ## Comments & Columns
 ##### Serial Numbers including FRU
@@ -28,10 +29,14 @@ ifAlias, ifName, ifLinkUpDownTrapEnable
 ##### What are LLDP neighbors?
 Works with EOS, EXOS
 
+##### What MACs are on what port?
+
+Port, Interface, Name, ifAlias, Mac Address, Status
 
 ## Examples
 * [What are LLDP neighbors](sample/LLDP.png)
 * [How long is the port down/up?](sample/PortStatusTimeAlias.png)
+* [What MACs are on what port?](sample/Learned_MAC_with_alias.png)
 
 ## MIBs
 All necessary MIBs are included in the Extreme Management (NetSight) already.
