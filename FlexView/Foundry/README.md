@@ -1,4 +1,4 @@
-# Extreme Management (NetSight) FlexViews for Cisco Catalyst devices
+# Extreme Management (NetSight) FlexViews for Extreme - Brocade - Foundry devices
 
 Community Driven repository
 
@@ -13,7 +13,7 @@ Community Driven repository
 ##### Chassis information
 Serial Number, Main Board Description, Slots, Factory Part Number, Factory Serial Number, Actual Temperature
 
-##### Memory Utilization?
+##### Memory Utilization
 Memory Utilization, Memory Total, Memory Free
 
 ##### Power Supplies
