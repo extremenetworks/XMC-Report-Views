@@ -3,24 +3,32 @@
 Community Driven repository
 
 ## FlexViews
-* [Chassis information](tpl/Foundry_Chassis.tpl?raw=true)
-* [Memory Utilization](tpl/Foundry_Memory.tpl?raw=true)
-* [Power Supplies](tpl/Foundry_PowerSupply.tpl?raw=true)
-* [Port Status Vlan](tpl/Foundry_Port_Status_VLAN.tpl?raw=true)
+* [Port Authentication Config](tpl/CiscoAuth.tpl?raw=true)
+* [Is the running configuration saved?](tpl/CiscoConfig.tpl?raw=true)
+* [Cisco Discovery Protocol](tpl/CiscoDP.tpl?raw=true)
+* [PVST](tpl/CiscoPVST.tpl?raw=true)
+* [STP](tpl/CiscoSTP.tpl?raw=true)
+* [Port Vlan](tpl/CiscoPVID.tpl?raw=true)
+* [Vlans](tpl/CiscoVLANs.tpl?raw=true)
+* [Cisco VTP](tpl/CiscoVTP.tpl?raw=true)
+* [Cisco CPU](tpl/CiscoCPU.tpl?raw=true)
+* [Cisco Flash](tpl/CiscoFlash.tpl?raw=true)
+* [Cisco Memory](tpl/CiscoMemory.tpl?raw=true)
+
 
 
 ## Comments & Columns
-##### Chassis information
-Serial Number, Main Board Description, Slots, Factory Part Number, Factory Serial Number, Actual Temperature
+##### Port Authentication Config
+ifName, cafPortControlledDirection, cafPortAuthHostMode, cafPortPreAuthOpenAccess, cafPortAuthorizeControl, cafPortReauthEnabled, cafPortReauthInterval, cafPortRestartInterval, cafPortInactivityTimeout, cafPortViolationAction
 
-##### Memory Utilization?
-Memory Utilization, Memory Total, Memory Free
+##### Is the running configuration saved?
+Running config needs to be saved,
 
-##### Power Supplies
-Power Supply Index, Power Supply Oper Status
+##### Cisco Discovery Protocol
+cdpCacheDeviceId, cdpCacheVersion, cdpCacheDevicePort, cdpCachePlatform, cdpCacheAddress
 
-##### Port Status Vlan
-Port, Name, Current Link, Link Status, StpPortState, Bridge State, PVID, VLAN Name, Tag Mode,Last Change
+##### PVST
+stpxPVSTVlanIndex, stpxPVSTVlanEnable
 
 ##### STP
 stpxSpanningTreeType, Time Since Change, Topology Changes, Cost to Root, dot1dStpRootCost, dot1dStpRootPort, dot1dStpDesignatedRoot, Default Settings, dot1dStpTopChanges, dot1dStpTimeSinceTopologyChange, dot1dStpPriority, dot1dStpHelloTime, dot1dStpBridgeHelloTime, dot1dStpMaxAge, dot1dStpBridgeMaxAge, dot1dStpForwardDelay, dot1dStpBridgeForwardDelay, dot1dStpHoldTime
@@ -38,7 +46,7 @@ ifName, vtpVersion, vlanTrunkPortsDot1qTag, vlanTrunkPortEncapsulationType, vlan
 cpmCPUTotal5secRev, cpmCPUTotal1minRev, cpmCPUTotal5minRev
 
 ##### Cisco Memory
-ciscoMemoryPoolName, ciscoMemoryPoolUsed, ciscoMemoryPoolFree, 
+ciscoMemoryPoolName, ciscoMemoryPoolUsed, ciscoMemoryPoolFree
 
 ##### Cisco Flash
 ciscoFlashPartitionSize, ciscoFlashPartitionFreeSpace, ciscoFlashPartitionName, ciscoFlashPartitionFileCount, ciscoFlashPartitionStatus
