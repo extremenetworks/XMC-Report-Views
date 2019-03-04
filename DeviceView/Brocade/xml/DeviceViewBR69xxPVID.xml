@@ -1,0 +1,26 @@
+<report>
+	<reportId>DeviceViewBR69xxPVID</reportId>
+	<title>Device View Brocade69xx PVID</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>PVID</viewTabTitle>
+		<viewOrder>1009</viewOrder>
+		<families>
+			<family>BR69xx</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<flexviewgrid>
+				<hideToolbar>true</hideToolbar>
+				<viewId>Foundry_Port_Status_VLAN</viewId>
+			</flexviewgrid>
+		</items>
+	</panel>
+</report>

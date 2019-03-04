@@ -1,0 +1,64 @@
+<report>
+	<reportId>Brocade69xxSystem</reportId>
+	<title>Device View Brocade69xx System</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>System</viewTabTitle>
+		<viewOrder>1001</viewOrder>
+		<families>
+			<family>BR69xx</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<panel>
+				<title>Chassis</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+				<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>Foundry_Chassis</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+			<splitter>
+				<collapsible>true</collapsible>
+				<showMiniCollapse>true</showMiniCollapse>
+			</splitter>
+			<panel>
+				<title>Memory</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>Foundry_Memory</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+			<splitter>
+				<collapsible>true</collapsible>
+				<showMiniCollapse>true</showMiniCollapse>
+			</splitter>
+			<panel>
+				<title>Power Supply</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>Foundry_PowerSupply</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+		</items>
+	</panel>
+</report>
+            

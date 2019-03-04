@@ -1,0 +1,26 @@
+<report>
+	<reportId>DeviceViewBR69xxVlans</reportId>
+	<title>Device View Brocade69xx Vlans</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>VLANs</viewTabTitle>
+		<viewOrder>1005</viewOrder>
+		<families>
+			<family>BR69xx</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<flexviewgrid>
+				<hideToolbar>true</hideToolbar>
+				<viewId>802_1Q VLAN Current Table</viewId>
+			</flexviewgrid>
+		</items>
+	</panel>
+</report>
