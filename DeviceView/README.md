@@ -5,6 +5,7 @@ Starting with Extreme Management Center version 8.0.4 you may import/modify the 
 * [Brocade](Brocade/README.md)
 * [Cisco Catalyst](Cisco/README.md)
 * [Check Point](CheckPoint/README.md)
+* [Extreme 200 series](FastPath/README.md)
 * [HPE switches](Aruba-HP/README.md)
 * [Juniper switches](Juniper/README.md)
 * [SonicWall Firewalls](SonicWall/README.md)
