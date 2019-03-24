@@ -17,4 +17,14 @@ Product Family needs to be configured as [InfoBlox DDI](sample/VendorProfile-Inf
 | DDI |[DHCP DNS](xml/DeviceViewInfoBloxDHCP.xml)|InfoBlox_DHCPStatistics, InfoBlox_DNSupdates_Statistics| - |[png](sample/DeviceViewInfoBloxDHCP.png?raw=true)|
 | DDI |[DHCP6 DNS6](xml/DeviceViewInfoBloxDHCP6.xml)|InfoBlox_DHCP6Statistics, InfoBlox_DNS6updates_Statistics| - |[png](sample/DeviceViewInfoBloxDHCP6.png?raw=true)|
 
+## Troubleshooting = most common issues
+* MIBs are missing
+* MIBs are there but servers was not restarted to read those mibs
+* MIBS are there but in MyMibs what server is not using by default
+* FlexView is missing
+* FlexView is not working at all
+* FlexView is not working in OneView 
+* FlexView does have wrong name = does not match the definition in DeviceView
+* Device family is not recognized or is wrong
+
 >Be Extreme

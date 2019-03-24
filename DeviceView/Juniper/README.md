@@ -18,5 +18,14 @@ Product Family needs to be configured as [Juniper EX](sample/VendorProfile.PNG?r
 |  |[VLAN](xml/DeviceViewJuniperVLAN.xml)|Juniper_VLAN_database, Juniper_VLAN_Interfaces| - |[png](sample/DeviceViewJuniperVLAN.PNG?raw=true)|
 |  |[VLAN-Ports](xml/DeviceViewJuniperVLANPorts.xml)|Juniper_VLAN_port| - |[png](sample/DeviceViewJuniperVLANPorts.PNG?raw=true)|
 
+## Troubleshooting = most common issues
+* MIBs are missing
+* MIBs are there but servers was not restarted to read those mibs
+* MIBS are there but in MyMibs what server is not using by default
+* FlexView is missing
+* FlexView is not working at all
+* FlexView is not working in OneView 
+* FlexView does have wrong name = does not match the definition in DeviceView
+* Device family is not recognized or is wrong
 
 >Be Extreme

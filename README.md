@@ -1,5 +1,11 @@
-# Extreme Management Center (NetSight) Reports, Views, Scripts
+# Extreme Management Center (NetSight) Reports, Views, Scripts, Workflows.
 
-Repository for Extreme Management Center (Netsight) community maintained [FlexView](FlexView/README.md) and [OneView](OneView/README.md) and [DeviceView](DeviceView/README.md) and [Policy Domains](PolicyDomains/README.md) and [Scripts](https://github.com/extremenetworks/ExtremeScripting/tree/master/Netsight/oneview_CLI_scripts/README.md)
+Repository for Extreme Management Center (Netsight) community maintained :
+* [FlexView](FlexView/README.md)
+* [OneView Reports](OneView/README.md)
+* [DeviceView](DeviceView/README.md)
+* [Policy Domains](PolicyDomains/README.md)
+* [Scripts](https://github.com/extremenetworks/ExtremeScripting/tree/master/Netsight/oneview_CLI_scripts/README.md)
+* [Workflows](https://github.com/extremenetworks/ExtremeScripting/blob/master/Netsight/oneview_workflows/README.md)
 
 >Be Extreme

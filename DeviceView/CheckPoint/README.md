@@ -19,5 +19,14 @@ Product Family needs to be configured as [Check Point Security Gateway](sample/D
 |  |[IP Network information](xml/DeviceViewCheckPointNetworkinfo.xml)|CheckPoint_Interface_table, CheckPoint_Routing_Table| - |[png](sample/DeviceView-IPNetwork.png?raw=true)|
 |  |[Software information](xml/DeviceViewCheckPointSoftwareinfo.xml)|CheckPoint_SVN_info, CheckPoint_Licensing_Information| - |[png](sample/DeviceView-Software.png?raw=true)|
 
+## Troubleshooting = most common issues
+* MIBs are missing
+* MIBs are there but servers was not restarted to read those mibs
+* MIBS are there but in MyMibs what server is not using by default
+* FlexView is missing
+* FlexView is not working at all
+* FlexView is not working in OneView 
+* FlexView does have wrong name = does not match the definition in DeviceView
+* Device family is not recognized or is wrong
 
 >Be Extreme

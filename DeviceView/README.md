@@ -6,11 +6,13 @@ Starting with Extreme Management Center version 8.0.4 you may import/modify the 
 * [Cisco Catalyst](Cisco/README.md)
 * [Check Point](CheckPoint/README.md)
 * [Extreme 200 series](FastPath/README.md)
+* [FortiGate](FortiGate/README.md)
+* [FortiWLC](FortiWLC/README.md)
 * [HPE switches](Aruba-HP/README.md)
+* [InfoBlox](InfoBlox/README.md)
 * [Juniper switches](Juniper/README.md)
 * [SonicWall Firewalls](SonicWall/README.md)
-* [InfoBlox](InfoBlox/README.md)
-* [FortiGate](FortiGate/README.md)
+
 
 ## How to import DeviceView to Extreme Management (NetSight)
 The DeviceView does use reports in the MyReports directory. Those reports use FlexViews, FlexViews does use MIBs.
@@ -29,6 +31,5 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 * FlexView is not working in OneView 
 * FlexView does have wrong name = does not match the definition in DeviceView
 * Device family is not recognized or is wrong
-
 
 >Be Extreme

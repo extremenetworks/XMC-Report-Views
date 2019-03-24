@@ -56,6 +56,6 @@ Card Index, Card Type, Card Description, Admin status, Oper Status, Serial Numbe
 * [Line Cards](sample/VOSS_Line_Cards.png?raw=true)
 
 ## MIBs
-All necessary MIBs are included in the Extreme Management (NetSight) version 8.0.4 and newer.
+All necessary MIBs are included in the Extreme Management Center (NetSight) version 8.0.4 and newer.
 
 >Be Extreme

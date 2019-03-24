@@ -31,6 +31,7 @@ Zone Name, Zone Security, If Trust, Content Filtering, Client AV Enforcement, Cl
 * [How are zones configured?](sample/SonicWall_Zones.png?raw=true)
 
 ## MIBs
+* [What directory to put MIBs to?](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
 * [Official SonicWall mibs](https://www.sonicwall.com/en-us/support/knowledge-base/170503581936826)
 SNWL-COMMON-MIB.MIB, SONICWALL-FIREWALL-IP-STATISTICS-MIB.MIB, SONICWALL-FIREWALL-TRAP-MIB.MIB, SONICWALL-SMI.MIB
 

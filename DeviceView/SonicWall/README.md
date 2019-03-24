@@ -17,4 +17,14 @@ Product Family needs to be configured as [Network Security](sample/VendorProfile
 | TZ |[Utilization](xml/DeviceViewSonicWallUtil.xml)|SonicWall_Utilization| - |[png](sample/DeviceViewSonicWallUtil.png?raw=true)|
 | TZ |[Zones](xml/DeviceViewSonicWallZones.xml)|SonicWall_Zones| - |[png](sample/DeviceViewSonicWallZones.png?raw=true)|
 
+## Troubleshooting = most common issues
+* MIBs are missing
+* MIBs are there but servers was not restarted to read those mibs
+* MIBS are there but in MyMibs what server is not using by default
+* FlexView is missing
+* FlexView is not working at all
+* FlexView is not working in OneView 
+* FlexView does have wrong name = does not match the definition in DeviceView
+* Device family is not recognized or is wrong
+
 >Be Extreme

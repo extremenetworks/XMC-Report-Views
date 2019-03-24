@@ -1,4 +1,4 @@
-# Extreme Management (NetSight) FlexViews 
+# Extreme Management Center (NetSight) FlexViews 
 Community Driven Repository
 
 This repository is to be used for hosting custom FlexViews.
@@ -12,9 +12,10 @@ This repository is to be used for hosting custom FlexViews.
 * [Extreme/Brocade/Foundry](Foundry/README.md)
 * [Cisco Systems](Cisco_Systems/README.md)
 * [Check Point](CheckPoint/README.md)
+* [FortiGate](FortiGate/README.md)
+* [FortiWLC/Meru](Meru/README.md)
 * [HP Aruba](HP_Aruba/README.md)
 * [Juniper Junos](JunOS/README.md)
-* [FortiGate](FortiGate/README.md)
 * [Palo Alto Networks](Palo_Alto/README.md)
 * [SonicWall](SonicWall/README.md)
 * [Vendor independent networking](Networking/README.md) 
@@ -22,7 +23,7 @@ This repository is to be used for hosting custom FlexViews.
 * [APC power supplies](APC/README.md)
 * [InfoBlox](InfoBlox/README.md)
 
-## How to import FlexViews to Extreme Management (NetSight)
+## How to import FlexViews to Extreme Management Center (NetSight)
 Upload the .tpl file to the 'Install_path/Extreme_Networks/NetSight/appdata/System/FlexViews/My FlexViews'
 On majority of Linux installations it is '/usr/local/Extreme_Networks/NetSight/appdata/System/FlexViews/My FlexViews'
 

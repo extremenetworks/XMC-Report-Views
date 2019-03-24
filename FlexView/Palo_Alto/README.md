@@ -31,6 +31,7 @@ ifDescr, panIfActiveTcpCps, panIfActiveUdpCps, panIfActiveOtherIpCps
 * [How are zones utilized?](sample/PaloAltoZones.png)
 
 ## MIBs
+* [What directory to put MIBs to?](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
 * [Official Palo Alto mibs](https://www.paloaltonetworks.com/documentation/misc/snmp-mibs.html) file PAN-TRAPS.my is not compatible with XMC version 8.1, you need to replace undescore "_" with minus "-" and will be good. File PAN-COMMON-MIB.my is not compatible with XMC version 8.1, you need to replace ifIndex with panIfIndex and ifDescr with panIfDescr.
 
 >Be Extreme

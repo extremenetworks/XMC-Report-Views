@@ -46,6 +46,6 @@ ifName, ifAlias, extremePethPortOperatorLimit, extremePethPortViolationPrecedenc
 * [PoE port](sample/XOS_PortPoE.png)
 
 ## MIBs
-All necessary MIBs are included in the Extreme Management (NetSight) already.
+All necessary MIBs are included in the Extreme Management Center (NetSight) already.
 
 >Be Extreme

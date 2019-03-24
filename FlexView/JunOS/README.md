@@ -122,7 +122,7 @@ Interface, Port Mode, Tagness, VLAN ID, VLAN Name
 * [Vlan port information](sample/Juniper_VLAN_port.PNG?raw=true)
 
 ## MIBs
-
+* [What directory to put MIBs to?](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
 * [Official Juniper mibs](https://www.juniper.net/documentation/en_US/release-independent/junos/mibs/mibs.html)
 
 >Be Extreme

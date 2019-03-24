@@ -44,7 +44,8 @@ Port Name, Supported, SFP Detected, SFP Vendor, Part Number, Serial Number, DDMI
 
 
 ## MIBs
-Official ISW MIBs are available on Extranet (Extreme Portal) search for enterprise_mibs_supported.zip
+* [What directory to put MIBs to?](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
+* Official ISW MIBs are available on Extranet (Extreme Portal) search for enterprise_mibs_supported.zip
 
 
 >Be Extreme

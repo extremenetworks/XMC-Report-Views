@@ -77,6 +77,6 @@ Indicates the switch is master(1).backupMaster(2) or slave(3) in this system.
 ## Examples
 
 ## MIBs
-All necessary MIBs are included in the Extreme Management (NetSight) already.
+All necessary MIBs are included in the Extreme Management Center (NetSight) already.
 
 >Be Extreme

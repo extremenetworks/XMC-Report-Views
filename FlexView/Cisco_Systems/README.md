@@ -65,7 +65,10 @@ ciscoFlashPartitionSize, ciscoFlashPartitionFreeSpace, ciscoFlashPartitionName, 
 * [Cisco Memory](sample/CiscoMemory.png)
 * [Cisco Flash](sample/CiscoFlash.png)
 
-## MIBs = use Cisco SNMP Object Navigator to download = http://snmp.cloudapps.cisco.com/Support/SNMP/do/BrowseOID.do
+## MIBs 
+* [What directory to put MIBs to?](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
+* [Cisco SNMP Object Navigator](http://snmp.cloudapps.cisco.com/Support/SNMP/do/BrowseOID.do)
+
 ##### CISCO-STP-EXTENSIONS-MIB.my is needed for CiscoSTP flexview
 
 ##### CISCO-FLASH-MIB.my is needed for Cisco Flash flexview
@@ -73,5 +76,6 @@ ciscoFlashPartitionSize, ciscoFlashPartitionFreeSpace, ciscoFlashPartitionName, 
 ##### CISCO-MEMORY-POOL-MIB.my is needed for Cisco Memory flexview
 
 ##### CISCO-PROCESS-MIB.my is needed for Cisco CPU flexview
+
 
 >Be Extreme

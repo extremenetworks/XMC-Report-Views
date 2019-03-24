@@ -14,5 +14,6 @@ dcSystemVoltage, dcLoadCurrent, dcBatteryCurrent, dcBatteryTemperature, dcCharge
 
 ## MIBs
 * [UPS Orion](mibs/Orion-mib.zip)
+* [What directory to put MIBs to?](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
 
 >Be Extreme

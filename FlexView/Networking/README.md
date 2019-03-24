@@ -39,6 +39,6 @@ Port, Interface, Name, ifAlias, Mac Address, Status
 * [What MACs are on what port?](sample/Learned_MAC_with_alias.png)
 
 ## MIBs
-All necessary MIBs are included in the Extreme Management (NetSight) already.
+All necessary MIBs are included in the Extreme Management Center (NetSight) already.
 
 >Be Extreme

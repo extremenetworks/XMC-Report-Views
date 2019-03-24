@@ -120,6 +120,8 @@ Port, Alias,PortType, Bcast Limit, Negotiation, FlowControl, Trunk Group, Trunk 
 
 
 ## MIBs
+* [What directory to put MIBs to?](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
+
 ### H3C platform:
 hh3c-disk.mib, hh3c-entity-ext.mib, hh3c-oid.mib, hh3c-product-id.mib, hh3c-raid.mib, hh3c-stack.mib, hh3c-storage-ref.mib
 ### ArubaSwitch:

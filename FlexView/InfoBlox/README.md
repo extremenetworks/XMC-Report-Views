@@ -40,7 +40,9 @@ Timeout Count 5s, 15s, 1m, 1d, Avg Latency 5s, 15s, 1m, 1d
 
 
 ## MIBs
-MIBs are part of the InfoBlox product. Just download it from the GUI.
+* [What directory to put MIBs to?](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
+* MIBs are part of the InfoBlox product. Just download it from the GUI.
+
 IB-DHCPONE-MIB.txt, IB-DHCPSERV-MIB.txt, IB-DHCPV6ONE-MIB.txt, IB-DNSONE-MIB.txt, IB-DNSSERV-MIB.txt, IB-PLATFORMONE-MIB.txt, IB-SMI-MIB.txt, IB-TRAP-MIB.txt
 
 >Be Extreme

@@ -29,7 +29,9 @@ Port, Name, Current Link, Link Status, StpPortState, Bridge State, PVID, VLAN Na
 * [Power Supplies](sample/FoundryPowerSupply.PNG)
 * [Port Status Vlan](sample/FoundryPortStatusVlan.PNG)
 
-## MIBs = download the FOUNDRY-SN-SWITCH-GROUP-MIB.txt from internet
+## MIBs 
+* [What directory to put MIBs to?](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
+* Download the FOUNDRY-SN-SWITCH-GROUP-MIB.txt from internet
 ##### FOUNDRY-SN-SWITCH-GROUP-MIB.txt is needed for Port Status Vlan flexview
 
 >Be Extreme

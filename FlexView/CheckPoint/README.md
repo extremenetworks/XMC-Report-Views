@@ -96,6 +96,7 @@ Version, Build, OS Name, Version Level
 
 
 ## MIBs
+* [What directory to put MIBs to?](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
 * [Official Check Point mibs](https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk90470)
 R80_10_chkpnt.txt
 

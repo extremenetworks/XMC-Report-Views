@@ -1,0 +1,26 @@
+<report>
+	<reportId>DeviceViewFortiWLCssid</reportId>
+	<title>Device View FortiWLC SSID</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>SSID</viewTabTitle>
+		<viewOrder>1120</viewOrder>
+		<families>
+			<family>FortiWLC</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<flexviewgrid>
+				<hideToolbar>true</hideToolbar>
+				<viewId>Meru_SSID</viewId>
+			</flexviewgrid>
+		</items>
+	</panel>
+</report>

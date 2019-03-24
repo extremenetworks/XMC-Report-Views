@@ -110,6 +110,7 @@ Name, Platform, Channel Dtls Policy, Country
 
 
 ## MIBs
+* [What directory to put MIBs to?](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
 * You can download MIBs from the FortiGate System -> SNMP -> Download FortiGate MIB File & Download Fortinet Core MIB File.
 ##### FORTINET-CORE-MIB.mib 
 ##### FORTINET-FORTIGATE-MIB.mib = this file needs to be modified if you want flexviews to work properly. find following objects (OBJECT-TYPE) and change from no-accessible to read-only:

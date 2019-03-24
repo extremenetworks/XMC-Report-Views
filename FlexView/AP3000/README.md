@@ -22,6 +22,6 @@ dot11WEPDefaultKeyValue
 ## Examples
 
 ## MIBs
-All necessary MIBs are included in the Extreme Management (NetSight) already.
+All necessary MIBs are included in the Extreme Management Center (NetSight) already.
 
 >Be Extreme

@@ -27,4 +27,14 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 | Catalyst |[Resources](xml/DeviceViewCatalystResources.xml)|CiscoCPU, CiscoMemory, CiscoFlash| - |[png](sample/Resources.png)|
 | Catalyst |[Port Vlans](xml/DeviceViewCatalystPortVlans.xml)| - |Cisco VLAN Port Summary|[png](sample/PortVlans.png)|
 
+## Troubleshooting = most common issues
+* MIBs are missing
+* MIBs are there but servers was not restarted to read those mibs
+* MIBS are there but in MyMibs what server is not using by default
+* FlexView is missing
+* FlexView is not working at all
+* FlexView is not working in OneView 
+* FlexView does have wrong name = does not match the definition in DeviceView
+* Device family is not recognized or is wrong
+
 >Be Extreme
