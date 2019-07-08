@@ -6,12 +6,14 @@ Starting with Extreme Management Center version 8.0.4 you may import/modify the 
 * [Cisco Catalyst](Cisco/README.md)
 * [Check Point](CheckPoint/README.md)
 * [Extreme 200 series](FastPath/README.md)
+* [Extreme/Avaya VSP](VOSS/README.md)
 * [FortiGate](FortiGate/README.md)
 * [FortiWLC](FortiWLC/README.md)
 * [HPE switches](Aruba-HP/README.md)
 * [InfoBlox](InfoBlox/README.md)
 * [Juniper switches](Juniper/README.md)
 * [SonicWall Firewalls](SonicWall/README.md)
+
 
 
 ## How to import DeviceView to Extreme Management (NetSight)
