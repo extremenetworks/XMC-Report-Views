@@ -27,4 +27,14 @@ This repository is to be used for hosting custom FlexViews.
 Upload the .tpl file to the 'Install_path/Extreme_Networks/NetSight/appdata/System/FlexViews/My FlexViews'
 On majority of Linux installations it is '/usr/local/Extreme_Networks/NetSight/appdata/System/FlexViews/My FlexViews'
 
+## Enable usage of 3th party MIBs in XMC
+Please do not forget to turn on the use of third party MIBs in XMC (HTML not legacy) if used in FlexViews.
+
+To enable the use of third pary MIBs go to "Administration->Options->SNMP", Check off the option for use MyMIBS directory on the server and restart the nsserver service with:
+```bash
+service nsserver restart
+```
+![3thPartyMIB](3thPartyMIB.png)
+
+
 >Be Extreme
