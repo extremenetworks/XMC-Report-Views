@@ -1,3 +1,6 @@
+![GitHub stars](https://img.shields.io/github/stars/extremenetworks/XMC-Report-Views.svg?style=social)  
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/extremenetworks/XMC-Report-Views.svg?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/extremenetworks/XMC-Report-Views.svg?style=social)
 # Extreme Management Center (NetSight) Reports, Views, Scripts, Workflows.
 
 Repository for Extreme Management Center (Netsight) community maintained :

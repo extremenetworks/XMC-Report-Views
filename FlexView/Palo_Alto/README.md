@@ -32,6 +32,11 @@ ifDescr, panIfActiveTcpCps, panIfActiveUdpCps, panIfActiveOtherIpCps
 
 ## MIBs
 * [What directory to put MIBs to?](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
+* [Enable use of myMIBs](https://emc.extremenetworks.com/content/oneview/docs/admin/options/docs/ov_admin_options_snmp.html)
+To enable the use of third party MIBs, go to OneView->Administration->Options->SNMP, the option 'use MyMIBS directory on the server' should be checked. Change of this value does need the service restart with:
+```bash
+service nsserver restart
+```
 * [Official Palo Alto mibs](https://www.paloaltonetworks.com/documentation/misc/snmp-mibs.html) file PAN-TRAPS.my is not compatible with XMC version 8.1, you need to replace undescore "_" with minus "-" and will be good. File PAN-COMMON-MIB.my is not compatible with XMC version 8.1, you need to replace ifIndex with panIfIndex and ifDescr with panIfDescr.
 
 >Be Extreme

@@ -123,6 +123,11 @@ Interface, Port Mode, Tagness, VLAN ID, VLAN Name
 
 ## MIBs
 * [What directory to put MIBs to?](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
+* [Enable use of myMIBs](https://emc.extremenetworks.com/content/oneview/docs/admin/options/docs/ov_admin_options_snmp.html)
+To enable the use of third party MIBs, go to OneView->Administration->Options->SNMP, the option 'use MyMIBS directory on the server' should be checked. Change of this value does need the service restart with:
+```bash
+service nsserver restart
+```
 * [Official Juniper mibs](https://www.juniper.net/documentation/en_US/release-independent/junos/mibs/mibs.html)
 
 >Be Extreme

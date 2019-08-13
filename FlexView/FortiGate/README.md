@@ -111,6 +111,11 @@ Name, Platform, Channel Dtls Policy, Country
 
 ## MIBs
 * [What directory to put MIBs to?](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
+* [Enable use of myMIBs](https://emc.extremenetworks.com/content/oneview/docs/admin/options/docs/ov_admin_options_snmp.html)
+To enable the use of third party MIBs, go to OneView->Administration->Options->SNMP, the option 'use MyMIBS directory on the server' should be checked. Change of this value does need the service restart with:
+```bash
+service nsserver restart
+```
 * You can download MIBs from the FortiGate System -> SNMP -> Download FortiGate MIB File & Download Fortinet Core MIB File.
 ##### FORTINET-CORE-MIB.mib 
 ##### FORTINET-FORTIGATE-MIB.mib = this file needs to be modified if you want flexviews to work properly. find following objects (OBJECT-TYPE) and change from no-accessible to read-only:

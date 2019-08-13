@@ -67,6 +67,11 @@ ciscoFlashPartitionSize, ciscoFlashPartitionFreeSpace, ciscoFlashPartitionName, 
 
 ## MIBs 
 * [What directory to put MIBs to?](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
+* [Enable use of myMIBs](https://emc.extremenetworks.com/content/oneview/docs/admin/options/docs/ov_admin_options_snmp.html)
+To enable the use of third party MIBs, go to OneView->Administration->Options->SNMP, the option 'use MyMIBS directory on the server' should be checked. Change of this value does need the service restart with:
+```bash
+service nsserver restart
+```
 * [Cisco SNMP Object Navigator](http://snmp.cloudapps.cisco.com/Support/SNMP/do/BrowseOID.do)
 
 ##### CISCO-STP-EXTENSIONS-MIB.my is needed for CiscoSTP flexview
