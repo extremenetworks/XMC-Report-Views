@@ -22,6 +22,7 @@ This repository is to be used for hosting custom FlexViews.
 * [DeltaPowerSolutions](Delta/README.md)
 * [APC power supplies](APC/README.md)
 * [InfoBlox](InfoBlox/README.md)
+* [EfficientIP] (EfficientIP/README.md)
 
 ## How to import FlexViews to Extreme Management Center (NetSight)
 Upload the .tpl file to the 'Install_path/Extreme_Networks/NetSight/appdata/System/FlexViews/My FlexViews'
