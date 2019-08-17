@@ -1,5 +1,6 @@
 # Extreme Management Center DeviceView for EIP
->Community maintained content
+
+>Powered by S. Harrer Bell Computer-Netzwerke GmbH
 
 The DeviceView does use reports in the MyReports directory. Those reports use FlexViews, FlexViews does use MIBs.
 
@@ -12,7 +13,7 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 Product Family needs to be configured as [SolidServer](sample/VendorProfile-EIP.png?raw=true)
 
 | Product  | DeviceView   | FlexView   | Buildin FlexView | Example   |
-| -------- | ------------ |:----------:|:----------------:| --------- |
+| -------- | ------------ |:---------- |:----------------:| --------- |
 | SolidServer DDI |[System Info](xml/DeviceViewEIPSystem.xml)|EIP_SysInfo| - |[png](sample/DeviceViewEIPSystem.png?raw=true)|
 | SolidServer DDI |[DHCP](xml/DeviceViewEIPDhcp.xml)|EIP_DHCP_Stats| - |[png](sample/DeviceViewEIPDhcp.png?raw=true)|
 
