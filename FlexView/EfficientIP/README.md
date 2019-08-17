@@ -1,6 +1,6 @@
 # Extreme Management (NetSight) FlexViews for EfficientIP DHCP DNS IPAM...
 
->Powerd by Stephan Harrer Bell Computer-Netzwerke GmbH
+>Powered by S. Harrer Bell Computer-Netzwerke GmbH
 
 
 ## FlexViews
