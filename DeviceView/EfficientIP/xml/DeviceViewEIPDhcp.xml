@@ -18,8 +18,8 @@
 		<autoScroll>true</autoScroll>
 		<items>
 			<flexviewgrid>
-						<hideToolbar>true</hideToolbar>
-						<viewId>EIP_DHCP_Stats</viewId>
+					<hideToolbar>true</hideToolbar>
+					<viewId>EIP_DHCP_Stats</viewId>
 			</flexviewgrid>
 		</items>
 	</panel>
