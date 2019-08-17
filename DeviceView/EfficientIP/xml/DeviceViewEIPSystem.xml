@@ -1,0 +1,26 @@
+<report>
+	<reportId>DeviceViewEIPSystem</reportId>
+	<title>Device View EIPSystem</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>System Info</viewTabTitle>
+		<viewOrder>1080</viewOrder>
+		<families>
+			<family>SolidServer</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<flexviewgrid>
+				<hideToolbar>true</hideToolbar>
+				<viewId>EIP_SysInfo</viewId>
+			</flexviewgrid>
+		</items>
+	</panel>
+</report>
