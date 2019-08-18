@@ -8,7 +8,7 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 2. Upload reports to the `appdata/OneView/MyReports directory`.
 3. Reports -> Reports -> Refresh.
 
-## XMC 8.1.2
+## XMC 8.3.0
 
 Product Family needs to be configured as [SolidServer](sample/VendorProfile-EIP.png?raw=true)
 
