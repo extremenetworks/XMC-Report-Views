@@ -1,4 +1,4 @@
-# Extreme Management (NetSight) FlexViews for EfficientIP DHCP DNS IPAM...
+# Extreme Management (NetSight) FlexViews for EfficientIP DHCP IPAM...
 
 >Powered by S. Harrer Bell Computer-Netzwerke GmbH
 
@@ -27,7 +27,7 @@ To enable the use of third party MIBs, go to OneView->Administration->Options->S
 ```bash
 service nsserver restart
 ```
-* MIBs can be downloaded from the manufacturer's support page.
+* MIBs can be downloaded from the manufacturer's [support page](https://efficientip.com).
 
 EIP-DNSGUARDIAN.MIB, EIP-MON.MIB, EIP-STATS.MIB, HOST-RESOURCES-MIB.MIB, IDRAC-MIB-SMIv2.MIB, IDRAC-SMIv1.MIB, IF-MIB.MIB, UCD-SNMP-MIB.MIB
 
