@@ -1,4 +1,4 @@
-# Extreme Management Center DeviceView for EIP
+# Extreme Management Center DeviceView for EfficientIP
 
 >Powered by S. Harrer Bell Computer-Netzwerke GmbH
 
