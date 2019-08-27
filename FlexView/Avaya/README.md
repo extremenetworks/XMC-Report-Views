@@ -14,6 +14,7 @@ Community Driven repository
 * [Power Supply](tpl/VOSS_PowerSupply.tpl?raw=true)
 * [Vlan table](tpl/VOSS_Vlan_Table.tpl?raw=true)
 * [Line Cards](tpl/VOSS_Line_Cards.tpl?raw=true)
+* [Is Config Saved?](tpl/VOSS_IsConfigSaved.tpl?raw=true)
 
 
 
@@ -51,9 +52,14 @@ rcVlanId, rcVlanStgId, rcVlanPlsbIsid, rcVlanType, rcVlanName, rcVlanColor, rcVl
 ##### Line Cards
 Card Index, Card Type, Card Description, Admin status, Oper Status, Serial Number, HW Version, Part Number, Date Code, Daviations, Slot Power
 
+##### Is Config Saved?
+Name, Location, Config needs to be saved
+
 ## Examples
 * [Power Supply](sample/VOSS_PowerSupply.png?raw=true)
 * [Line Cards](sample/VOSS_Line_Cards.png?raw=true)
+* [Is Config Saved?](sample/VOSS_IsConfiSaved.png?raw=true)
+
 
 ## MIBs
 All necessary MIBs are included in the Extreme Management Center (NetSight) version 8.0.4 and newer.
