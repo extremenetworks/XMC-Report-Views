@@ -14,11 +14,13 @@ This shows all alarms for "AP out of service" for the last 24 hours.  Useful if 
 * Requires Netsight Server 6.2 or later
 * Requires the default AP In/Out of service alarms to be enabled
 
-1) Copy the above provided XML files in `/usr/local/Extreme_Networks/NetSight/appdata/OneView/MyReports`.
+1) Download the above provided XML file. Verify if the file is XML format not HTML.
 
-2) Once the files are on the server, go to the reports tab.
+2) Place the XML file to `/usr/local/Extreme_Networks/NetSight/appdata/OneView/MyReports`.
 
-3) Use the "Refresh" button to reload the reports.
+3) Once the file is on the server, go to the reports menu.
+
+4) Use the "Refresh" button to reload the reports.
 
 ## Support
 Please visit us on [The Hub](https://community.extremenetworks.com/extreme) if you have any questions or encounter issues.

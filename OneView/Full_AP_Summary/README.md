@@ -10,11 +10,13 @@ This is based on a request in [this thread on The Hub](https://community.extreme
 ## Installation
 * Requires Netsight Server 6.3 or later
 
-1) Copy the above provided XML files in `/usr/local/Extreme_Networks/NetSight/appdata/OneView/MyReports`.
+1) Download the above provided XML file. Verify if the file is XML format not HTML.
 
-2) Once the files are on the server, go to the reports tab.
+2) Place the XML file to `/usr/local/Extreme_Networks/NetSight/appdata/OneView/MyReports`.
 
-3) Use the "Refresh" button to reload the reports.  You should see it in the "Wireless Custom" folder.
+3) Once the file is on the server, go to the reports menu.
+
+4) Use the "Refresh" button to reload the reports.
 
 ## Support
 Please visit us on [The Hub](https://community.extremenetworks.com/extreme) if you have any questions or encounter issues.

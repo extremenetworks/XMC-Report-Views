@@ -1,18 +1,19 @@
 # Interface History Report for OneView
 
 ### Interface History In Bandwidth and Out Bandwidth and Total Bandwidth in the same graph.
+* [InterfaceHistory](InterfaceHistory.xml?raw=true) (Right-click and "Save-as")
+![InterfaceHistory](InterfaceHistory.png?raw=true)
 
 ## Installation
 * Requires Extreme Management Center (Netsight) Server 8.1 or later
 
-1) Copy the [XML](InterfaceHistory.xml) file to `/usr/local/Extreme_Networks/NetSight/appdata/OneView/MyReports`.
+1) Download the above provided XML file. Verify if the file is XML format not HTML.
 
-2) Once the files are on the server, go to the reports menu.
+2) Place the XML file to `/usr/local/Extreme_Networks/NetSight/appdata/OneView/MyReports`.
 
-3) Use the "Refresh" button to reload the reports. (this will reload the cache)
+3) Once the file is on the server, go to the reports menu.
 
-## Example
-![InterfaceHistory](InterfaceHistory.png?raw=true)
+4) Use the "Refresh" button to reload the reports.
 
 ## Support
 Please visit us on [The Hub](https://community.extremenetworks.com/extreme) if you have any questions or encounter issues.
