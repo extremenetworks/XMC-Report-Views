@@ -15,7 +15,8 @@ Community Driven repository
 * [Vlan table](tpl/VOSS_Vlan_Table.tpl?raw=true)
 * [Line Cards](tpl/VOSS_Line_Cards.tpl?raw=true)
 * [Is Config Saved?](tpl/VOSS_IsConfigSaved.tpl?raw=true)
-
+* [PoE System](tpl/BOSS_VOSS_PoE_Main.tpl?raw=true)
+* [PoE Ports](tpl/VOSS_PoE_Ports.tpl?raw=true)
 
 
 ## Comments & Columns
@@ -55,10 +56,19 @@ Card Index, Card Type, Card Description, Admin status, Oper Status, Serial Numbe
 ##### Is Config Saved?
 Name, Location, Config needs to be saved
 
+##### PoE System
+Unit-Slot, Nominal power, Oper Status, Consumption Power in Watt, Threshold percent
+
+##### PoE Ports
+Port, Description, PoE Enabled, PoE Status, PoE Priority, PoE Class, Power, Limit, Current, Voltage, Invalid Signatures, Denied, Over Loads, Short Counter
+
+
 ## Examples
 * [Power Supply](sample/VOSS_PowerSupply.png?raw=true)
 * [Line Cards](sample/VOSS_Line_Cards.png?raw=true)
 * [Is Config Saved?](sample/VOSS_IsConfiSaved.png?raw=true)
+* [PoE System](sample/BOSS_VOSS_PoE_Main.png?raw=true)
+* [PoE Ports](sample/VOSS_PoE_Ports.png?raw=true)
 
 
 ## MIBs
