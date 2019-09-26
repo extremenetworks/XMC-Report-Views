@@ -17,6 +17,8 @@ Community Driven repository
 * [Is Config Saved?](tpl/VOSS_IsConfigSaved.tpl?raw=true)
 * [PoE System](tpl/BOSS_VOSS_PoE_Main.tpl?raw=true)
 * [PoE Ports](tpl/VOSS_PoE_Ports.tpl?raw=true)
+* [VRRP basic](tpl/VOSS_VRRP_basic.tpl?raw=true)
+* [VRRP advanced](tpl/VOSS_VRRP_advanced.tpl?raw=true)
 
 
 ## Comments & Columns
@@ -62,6 +64,12 @@ Unit-Slot, Nominal power, Oper Status, Consumption Power in Watt, Threshold perc
 ##### PoE Ports
 Port, Description, PoE Enabled, PoE Status, PoE Priority, PoE Class, Power, Limit, Current, Voltage, Invalid Signatures, Denied, Over Loads, Short Counter
 
+##### VRRP basic
+Interface, Status, VRRID, VLAN, Virtual Mac, State, Priority, Primary IP, Master IP, Preempt, Backup Master, Backup Master State, Operations Control
+
+##### VRRP advanced
+Interface, Status, VRRID, VLAN, Virtual Mac, State, Priority, Primary IP, Master IP, Preempt, Accept, Backup Master, Backup Master State, Critical IP, Critical IP Enabled, Operations Control, Link Local Addr, HoldDown Timer, HoldDown State, HoldDown Time Remaining, Faster Adv Interval, Faster Adv Interval Enabled, Master Adv Interval
+
 
 ## Examples
 * [Power Supply](sample/VOSS_PowerSupply.png?raw=true)
@@ -69,6 +77,8 @@ Port, Description, PoE Enabled, PoE Status, PoE Priority, PoE Class, Power, Limi
 * [Is Config Saved?](sample/VOSS_IsConfiSaved.png?raw=true)
 * [PoE System](sample/BOSS_VOSS_PoE_Main.png?raw=true)
 * [PoE Ports](sample/VOSS_PoE_Ports.png?raw=true)
+* [VRRP basic](sample/VOSS_VRRP_basic.png?raw=true)
+* [VRRP advanced](sample/VOSS_VRRP_advanced.png?raw=true)
 
 
 ## MIBs
