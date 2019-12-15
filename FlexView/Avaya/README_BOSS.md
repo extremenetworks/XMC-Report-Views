@@ -27,6 +27,7 @@ Isid, MAC, Mac Status, Mac Type, Mac CVlan Id, Mac Cport Name, CPort Alias, Mac 
 
 
 ## MIBs
-All necessary MIBs are included in the Extreme Management Center (NetSight) version 8.0.4 and newer.
+* All necessary MIBs are included in the Extreme Management Center (NetSight) version 8.0.4 and newer for PoE.
+* rcBridge.mib is necessary for "SPBM MAC address table"
 
 >Be Extreme
