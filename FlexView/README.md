@@ -25,9 +25,13 @@ This repository is to be used for hosting custom FlexViews.
 * [InfoBlox](InfoBlox/README.md)
 * [EfficientIP](EfficientIP/README.md)
 
-## How to import FlexViews to Extreme Management Center (NetSight)
+## How to import FlexViews to Extreme Management Center (NetSight) 8.1 and older
 Upload the .tpl file to the 'Install_path/Extreme_Networks/NetSight/appdata/System/FlexViews/My FlexViews'
 On majority of Linux installations it is '/usr/local/Extreme_Networks/NetSight/appdata/System/FlexViews/My FlexViews'
 
+## How to import FlexViews to Extreme Management Center 8.2 and newer
+Upload the .tpl file to the 'Install_path/Extreme_Networks/NetSight/appdata/VendorProfiles/Stage/MyVendorProfile/FlexViews/My FlexViews'
+On majority of Linux installations it is '/usr/local/Extreme_Networks/NetSight/appdata/VendorProfiles/Stage/MyVendorProfile/FlexViews/My FlexViews'
+Here is [Knowledge Base](http://gtacknowledge.extremenetworks.com/articles/How_To/000005437) article.
 
 >Be Extreme
