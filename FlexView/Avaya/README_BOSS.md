@@ -5,6 +5,7 @@ Community Driven repository
 ## FlexViews
 * [PoE System](tpl/BOSS_VOSS_PoE_Main.tpl?raw=true)
 * [PoE Ports](tpl/BOSS_PoE_Ports.tpl?raw=true)
+* [SPBM MAC address table](tpl/BOSS_SPBM_MAC_TABLE.tpl?raw=true)
 
 
 ## Comments & Columns
@@ -15,10 +16,14 @@ Unit-Slot, Nominal power, Oper Status, Consumption Power in Watt, Threshold perc
 ##### PoE Ports
 Port, PoE Enabled, PoE Status, PoE Priority, PoE Class, Power, Limit, Current, Voltage, Invalid Signatures, Denied, Over Loads, Short Counter
 
+##### SPBM MAC address table
+Isid, MAC, Mac Status, Mac Type, Mac CVlan Id, Mac Cport Name, CPort Alias, Mac BDest Addr, Mac BVlan Id
+
 
 ## Examples
 * [PoE System](sample/BOSS_VOSS_PoE_Main.png?raw=true)
 * [PoE Ports](sample/BOSS_PoE_Ports.png?raw=true)
+* [SPBM MAC address table](sample/BOSS_SPBM_MAC_TABLE.png?raw=true)
 
 
 ## MIBs
