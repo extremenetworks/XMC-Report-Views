@@ -14,6 +14,7 @@ Starting with Extreme Management Center version 8.0.4 you may import/modify the 
 * [InfoBlox](InfoBlox/README.md)
 * [Juniper switches](Juniper/README.md)
 * [SonicWall Firewalls](SonicWall/README.md)
+* [VMware ESXi](VMware/README.md)
 
 ## How to import DeviceView to Extreme Management (NetSight)
 The DeviceView does use reports in the MyReports directory. Those reports use FlexViews, FlexViews does use MIBs.

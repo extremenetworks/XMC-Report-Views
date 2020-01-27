@@ -24,6 +24,7 @@ This repository is to be used for hosting custom FlexViews.
 * [APC power supplies](APC/README.md)
 * [InfoBlox](InfoBlox/README.md)
 * [EfficientIP](EfficientIP/README.md)
+* [VMware ESXi](VMware/README.md)
 
 ## How to import FlexViews to Extreme Management Center (NetSight) 8.1 and older
 Upload the .tpl file to the 'Install_path/Extreme_Networks/NetSight/appdata/System/FlexViews/My FlexViews'
