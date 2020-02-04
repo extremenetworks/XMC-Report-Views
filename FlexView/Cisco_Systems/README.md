@@ -14,6 +14,7 @@ Community Driven repository
 * [Cisco CPU](tpl/CiscoCPU.tpl?raw=true)
 * [Cisco Flash](tpl/CiscoFlash.tpl?raw=true)
 * [Cisco Memory](tpl/CiscoMemory.tpl?raw=true)
+* [Cisco Nexus Serial Numbers](tpl/CiscoNexusSerial.tpl?raw=true)
 
 
 
@@ -51,6 +52,8 @@ ciscoMemoryPoolName, ciscoMemoryPoolUsed, ciscoMemoryPoolFree
 ##### Cisco Flash
 ciscoFlashPartitionSize, ciscoFlashPartitionFreeSpace, ciscoFlashPartitionName, ciscoFlashPartitionFileCount, ciscoFlashPartitionStatus
 
+##### Cisco Nexus Serial Numbers
+Shows Nexus Serial Numbers for Chassis and FEX
 
 ## Examples
 * [Port Authentication Config](sample/CiscoAuth.png)
@@ -64,6 +67,7 @@ ciscoFlashPartitionSize, ciscoFlashPartitionFreeSpace, ciscoFlashPartitionName, 
 * [Cisco CPU](sample/CiscoCPU.png)
 * [Cisco Memory](sample/CiscoMemory.png)
 * [Cisco Flash](sample/CiscoFlash.png)
+* [Cisco Nexus Serial Numbers](sample/CiscoNexusSerial.png)
 
 ## MIBs 
 * [What directory to put MIBs to?](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
