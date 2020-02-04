@@ -14,7 +14,7 @@ Community Driven repository
 * [Cisco CPU](tpl/CiscoCPU.tpl?raw=true)
 * [Cisco Flash](tpl/CiscoFlash.tpl?raw=true)
 * [Cisco Memory](tpl/CiscoMemory.tpl?raw=true)
-* [Cisco Nexus Serial Numbers](tpl/CiscoNexusSerial.tpl?raw=true)
+* [Cisco Nexus Serial Numbers](tpl/CiscoNexusSerials.tpl?raw=true)
 
 
 
