@@ -10,7 +10,7 @@ Starting with Extreme Management Center version 8.0.4 you may import/modify the 
 * [Extreme/Avaya VSP](VOSS/README.md)
 * [FortiGate](FortiGate/README.md)
 * [FortiWLC](FortiWLC/README.md)
-* [HPE switches](Aruba-HP/README.md)
+* [HPE devices](Aruba-HP/README.md)
 * [InfoBlox](InfoBlox/README.md)
 * [Juniper switches](Juniper/README.md)
 * [SonicWall Firewalls](SonicWall/README.md)

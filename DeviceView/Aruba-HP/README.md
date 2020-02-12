@@ -32,13 +32,13 @@ Product Family needs to be configured as [Aruba Wireless Controller](sample/Vend
 
 | Product | DeviceView   | GitHub FlexView   | XMC Build-in FlexView | Example   |
 | ------- | ------------ |:----------:|:----------------:| --------- |
-| Aruba Wireless Controller |[APs](xml/DeviceViewArubaAPs.xml)| - |wlsxWlanAPTable|[png](DeviceViewArubaAPs.png?raw=true)|
-| Aruba Wireless Controller |[AP Stats](xml/DeviceViewArubaAPStats.xml)| - |wlsxSwitchAccessPointStatsTable| - |
-| Aruba Wireless Controller |[Radio](xml/DeviceViewArubaRadios.xml)| - |wslsxWlanRadioEntry, wlsxWlanAPBssidEntry| - |
-| Aruba Wireless Controller |[System](xml/DeviceViewArubaSystem.xml)| - |wlsxSystem, wlsxSystemFan|[png](DeviceViewArubaSystem.png?raw=true)|
-| Aruba Wireless Controller |[License](xml/DeviceViewArubaSystemLicense.xml)| - |wlsxSystemLicenses|[png](DeviceViewArubaSystemLicense.png?raw=true)|
-| Aruba Wireless Controller |[Utilization](xml/DeviceViewArubaSystemUtil.xml)| - |wlsxSystemCPU, wlsxSystemStorage|[png](DeviceViewArubaSystemUtil.png?raw=true)|
-| Aruba Wireless Controller |[Users](xml/DeviceViewArubaUsers.xml)| - |wlsxUserEntry| - |
+| Aruba Wireless Controller |[APs](xml/DeviceViewArubaAPs.xml)|wlsxWlanAPTable| - |[png](sample/DeviceViewArubaAPs.png?raw=true)|
+| Aruba Wireless Controller |[AP Stats](xml/DeviceViewArubaAPStats.xml)|wlsxSwitchAccessPointStatsTable| - | - |
+| Aruba Wireless Controller |[Radio](xml/DeviceViewArubaRadios.xml)|wslsxWlanRadioEntry, wlsxWlanAPBssidEntry| - | - |
+| Aruba Wireless Controller |[System](xml/DeviceViewArubaSystem.xml)|wlsxSystem, wlsxSystemFan| - |[png](sample/DeviceViewArubaSystem.png?raw=true)|
+| Aruba Wireless Controller |[License](xml/DeviceViewArubaSystemLicense.xml)|wlsxSystemLicenses| - |[png](sample/DeviceViewArubaSystemLicense.png?raw=true)|
+| Aruba Wireless Controller |[Utilization](xml/DeviceViewArubaSystemUtil.xml)|wlsxSystemCPU, wlsxSystemStorage| - |[png](sample/DeviceViewArubaSystemUtil.png?raw=true)|
+| Aruba Wireless Controller |[Users](xml/DeviceViewArubaUsers.xml)|wlsxUserEntry| - | - |
 
 
 ## Troubleshooting = most common issues
