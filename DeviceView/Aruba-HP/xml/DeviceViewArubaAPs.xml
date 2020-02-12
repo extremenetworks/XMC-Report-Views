@@ -1,0 +1,26 @@
+<report>
+	<reportId>DeviceViewArubaWLCAPs</reportId>
+	<title>Device View Aruba WLC APs</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>APs</viewTabTitle>
+		<viewOrder>815</viewOrder>
+		<families>
+			<family>Aruba Wireless Controller</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<flexviewgrid>
+				<hideToolbar>true</hideToolbar>
+				<viewId>wlsxWlanAPTable</viewId>
+			</flexviewgrid>
+		</items>
+	</panel>
+</report>

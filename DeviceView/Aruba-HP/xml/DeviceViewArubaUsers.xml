@@ -1,0 +1,26 @@
+<report>
+	<reportId>DeviceViewArubaWiFiUsers</reportId>
+	<title>Device View Aruba WiFi Users</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>Users</viewTabTitle>
+		<viewOrder>805</viewOrder>
+		<families>
+			<family>Aruba Wireless Controller</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<flexviewgrid>
+				<hideToolbar>true</hideToolbar>
+				<viewId>wlsxUserEntry</viewId>
+			</flexviewgrid>
+		</items>
+	</panel>
+</report>

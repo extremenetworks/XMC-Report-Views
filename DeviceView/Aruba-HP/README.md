@@ -1,4 +1,4 @@
-# Extreme Management Center DeviceView for HP-Aruba switches
+# Extreme Management Center DeviceView for HP-HPE-Aruba devices
 >Community maintained content
 
 The DeviceView does use reports in the MyReports directory. Those reports use FlexViews, FlexViews does use MIBs.
@@ -7,7 +7,7 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 2. Upload reports to the appdata/OneView/MyReports directory.
 3. Reports -> Reports -> Refresh.
 
-## XMC 8.1.2
+## XMC 8.1.2 and newer
 
 Product Family needs to be configured as [Comware](sample/VendorProfile-Comware.png?raw=true)
 
@@ -26,6 +26,20 @@ Product Family needs to be configured as Procurve
 | ------- | ------------ |:----------:|:----------------:| --------- |
 | Procurve |[VLANs](xml/DeviceViewProcurveVlans.xml)| - |802_1Q VLAN Current Table|[png](sample/DeviceViewProcurveVlans.png?raw=true)|
 | Procurve |[PVID](xml/DeviceViewProcurvePVID.xml)| - |Port Status VLAN|[png](sample/DeviceViewProcurvePVID.png?raw=true)|
+
+
+Product Family needs to be configured as [Aruba Wireless Controller](sample/VendorProfile-WLC.png?raw=true)
+
+| Product | DeviceView   | GitHub FlexView   | XMC Build-in FlexView | Example   |
+| ------- | ------------ |:----------:|:----------------:| --------- |
+| Aruba Wireless Controller |[APs](xml/DeviceViewArubaAPs.xml)| - |wlsxWlanAPTable|[png](DeviceViewArubaAPs.png?raw=true)|
+| Aruba Wireless Controller |[AP Stats](xml/DeviceViewArubaAPStats.xml)| - |wlsxSwitchAccessPointStatsTable| - |
+| Aruba Wireless Controller |[Radio](xml/DeviceViewArubaRadios.xml)| - |wslsxWlanRadioEntry, wlsxWlanAPBssidEntry| - |
+| Aruba Wireless Controller |[System](xml/DeviceViewArubaSystem.xml)| - |wlsxSystem, wlsxSystemFan|[png](DeviceViewArubaSystem.png?raw=true)|
+| Aruba Wireless Controller |[License](xml/DeviceViewArubaSystemLicense.xml)| - |wlsxSystemLicenses|[png](DeviceViewArubaSystemLicense.png?raw=true)|
+| Aruba Wireless Controller |[Utilization](xml/DeviceViewArubaSystemUtil.xml)| - |wlsxSystemCPU, wlsxSystemStorage|[png](DeviceViewArubaSystemUtil.png?raw=true)|
+| Aruba Wireless Controller |[Users](xml/DeviceViewArubaUsers.xml)| - |wlsxUserEntry| - |
+
 
 ## Troubleshooting = most common issues
 * MIBs are missing

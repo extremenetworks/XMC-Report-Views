@@ -23,6 +23,17 @@ Community Driven repository
 * [ArubaSwitch SNTP](tpl/ArubaSwitch_SNTP.tpl?raw=true)
 * [ArubaSwitch SNTP Servers](tpl/ArubaSwitch_SNTP_Servers.tpl?raw=true)
 * [ArubaSwitch Trunking](tpl/ArubaSwitch_Trunking.tpl?raw=true)
+* [wlsxSwitchAccessPointStatsTable](tpl/wlsxSwitchAccessPointStatsTable.tpl?raw=true)
+* [wlsxSystem](tpl/wlsxSystem.tpl?raw=true)
+* [wlsxSystemCPU](tpl/wlsxSystemCPU.tpl?raw=true)
+* [wlsxSystemFan](tpl/wlsxSystemFan.tpl?raw=true)
+* [wlsxSystemLicenses](tpl/wlsxSystemLicenses.tpl?raw=true)
+* [wlsxSystemStorage](tpl/wlsxSystemStorage.tpl?raw=true)
+* [wlsxUserEntry](tpl/wlsxUserEntry.tpl?raw=true)
+* [wlsxWlanAPBssidEntry](tpl/wlsxWlanAPBssidEntry.tpl?raw=true)
+* [wlsxWlanAPTable](tpl/wlsxWlanAPTable.tpl?raw=true)
+* [wslsxWlanRadioEntry](tpl/wslsxWlanRadioEntry.tpl?raw=true)
+
 
 ## Comments & Columns
 ##### HP Process Utization
@@ -104,6 +115,56 @@ Tested with Aruba 2930F, MIBs are necesary for Extreme Management Center 8.2
 
 Port, Alias,PortType, Bcast Limit, Negotiation, FlowControl, Trunk Group, Trunk Type, LACP Status, LACP Key
 
+##### wlsxSwitchAccessPointStatsTable
+Tested with A7205, A3020, A7210 MIBs are necesary for Extreme Management Center 8.4
+
+BSSID, Channel, Channel Bw Rate, Channel Retry Rate, Channel Low Speed Rate, Channel NonUnicast Rate, Channel Frag Rate, Channel Rx Error Rate, BSS Tx Packets, BSS Tx Bytes, BSS Rx Packets, BSS Rx Bytes, BSS Bw Rate, BSS Retry Rate, BSS Low Speed Rate, BSS NonUnicast Rate, BSS Frag Rate, BSS Rx Error Rate
+
+##### wlsxSystem
+Tested with A7205, A3020, A7210 MIBs are necesary for Extreme Management Center 8.4
+
+Hostname, Model, Role, Master IP, Date, Base MAC, Temperature, Serial Number, License Count
+
+##### wlsxSystemCPU
+Tested with A7205, A3020, A7210 MIBs are necesary for Extreme Management Center 8.4
+
+CPU, CPU Description, CPU Load
+
+##### wlsxSystemFan
+Tested with A7205, A3020, A7210 MIBs are necesary for Extreme Management Center 8.4
+
+Instance, Fan Status
+
+##### wlsxSystemLicenses
+Tested with A7205, A3020, A7210 MIBs are necesary for Extreme Management Center 8.4
+
+Instance, Installed, Expires, Flags, Service, License Key
+
+##### wlsxSystemStorage
+Tested with A7205, A3020, A7210 MIBs are necesary for Extreme Management Center 8.4
+
+Instance, Name, Type, Size, Used
+
+##### wlsxUserEntry
+Tested with A7205, A3020, A7210 MIBs are necesary for Extreme Management Center 8.4
+
+MAC address, IP address, User Name, Role, Up Time, Auth Method, AP Location, BSSID, Current Vlan, Wired, Phy Type, HT Mode, Encryption, Device, Device Type, Rx Pkts, Tx Pkts, Rx Octets, Tx Octets
+
+##### wlsxWlanAPBssidEntry
+Tested with A7205, A3020, A7210 MIBs are necesary for Extreme Management Center 8.4
+
+AP Name, ESSID, BSSID, Phy Type, Rogue Type, Bssid Mode, Channel, Up Time, Inactive Time, Load Balancing, Stations, AP MAC, PhyNumber, HT Mode, HT Ext Channel, HT Channel, SNR
+
+##### wlsxWlanAPTable
+Tested with A7205, A3020, A7210 MIBs are necesary for Extreme Management Center 8.4
+
+AP Name, Group Name, Model, Serial Number, Radios, Up Time, Status, Unprovisioned, PM Monitor Mode, Mesh, HW Version, Switch IP
+
+##### wslsxWlanRadioEntry
+Tested with A7205, A3020, A7210 MIBs are necesary for Extreme Management Center 8.4
+
+Radio Type, AP Name, Channel, Tx Power, Mode, Utilization, Clients, Monitored Clients, BSSIDs, Monitored BSSIDs, Bearing, Tilt Angle, HT Mode, HT Ext Channel, HT Channel
+
 
 ## Examples
 * [ArubaSwitch Dot1x](sample/ArubaSwitch_Dot1X.PNG?raw=true)
@@ -117,7 +178,16 @@ Port, Alias,PortType, Bcast Limit, Negotiation, FlowControl, Trunk Group, Trunk 
 * [ArubaSwitch SNTP](sample/ArubaSwitch_SNTP.PNG?raw=true)
 * [ArubaSwitch SNTP Servers](sample/ArubaSwitch_SNTP_Servers.PNG?raw=true)
 * [ArubaSwitch Trunking](sample/ArubaSwitch_Trunking.PNG?raw=true)
-
+* [wlsxSwitchAccessPointStatsTable](sample/wlsxSwitchAccessPointStatsTable.PNG?raw=true)
+* [wlsxSystem](sample/wlsxSystem.PNG?raw=true)
+* [wlsxSystemCPU](sample/wlsxSystemCPU.PNG?raw=true)
+* [wlsxSystemFan](sample/wlsxSystemFan.PNG?raw=true)
+* [wlsxSystemLicenses](sample/wlsxSystemLicenses.PNG?raw=true)
+* [wlsxSystemStorage](sample/wlsxSystemStorage.PNG?raw=true)
+* [wlsxUserEntry](sample/wlsxUserEntry.PNG?raw=true)
+* [wlsxWlanAPBssidEntry](sample/wlsxWlanAPBssidEntry.PNG?raw=true)
+* [wlsxWlanAPTable](sample/wlsxWlanAPTable.PNG?raw=true)
+* [wslsxWlanRadioEntry](sample/wslsxWlanRadioEntry.PNG?raw=true)
 
 ## MIBs
 * [What directory to put MIBs to?](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
@@ -130,5 +200,8 @@ service nsserver restart
 hh3c-disk.mib, hh3c-entity-ext.mib, hh3c-oid.mib, hh3c-product-id.mib, hh3c-raid.mib, hh3c-stack.mib, hh3c-storage-ref.mib
 ### ArubaSwitch:
 Mibs are downloadable at the same location as firmware.
+### Aruba Wireless Controller
+Mibs are downloadable at the same location as firmware.
+
 
 >Be Extreme

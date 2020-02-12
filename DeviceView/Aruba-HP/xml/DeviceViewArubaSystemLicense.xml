@@ -1,0 +1,26 @@
+<report>
+	<reportId>DeviceViewArubaSystemLic</reportId>
+	<title>Device View Aruba License</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>License</viewTabTitle>
+		<viewOrder>755</viewOrder>
+		<families>
+			<family>Aruba Wireless Controller</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<flexviewgrid>
+				<hideToolbar>true</hideToolbar>
+				<viewId>wlsxSystemLicenses</viewId>
+			</flexviewgrid>
+		</items>
+	</panel>
+</report>

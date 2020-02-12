@@ -4,12 +4,12 @@ Community Driven repository
 
 
 ## FlexViews
-* [VM table](tpl/VMware_vmTable.tpl?raw=true)
+* [VM Table](tpl/VMware_vmTable.tpl?raw=true)
 * [VM Networks](tpl/VMware_vmNet.tpl?raw=true)
 
 ## Comments & Columns
 
-##### VM table
+##### VM Table
 Tested with VMware: v6.5, MIB manipulation is necesary for Extreme Management Center 8.4
 
 Display Name, Guest OS, Mem Size in MB, Config File, State, Guest State
@@ -21,7 +21,7 @@ VM Display Name, Network Number, Network Name
 
 
 ## Examples
-* [VM table](sample/VMware_vmTable.PNG?raw=true)
+* [VM Table](sample/VMware_vmTable.PNG?raw=true)
 * [VM Networks](sample/VMware_vmNet.PNG?raw=true)
 
 
