@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <flextablelist version="8.3.2.11">
-    <flextable filterKey="value" autoExportFileManagement="Replace" autoExportCsvFieldDelimiter="Comma" autoExportFrequencyUnit="Minutes" class="com.enterasys.netsight.console.client.flexview.FvTable" columnSelectionAllowed="false" autoExportFilename="" autoExportAllowed="false" autoExportFormat="HTML" filterShown="true" id="NexusSerials20200218.tpl" filterOptions="{0, 3}" highlightBackground="153,255,255,255" autoCreateColumnsFromModel="false" showHorizontalLines="true" autoExportCsvTextDelineation="DQUOTE">NexusSerials.tpl
+    <flextable filterKey="value" autoExportFileManagement="Replace" autoExportCsvFieldDelimiter="Comma" autoExportFrequencyUnit="Minutes" class="com.enterasys.netsight.console.client.flexview.FvTable" columnSelectionAllowed="false" autoExportFilename="" autoExportAllowed="false" autoExportFormat="HTML" filterShown="true" id="NexusSerials.tpl" filterOptions="{0, 3}" highlightBackground="153,255,255,255" autoCreateColumnsFromModel="false" showHorizontalLines="true" autoExportCsvTextDelineation="DQUOTE">NexusSerials.tpl
         <tableModel>com.ets.nac.tables.TbModel</tableModel>
         <column comparator="com.ets.flextable.col.IntStringComparator" id="0" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" fixed="true" hidden="true">ReqID
             <notes></notes>
