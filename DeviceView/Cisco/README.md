@@ -26,6 +26,7 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 | Catalyst |[VTP](xml/DeviceViewCatalystVtp.xml)|CiscoVTP| - |[png](sample/VTP.png)|
 | Catalyst |[Resources](xml/DeviceViewCatalystResources.xml)|CiscoCPU, CiscoMemory, CiscoFlash| - |[png](sample/Resources.png)|
 | Catalyst |[Port Vlans](xml/DeviceViewCatalystPortVlans.xml)| - |Cisco VLAN Port Summary|[png](sample/PortVlans.png)|
+| Nexus |[Serial Numbers](xml/NexusSerials.xml)|Cisco Nexus Serial Numbers| - |[png](sample/NexusSerials.png)|
 
 ## Troubleshooting = most common issues
 * MIBs are missing
