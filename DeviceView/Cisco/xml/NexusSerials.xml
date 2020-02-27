@@ -1,0 +1,26 @@
+<report>
+	<reportId>DeviceViewNexusSerials</reportId>
+	<title>Device View Nexus Serials</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>Serial Numbers</viewTabTitle>
+		<viewOrder>1080</viewOrder>
+		<families>
+			<family>Nexus</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<flexviewgrid>
+				<hideToolbar>true</hideToolbar>
+				<viewId>NexusSerials</viewId>
+			</flexviewgrid>
+		</items>
+	</panel>
+</report>
