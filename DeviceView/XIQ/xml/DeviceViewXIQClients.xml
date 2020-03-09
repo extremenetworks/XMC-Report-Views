@@ -1,0 +1,29 @@
+<report>
+    <reportId>DeviceViewXIQClients</reportId> <!-- must be unique -->
+    <title>Device View XIQ Clients</title>
+    <category>Device</category>
+    <showInTree>false</showInTree>
+    <iconCls>table-icon</iconCls>
+    <deviceViewTab>
+        <viewTabTitle>Clients</viewTabTitle>
+        <viewOrder>620</viewOrder>
+        <families>
+            <family>CloudAP</family>
+        </families>
+    </deviceViewTab>
+    <panel>
+        <name>Device View: XIQ System</name>
+        <layout>vbox</layout>
+        <items>
+            <panel>
+                <layout>fit</layout>
+                <items>
+                    <flexviewgrid>
+                        <hideToolbar>true</hideToolbar>
+                        <viewId>XIQclients</viewId>
+                    </flexviewgrid>
+                </items>
+            </panel>
+        </items>
+    </panel>
+</report>
