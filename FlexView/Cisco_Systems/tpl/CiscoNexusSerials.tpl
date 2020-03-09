@@ -5,23 +5,26 @@
         <column comparator="com.ets.flextable.col.IntStringComparator" id="0" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" fixed="true" hidden="true">ReqID
             <notes></notes>
             <dataField>OID::ReqID:::SNMP::ReqID</dataField></column>
-        <column comparator="com.ets.nac.tables.TbCompOid" id="1" width="129" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" fixed="true" filtered="true" hidden="true" modelIndex="1">IP Address
+        <column comparator="com.ets.nac.tables.TbCompOid" id="1" width="129" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" fixed="true" hidden="true" filtered="true" modelIndex="1">IP Address
             <notes></notes>
             <dataField>OID::IP Address:::SNMP::IP Address</dataField></column>
-        <column comparator="com.ets.nac.tables.TbCompOid" id="2" width="97" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" fixed="true" filtered="true" hidden="true" modelIndex="2">Instance
+        <column comparator="com.ets.nac.tables.TbCompOid" id="2" width="97" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" fixed="true" hidden="true" filtered="true" modelIndex="2">Instance
             <notes></notes>
             <dataField>OID::Instance:::SNMP::Instance</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="102" width="247" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" filtered="true" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="3">Device
             <notes></notes>
             <dataField>SNMP::EXPR;true;15;3;false;false;1;2;0;0;0;0;0</dataField></column>
-        <column comparator="com.ets.flextable.col.VarStringComparator" id="100" width="232" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" filtered="true" modelIndex="4">Serial Numbers
+        <column comparator="com.ets.flextable.col.VarStringComparator" id="103" width="416" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="4">Hw Type
             <notes></notes>
-            <dataField>OID::entPhysicalSerialNum:::SNMP::SNMPW;false;4;4;true;false;4;2;0;0;0;0;0:::IDS_FV_COL_INSTRUCTION::15</dataField></column>
-        <column comparator="com.ets.nac.tables.TbCompExpression" id="101" width="1316" sortOrder="ascending" class="com.enterasys.netsight.console.client.flexview.FvColumn" filtered="true" hidden="true" sorted="true" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="5">Check
+            <dataField>OID::entPhysicalModelName:::SNMP::SNMP;false;4;4;false;false;4;2;0;1;1;0;0</dataField></column>
+        <column comparator="com.ets.flextable.col.VarStringComparator" id="100" width="232" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" filtered="true" modelIndex="5">Serial Number
             <notes></notes>
-            <dataField>SNMP::EXPR;true;15;5;false;false;1;2;0;0;0;0;0</dataField></column>
+            <dataField>OID::entPhysicalSerialNum:::SNMP::SNMPW;false;4;5;true;false;4;2;0;0;0;0;0:::IDS_FV_COL_INSTRUCTION::15</dataField></column>
+        <column comparator="com.ets.nac.tables.TbCompExpression" id="101" width="140" sortOrder="ascending" class="com.enterasys.netsight.console.client.flexview.FvColumn" filtered="true" hidden="true" sorted="true" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="6">Check
+            <notes></notes>
+            <dataField>SNMP::EXPR;true;15;6;false;false;1;2;0;0;0;0;0</dataField></column>
         <notes></notes>
-        <dataField>TBLHASH::::TBLHDR::0;0;true;30;None;V.0.3.3.0;0;0;103::::GEMHASH::::00000:Check::routine 101 marker = Contains( { "Instance":2:$} , 9981);
+        <dataField>TBLHASH::::TBLHDR::0;0;true;30;None;V.0.3.3.0;0;0;104::::GEMHASH::::00000:Check::routine 101 marker = Contains( { "Instance":2:$} , 9981);
 if marker !=  -1 ||  { "Instance":2:$} == "22"
 then "value"
 else "empty":::00001:Device::routine 102 fexnum = Substring({"Instance":2:$},3);
