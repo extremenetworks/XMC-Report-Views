@@ -3,11 +3,11 @@ Community Driven Repository
 
 This repository is to be used for hosting custom FlexViews.
 
-* [Extreme EXOS](EXOS/README.md)
-* [Extreme ISW](ISW/README.md)
-* [Extreme Wireless](Extreme_Wireless/README.md)
 * [Enterasys EOS](EOS/README.md)
 * [Enterasys AP3000 Wireless](AP3000/README.md)
+* [Extreme EXOS](EXOS/README.md)
+* [Extreme ISW](ISW/README.md)
+* [Extreme XIQ/Aerohive](Extreme_Wireless/README.md)
 * [Extreme/Avaya VOSS](Avaya/README.md)
 * [Extreme/Avaya BOSS](Avaya/README_BOSS.md)
 * [Extreme/Brocade/Foundry](Foundry/README.md)

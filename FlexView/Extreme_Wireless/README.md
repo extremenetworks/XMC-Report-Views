@@ -7,6 +7,7 @@ Community Driven repository
 * [System](tpl/XIQbasicsystem.tpl?raw=true)
 * [Clients](tpl/XIQclients.tpl?raw=true)
 * [Environment](tpl/XIQenvsystem.tpl?raw=true)
+* [XIQdot11MIBah](tpl/XIQdot11MIBah.tpl?raw=true)
 
 ## Comments & Columns
 
@@ -25,10 +26,17 @@ Tested with HiveOS 10.0.r7a
 
 IP Address, AP Name, DeviceMode, AP Serial, AP CpuUtilization, AP MemUtilization, UpTime, EnvironmentTemp, EnvironmentFan
 
+##### XIQdot11MIBah
+Tested with HiveOS 10.0.r7a
+
+IP Address, AP_Name, Location, SSID, RadioID, Beacon, BSSType, PrivacyOption, MediumOccupancyLimit, DTIMPeriod
+
 ## Examples
 * [System](sample/XIQbasicsystem.PNG?raw=true)
 * [Clients](sample/XIQclients.PNG?raw=true)
 * [Environment](sample/XIQenvsystem.PNG?raw=true)
+* [XIQdot11MIBah](sample/XIQdot11MIBah.PNG?raw=true)
+
 
 ## MIBs
 * [What directory to put MIBs to?](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)

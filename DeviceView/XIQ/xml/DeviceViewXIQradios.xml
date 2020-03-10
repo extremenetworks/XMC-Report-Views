@@ -1,0 +1,27 @@
+<report>
+	<reportId>DeviceViewXIQradios</reportId>
+	<title>Device View XIQ AP Radios</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>Radios</viewTabTitle>
+		<viewOrder>1010</viewOrder>
+		<families>
+			<family>CloudAP</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<flexviewgrid>
+				<hideToolbar>true</hideToolbar>
+				<viewId>XIQdot11MIBah</viewId>
+			</flexviewgrid>
+		</items>
+	</panel>
+</report>
+            
