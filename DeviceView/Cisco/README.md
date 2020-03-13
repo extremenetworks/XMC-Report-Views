@@ -11,22 +11,22 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 | Product  | DeviceView   | FlexView   | Buildin FlexView | Example   |
 | -------- | ------------ |:----------:|:----------------:| --------- |
-| Catalyst |[VLANS](xml/DeviceViewCiscoVlans.xml)|CiscoVLANs| - |[png](sample/VLANs.png)|
-| Catalyst |[STP](xml/DeviceViewCiscoStp.xml)|CiscoSTP|Port Spanning Tree Information|[png](sample/STP.png)|
-| Catalyst |[VTP](xml/DeviceViewCiscoVtp.xml)|CiscoVTP| - |[png](sample/VTP.png)|
-| Catalyst |[Resources](xml/DeviceViewCiscoResources.xml)|CiscoCPU, CiscoMemory, CiscoFlash| - |[png](sample/Resources.png)|
-| Catalyst |[Port Vlans](xml/DeviceViewCiscoPortVlans.xml)| - |Cisco VLAN Port Summary|[png](sample/PortVlans.png)|
+| Catalyst |[VLANS](xml/DeviceViewCiscoVlans.xml?raw=true)|CiscoVLANs| - |[png](sample/VLANs.png?raw=true)|
+| Catalyst |[STP](xml/DeviceViewCiscoStp.xml?raw=true)|CiscoSTP|Port Spanning Tree Information|[png](sample/STP.png?raw=true)|
+| Catalyst |[VTP](xml/DeviceViewCiscoVtp.xml?raw=true)|CiscoVTP| - |[png](sample/VTP.png?raw=true)|
+| Catalyst |[Resources](xml/DeviceViewCiscoResources.xml?raw=true)|CiscoCPU, CiscoMemory, CiscoFlash| - |[png](sample/Resources.png?raw=true)|
+| Catalyst |[Port Vlans](xml/DeviceViewCiscoPortVlans.xml?raw=true)| - |Cisco VLAN Port Summary|[png](sample/PortVlans.png?raw=true)|
 
 ## XMC 8.2.1
 
 | Product  | DeviceView   | FlexView   | Buildin FlexView | Example   |
 | -------- | ------------ |:----------:|:----------------:| --------- |
-| Catalyst |[VLANS](xml/DeviceViewCatalystVlans.xml)|CiscoVLANs| - |[png](sample/VLANs.png)|
-| Catalyst |[STP](xml/DeviceViewCatalystStp.xml)|CiscoSTP|Port Spanning Tree Information|[png](sample/STP.png)|
-| Catalyst |[VTP](xml/DeviceViewCatalystVtp.xml)|CiscoVTP| - |[png](sample/VTP.png)|
-| Catalyst |[Resources](xml/DeviceViewCatalystResources.xml)|CiscoCPU, CiscoMemory, CiscoFlash| - |[png](sample/Resources.png)|
-| Catalyst |[Port Vlans](xml/DeviceViewCatalystPortVlans.xml)| - |Cisco VLAN Port Summary|[png](sample/PortVlans.png)|
-| Nexus |[Serial Numbers](xml/NexusSerials.xml)|Cisco Nexus Serial Numbers| - |[png](sample/NexusSerials.png)|
+| Catalyst |[VLANS](xml/DeviceViewCatalystVlans.xml?raw=true)|CiscoVLANs| - |[png](sample/VLANs.png?raw=true)|
+| Catalyst |[STP](xml/DeviceViewCatalystStp.xml?raw=true)|CiscoSTP|Port Spanning Tree Information|[png](sample/STP.png?raw=true)|
+| Catalyst |[VTP](xml/DeviceViewCatalystVtp.xml?raw=true)|CiscoVTP| - |[png](sample/VTP.png?raw=true)|
+| Catalyst |[Resources](xml/DeviceViewCatalystResources.xml?raw=true)|CiscoCPU, CiscoMemory, CiscoFlash| - |[png](sample/Resources.png?raw=true)|
+| Catalyst |[Port Vlans](xml/DeviceViewCatalystPortVlans.xml?raw=true)| - |Cisco VLAN Port Summary|[png](sample/PortVlans.png?raw=true)|
+| Nexus |[Serial Numbers](xml/NexusSerials.xml?raw=true)|Cisco Nexus Serial Numbers| - |[png](sample/NexusSerials.png?raw=true)|
 
 ## Troubleshooting = most common issues
 * MIBs are missing

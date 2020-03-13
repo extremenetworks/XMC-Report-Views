@@ -14,8 +14,8 @@ Product Family needs to be configured as [SolidServer](sample/VendorProfile-EIP.
 
 | Product  | DeviceView   | FlexView   | Buildin FlexView | Example   |
 | -------- | ------------ |:---------- |:----------------:| --------- |
-| SolidServer DDI |[System Info](xml/DeviceViewEIPSystem.xml)|EIP_SysInfo| - |[png](sample/DeviceViewEIPSystem.png?raw=true)|
-| SolidServer DDI |[DHCP](xml/DeviceViewEIPDhcp.xml)|EIP_DHCP_Stats| - |[png](sample/DeviceViewEIPDhcp.png?raw=true)|
+| SolidServer DDI |[System Info](xml/DeviceViewEIPSystem.xml?raw=true)|EIP_SysInfo| - |[png](sample/DeviceViewEIPSystem.png?raw=true)|
+| SolidServer DDI |[DHCP](xml/DeviceViewEIPDhcp.xml?raw=true)|EIP_DHCP_Stats| - |[png](sample/DeviceViewEIPDhcp.png?raw=true)|
 
 ## Troubleshooting = most common issues
 * MIBs are missing

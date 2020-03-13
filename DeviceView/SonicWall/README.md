@@ -13,9 +13,9 @@ Product Family needs to be configured as [Network Security](sample/VendorProfile
 
 | Product  | DeviceView   | FlexView   | Buildin FlexView | Example   |
 | -------- | ------------ |:----------:|:----------------:| --------- |
-| TZ |[System Info](xml/DeviceViewSonicWallInfo.xml)|SonicWall_Info| - |[png](sample/DeviceViewSonicWallInfo.png?raw=true)|
-| TZ |[Utilization](xml/DeviceViewSonicWallUtil.xml)|SonicWall_Utilization| - |[png](sample/DeviceViewSonicWallUtil.png?raw=true)|
-| TZ |[Zones](xml/DeviceViewSonicWallZones.xml)|SonicWall_Zones| - |[png](sample/DeviceViewSonicWallZones.png?raw=true)|
+| TZ |[System Info](xml/DeviceViewSonicWallInfo.xml?raw=true)|SonicWall_Info| - |[png](sample/DeviceViewSonicWallInfo.png?raw=true)|
+| TZ |[Utilization](xml/DeviceViewSonicWallUtil.xml?raw=true)|SonicWall_Utilization| - |[png](sample/DeviceViewSonicWallUtil.png?raw=true)|
+| TZ |[Zones](xml/DeviceViewSonicWallZones.xml?raw=true)|SonicWall_Zones| - |[png](sample/DeviceViewSonicWallZones.png?raw=true)|
 
 ## Troubleshooting = most common issues
 * MIBs are missing

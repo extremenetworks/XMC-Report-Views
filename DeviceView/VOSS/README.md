@@ -11,7 +11,7 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 | Product | DeviceView   | GitHub FlexView   | XMC Build-in FlexView | Example   |
 | ------- | ------------ |:----------:|:----------------:| --------- |
-| Extreme VSP |[MIB-II IP-Addr](xml/DeviceViewVossMIB2IP.xml)| - | MIB-2 IP Address Table |[png](sample/DeviceViewVossMIB2IP.PNG?raw=true)|
+| Extreme VSP |[MIB-II IP-Addr](xml/DeviceViewVossMIB2IP.xml?raw=true)| - | MIB-2 IP Address Table |[png](sample/DeviceViewVossMIB2IP.PNG?raw=true)|
 
 
 >Be Extreme

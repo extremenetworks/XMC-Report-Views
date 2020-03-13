@@ -9,6 +9,7 @@
         <viewOrder>620</viewOrder>
         <families>
             <family>CloudAP</family>
+			<family>Aerohive</family>
         </families>
     </deviceViewTab>
     <panel>
