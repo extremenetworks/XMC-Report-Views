@@ -1,0 +1,42 @@
+<report>
+	<reportId>DeviceViewPortStatusTime</reportId>
+	<title>Device View Port Status Time</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>Current Port Status</viewTabTitle>
+		<viewOrder>1</viewOrder>
+		<families>
+			<family>VSP Series</family>
+			<family>Summit Series</family>
+			<family>ERS Series</family>
+			<family>Catalyst</family>
+			<family>SLX Series</family>
+			<family>VDX Series</family>
+			<family>A-Series</family>			
+			<family>B-Series</family>
+			<family>C-Series</family>
+			<family>D-Series</family>
+			<family>G-Series</family>
+			<family>N-Series</family>
+			<family>K-Series</family>
+			<family>S-Series</family>
+			<family>0800-Series</family>
+			<family>7100-Series</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>false</autoScroll>
+		<items>
+			<flexviewgrid>
+				<hideToolbar>true</hideToolbar>
+				<viewId>Port_Status_Time_with_alias</viewId>
+			</flexviewgrid>
+		</items>
+	</panel>
+</report>
+            

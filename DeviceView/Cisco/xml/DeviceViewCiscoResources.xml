@@ -9,6 +9,11 @@
 		<viewOrder>1008</viewOrder>
 		<families>
 			<family>Cisco</family>
+			<family>Catalyst</family>
+			<family>Cisco7200</family>
+			<family>CiscoASR</family>
+			<family>CiscoRouter</family>
+			<family>CiscoNX</family>
 		</families>
 	</deviceViewTab>
 	<panel>

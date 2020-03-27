@@ -15,8 +15,11 @@ Community Driven repository
 * [Cisco Flash](tpl/CiscoFlash.tpl?raw=true)
 * [Cisco Memory](tpl/CiscoMemory.tpl?raw=true)
 * [Cisco Nexus Serial Numbers](tpl/CiscoNexusSerials.tpl?raw=true)
-
-
+* [Cisco Temperature](tpl/Cisco_Temperature.tpl?raw=true)
+* [Cisco PowerSupply](tpl/Cisco_PowerSupply.tpl?raw=true)
+* [Cisco Fan](tpl/Cisco_Fan.tpl?raw=true)
+* [Cisco QoS V1 Statistics](tpl/CiscoQoSV1Statistics.tpl?raw=true)
+* [Cisco QoS V2cV3 Statistics](tpl/CiscoQoSV2cV3Statistics.tpl?raw=true)
 
 ## Comments & Columns
 ##### Port Authentication Config
@@ -55,6 +58,20 @@ ciscoFlashPartitionSize, ciscoFlashPartitionFreeSpace, ciscoFlashPartitionName, 
 ##### Cisco Nexus Serial Numbers
 Shows Nexus Serial Numbers for Chassis and FEX
 
+##### Cisco Temperature
+Temp Sensor Description, Temperature in Degrees, Temperature Threshold, Temp Last Shutdown, Temperature Status
+
+##### Cisco PowerSupply
+Power Supply Description, Power Supply Status, Power Source
+
+##### Cisco Fan
+Fan Description, Fan Status
+
+##### Cisco QoS V1 Statistics
+
+##### Cisco QoS V2cV3 Statistics
+
+
 ## Examples
 * [Port Authentication Config](sample/CiscoAuth.png)
 * [Is the running configuration saved?](sample/CiscoConfig.png)
@@ -68,6 +85,10 @@ Shows Nexus Serial Numbers for Chassis and FEX
 * [Cisco Memory](sample/CiscoMemory.png)
 * [Cisco Flash](sample/CiscoFlash.png)
 * [Cisco Nexus Serial Numbers](sample/CiscoNexusSerial.png)
+* [Cisco Temperature](sample/Cisco_Temperature.PNG)
+* [Cisco PowerSupply](sample/Cisco_PowerSupply.PNG)
+* [Cisco Fan](sample/Cisco_Fan.PNG)
+
 
 ## MIBs 
 * [What directory to put MIBs to?](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
@@ -86,5 +107,10 @@ service nsserver restart
 
 ##### CISCO-PROCESS-MIB.my is needed for Cisco CPU flexview
 
+##### CISCO-CLASS-BASED-QOS-MIB.my is needed for Cisco QoS FlexViews
 
+##### CISCO-FRAME-RELAY-MIB.mib is need for Cisco QoS FlexViews
+
+##### CISCO-ENVMON-MIB.my is needed for Cisco Fan and for Cisco PowerSupply and for Cisco Temperature
+ 
 >Be Extreme

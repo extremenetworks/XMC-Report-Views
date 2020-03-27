@@ -1,14 +1,19 @@
 <report>
-	<reportId>DeviceViewCatalystVTP</reportId>
-	<title>Device View Catalyst VTP</title>
+	<reportId>DeviceViewCiscoTemperature</reportId>
+	<title>Device View Cisco Temperature</title>
 	<category>Device</category>
 	<showInTree>false</showInTree>
 	<iconCls>table-icon</iconCls>
 	<deviceViewTab>
-		<viewTabTitle>VTP</viewTabTitle>
-		<viewOrder>1011</viewOrder>
+		<viewTabTitle>Temperature</viewTabTitle>
+		<viewOrder>1009</viewOrder>
 		<families>
+			<family>Cisco</family>
 			<family>Catalyst</family>
+			<family>Cisco7200</family>
+			<family>CiscoASR</family>
+			<family>CiscoRouter</family>
+			<family>CiscoNX</family>
 		</families>
 	</deviceViewTab>
 	<panel>
@@ -19,7 +24,7 @@
 		<items>
 			<flexviewgrid>
 				<hideToolbar>true</hideToolbar>
-				<viewId>CiscoVTP</viewId>
+				<viewId>Cisco_Temperature</viewId>
 			</flexviewgrid>
 		</items>
 	</panel>

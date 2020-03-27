@@ -1,14 +1,19 @@
 <report>
-	<reportId>DeviceViewCatalystResources</reportId>
-	<title>Device View Catalyst Resources</title>
+	<reportId>DeviceViewCiscoHWStatus</reportId>
+	<title>Device View Cisco HW Status</title>
 	<category>Device</category>
 	<showInTree>false</showInTree>
 	<iconCls>table-icon</iconCls>
 	<deviceViewTab>
-		<viewTabTitle>Resources</viewTabTitle>
-		<viewOrder>1008</viewOrder>
+		<viewTabTitle>Power and Fan</viewTabTitle>
+		<viewOrder>1009</viewOrder>
 		<families>
+			<family>Cisco</family>
 			<family>Catalyst</family>
+			<family>Cisco7200</family>
+			<family>CiscoASR</family>
+			<family>CiscoRouter</family>
+			<family>CiscoNX</family>
 		</families>
 	</deviceViewTab>
 	<panel>
@@ -18,13 +23,13 @@
 		<autoScroll>true</autoScroll>
 		<items>
 			<panel>
-				<title>CPU</title>
+				<title>Power Supply</title>
 				<ui>extr-bordered-panel</ui>
 				<bodyBorder>true</bodyBorder>
 				<items>
 				<flexviewgrid>
 						<hideToolbar>true</hideToolbar>
-						<viewId>CiscoCPU</viewId>
+						<viewId>Cisco_PowerSupply</viewId>
 					</flexviewgrid>
 				</items>
 			</panel>
@@ -33,28 +38,13 @@
 				<showMiniCollapse>true</showMiniCollapse>
 			</splitter>
 			<panel>
-				<title>Memory</title>
+				<title>FAN Status</title>
 				<ui>extr-bordered-panel</ui>
 				<bodyBorder>true</bodyBorder>
 				<items>
 					<flexviewgrid>
 						<hideToolbar>true</hideToolbar>
-						<viewId>CiscoMemory</viewId>
-					</flexviewgrid>
-				</items>
-			</panel>
-			<splitter>
-				<collapsible>true</collapsible>
-				<showMiniCollapse>true</showMiniCollapse>
-			</splitter>
-			<panel>
-				<title>Flash</title>
-				<ui>extr-bordered-panel</ui>
-				<bodyBorder>true</bodyBorder>
-				<items>
-					<flexviewgrid>
-						<hideToolbar>true</hideToolbar>
-						<viewId>CiscoFlash</viewId>
+						<viewId>Cisco_Fan</viewId>
 					</flexviewgrid>
 				</items>
 			</panel>
