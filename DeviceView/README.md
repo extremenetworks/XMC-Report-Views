@@ -3,7 +3,7 @@
 Starting with Extreme Management Center version 8.0.4 you may import/modify the Device View content. This repository is to be used for hosting custom Device Views. 
 
 * [Brocade](Brocade/README.md)
-* [Cisco Catalyst](Cisco/README.md)
+* [Cisco Systems](Cisco/README.md)
 * [Check Point](CheckPoint/README.md)
 * [Delta](Delta/README.md)
 * [EfficientIP](EfficientIP/README.md)

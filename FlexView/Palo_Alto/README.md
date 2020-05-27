@@ -5,6 +5,8 @@ Community Driven repository
 
 ## FlexViews
 * [What versions, what definitions, how old?](tpl/PaloAltoSystem.tpl?raw=true)
+* [Entity information](tpl/PaloAltoSystemEntity.tpl?raw=true)
+* [Software Versions](tpl/PaloAltoSystemSoftware.tpl)
 * [How are interfaces utilized?](tpl/PaloAltoInterfaces.tpl?raw=true)
 * [How are zones utilized?](tpl/PaloAltoZones.tpl?raw=true)
 
@@ -14,6 +16,16 @@ Community Driven repository
 Tested with PAN version 8.0, MIBs are necesary for Extreme Management Center 8.1
 
 panSysSwVersion, panSysHwVersion, panSysSerialNumber, panSysVpnClientVersion, panSysAppVersion, panSysAppReleaseDate, panSysAvVersion, panSysAvReleaseDate, panSysThreatVersion, panSysThreatReleaseDate, panSysUrlFilteringVersion, panSysUrlFilteringDatabase, panSysWildfireVersion, panSysWfReleaseDate
+
+##### Entity information
+Tested with PAN version 8.0, MIBs are necesary for Extreme Management Center 8.1
+
+panSysSwVersion, panSysHwVersion, panSysSerialNumber
+
+##### Software Versions
+Tested with PAN version 8.0, MIBs are necesary for Extreme Management Center 8.1
+
+panSysVpnClientVersion, panSysAppVersion, panSysAppReleaseDate, panSysAvVersion, panSysAvReleaseDate, panSysThreatVersion, panSysThreatReleaseDate, panSysUrlFilteringVersion, panSysUrlFilteringDatabase, panSysWildfireVersion, panSysWfReleaseDate
 
 ##### How are interfaces utilized?
 Tested with PAN version 8.0, MIBs are necesary for Extreme Management Center 8.1
