@@ -15,6 +15,7 @@ Starting with Extreme Management Center version 8.0.4 you may import/modify the 
 * [HPE devices](Aruba-HP/README.md)
 * [InfoBlox](InfoBlox/README.md)
 * [Juniper switches](Juniper/README.md)
+* [PaloAlto Firewalls](PaloAlto/README.md)
 * [SonicWall Firewalls](SonicWall/README.md)
 * [VMware ESXi](VMware/README.md)
 * [Multi vendor](MultiVendor/README.md)
