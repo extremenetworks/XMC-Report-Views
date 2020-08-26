@@ -19,7 +19,7 @@ IP Address, AP Name, AP Serial, AP UpTime, SystemDescription, DeviceMode, HwVers
 ##### Clients
 Tested with HiveOS 10.0.r7a
 
-IP Address, SSID, Hostnaame, Mac, IP, Channel, RSSI, AuthMethod, Encryption, MACProto, VLAN, LinkUptime, BSSID
+IP Address, SSID, Hostname, Mac, IP, Channel, RSSI, AuthMethod, Encryption, MACProto, VLAN, LinkUptime, BSSID
 
 ##### Environment
 Tested with HiveOS 10.0.r7a

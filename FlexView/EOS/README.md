@@ -12,6 +12,7 @@ Community Driven repository
 * [Syslog server config](tpl/Syslog_Server_Configuration.tpl?raw=true)
 * [Syslog summary](tpl/Syslog_Summary_Information.tpl?raw=true)
 * [VH Switch Information](tpl/VH-Switch_Information.tpl?raw=true)
+* [Clear Change Table](tpl/Clear_Change_Table.tpl?raw=true)
 
 ## Comments & Columns
 ##### Environmental info

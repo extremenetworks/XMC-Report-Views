@@ -1,0 +1,81 @@
+<report>
+	<reportId>DeviceViewNokiaHardware</reportId>
+	<title>Device View Nokia Hardware</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>Hardware</viewTabTitle>
+		<viewOrder>400</viewOrder>
+		<families>
+			<family>Nokia Service Router</family>
+                         
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>vbox</layout>
+		<flex>1</flex>
+		<title>Device View Nokia Hardware</title>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<panel>
+				<title>Chassis</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>Nokia_ChassisInfo</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+              <splitter>
+				<collapsible>true</collapsible>
+				<showMiniCollapse>true</showMiniCollapse>
+			</splitter>
+            <panel>
+				<title>Fan</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>Nokia_FanInfo</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+                        <splitter>
+				<collapsible>true</collapsible>
+				<showMiniCollapse>true</showMiniCollapse>
+			</splitter>
+                        <panel>
+				<title>Power</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>Nokia_PowerInfo</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+              <splitter>
+				<collapsible>true</collapsible>
+				<showMiniCollapse>true</showMiniCollapse>
+			</splitter>
+                        <panel>
+				<title>System</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>Nokia_SysInfo</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>                                  
+		   </items>
+	</panel>
+</report>
+            

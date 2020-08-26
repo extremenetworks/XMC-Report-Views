@@ -1,0 +1,51 @@
+<report>
+	<reportId>DeviceViewNokiaSystem</reportId>
+	<title>Device View Nokia System</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>System</viewTabTitle>
+		<viewOrder>401</viewOrder>
+		<families>
+			<family>Nokia Service Router</family>
+                         
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>vbox</layout>
+		<flex>1</flex>
+		<title>Device View Nokia HW-Info</title>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<panel>
+				<title>HW-Info</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>Nokia_HWInfo</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+              <splitter>
+				<collapsible>true</collapsible>
+				<showMiniCollapse>true</showMiniCollapse>
+			</splitter>
+            <panel>
+				<title>Bof Info</title>
+				<ui>extr-bordered-panel</ui>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>Nokia_BofInfo</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+		   </items>
+	</panel>
+</report>
+            

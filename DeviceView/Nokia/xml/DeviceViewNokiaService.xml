@@ -1,0 +1,27 @@
+<report>
+	<reportId>DeviceViewNokiaService</reportId>
+	<title>Device View Nokia Service</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>Services</viewTabTitle>
+		<viewOrder>403</viewOrder>
+		<families>
+			<family>Nokia Service Router</family>                  
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+				<flexviewgrid>
+					<hideToolbar>true</hideToolbar>
+					<viewId>Nokia_svcbase</viewId>
+				</flexviewgrid>
+				</items>
+	</panel>
+</report>
+            
