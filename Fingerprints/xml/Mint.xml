@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DHCP created="2019-03-05" last_updated="2019-11-15" author="Zdenek Pala">
+ <fingerprints>
+	<fingerprint os="Linux Mint" os_class="Linux" os_url="http://www.kernel.org" comments="" author="Zdenek Pala" lastmodified="2019-05-06">
+		<tests>
+			<test weight="10" matchtype="exact" dhcptype="Request" dhcpoption55="1,28,2,3,15,6,119,12,44,47,26,121,42,249,33,252"/>
+		</tests>
+	</fingerprint>
+ </fingerprints>
+</DHCP>

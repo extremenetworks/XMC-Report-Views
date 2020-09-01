@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DHCP created="2019-03-05" last_updated="2019-11-15" author="Zdenek Pala">
+ <fingerprints>
+	<fingerprint os="Avaya IP Phone" os_class="VoIP Phone" created="2019-08-06" last_updated="2019-08-06" author="Kevin Conway">
+		<tests>
+			<test weight="5" matchtype="exact" dhcptype="Discover" dhcpoption55="1,28,3,6,15,42,242"/>
+			<test weight="5" matchtype="exact" dhcptype="Request" dhcpoption55="1,28,3,6,15,42,242"/>
+			<test weight="5" matchtype="exact" dhcptype="Request" dhcpoption55="1,33,3,6,7,12,15,26,28,42,43,51,58,59,119,120,242"/>
+		</tests>
+	</fingerprint>
+ </fingerprints>
+</DHCP>
