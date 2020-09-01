@@ -9,9 +9,9 @@ Starting with Extreme Management Center version 8.5 you may import DHCP fingerpr
 * [Linux Mint](xml/Mint.xml?raw=true)
 * [Avaya IP Phone](xml/Avaya.xml?raw=true)
 * [Cisco VoIP Phone](xml/Cisco.xml?raw=true)
-* [Complete](xml/Fingerprint.xml?raw=true)
+* [All in one file](xml/Fingerprint.xml?raw=true)
 
-## How to import Fingerprint to Extreme Management (NetSight)
+## How to import Fingerprint to Extreme Management Center
 Login to OneView -> Administration -> Device Types -> Detection and Profiling -> Import...
 ![Import](Import.PNG?raw=true)
 
