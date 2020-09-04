@@ -11,6 +11,7 @@ Community Driven repository
 * [LACP Link Aggregation](tpl/XOS_LACP-sharing.tpl?raw=true)
 * [PoE system](tpl/XOS_SystemPoE.tpl?raw=true)
 * [PoE port](tpl/XOS_PortPoE.tpl?raw=true)
+* [Port Authentication](tpl/Switch_Port_Auth_CFG.tpl?raw=true)
 
 
 ## Comments & Columns
@@ -38,12 +39,16 @@ extremePethSystemAdminEnable, extremePethSystemDisconnectPrecedence, extremePeth
 ##### Port PoE - with xos version 22.2.1.5 sometimes the switch does snmp timeout :(
 ifName, ifAlias, extremePethPortOperatorLimit, extremePethPortViolationPrecedence, extremePethPortMeasuredPower, extremePethPortReservedBudget
 
+##### Port Authentication
+ifName, ifAlias, 802.1X, MacAuthentication
+
 
 ## Examples
 * [Link Aggregation](sample/XOS_sharing.png)
 * [LACP Link Aggregation](sample/XOS_LACP-sharing.png)
 * [PoE system](sample/XOS_SystemPoE.png)
 * [PoE port](sample/XOS_PortPoE.png)
+* [Port Authentication](sample/Switch_Port_Auth_CFG.png)
 
 ## MIBs
 All necessary MIBs are included in the Extreme Management Center (NetSight) already.
