@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DHCP created="2020-10-02" last_updated="2020-10-02" author="Zdenek Pala">
+ <fingerprints>
+	<fingerprint os="iOS 14" os_class="Apple iOS" created="2020-10-02" last_updated="2020-10-02" author="Rob Yamry">
+		<tests>
+			<test weight="5" matchtype="exact" dhcptype="Request" dhcpoption55="1,121,3,6,15,114,119,252"/>
+		</tests>
+	</fingerprint>
+ </fingerprints>
+</DHCP>

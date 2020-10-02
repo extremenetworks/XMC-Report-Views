@@ -2,13 +2,14 @@
 
 Starting with Extreme Management Center version 8.5 you may import DHCP fingerprints in the OneView. This repository is to be used for hosting custom DHCP fingerprints. 
 
-* [CloudIQ/Aerohive APs](xml/Aerohive.xml?raw=true)
-* [IdentiFi APs](xml/Identifi.xml?raw=true)
-* [WiNG APs](xml/Wing.xml?raw=true)
+* [Apple iOS 14](xml/iOS14.xml?raw=true)
 * [Aruba APs](xml/Aruba.xml?raw=true)
-* [Linux Mint](xml/Mint.xml?raw=true)
 * [Avaya IP Phone](xml/Avaya.xml?raw=true)
 * [Cisco VoIP Phone](xml/Cisco.xml?raw=true)
+* [CloudIQ/Aerohive APs](xml/Aerohive.xml?raw=true)
+* [IdentiFi APs](xml/Identifi.xml?raw=true)
+* [Linux Mint](xml/Mint.xml?raw=true)
+* [WiNG APs](xml/Wing.xml?raw=true)
 * [All in one file](xml/FingerPrint.xml?raw=true)
 
 ## How to import Fingerprint to Extreme Management Center

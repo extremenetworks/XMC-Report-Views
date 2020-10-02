@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<DHCP created="2019-03-05" last_updated="2019-11-15" author="Zdenek Pala">
+<DHCP created="2019-03-05" last_updated="2020-10-02" author="Zdenek Pala">
  <fingerprints>
 	<fingerprint os="Extreme WiNG Wireless Access Point" os_class="Wireless Access Point" os_url="http://www.kernel.org" comments="" author="Zdenek Pala" lastmodified="2019-03-05">
 		<tests>
@@ -60,6 +60,11 @@
 		<tests>
 			<test weight="5" matchtype="exact" dhcptype="Request" dhcpoption55="1,3,4,6,12,15,28,42,43,60"/>
 			<test weight="5" matchtype="exact" dhcptype="Discover" dhcpoption55="1,3,4,6,12,15,28,42,43,60"/>
+		</tests>
+	</fingerprint>
+	<fingerprint os="iOS 14" os_class="Apple iOS" created="2020-10-02" last_updated="2020-10-02" author="Rob Yamry">
+		<tests>
+			<test weight="5" matchtype="exact" dhcptype="Request" dhcpoption55="1,121,3,6,15,114,119,252"/>
 		</tests>
 	</fingerprint>
  </fingerprints>
