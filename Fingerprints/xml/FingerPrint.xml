@@ -67,5 +67,11 @@
 			<test weight="5" matchtype="exact" dhcptype="Request" dhcpoption55="1,121,3,6,15,114,119,252"/>
 		</tests>
 	</fingerprint>
+	<fingerprint os="Polycom" os_class="Video Conferencing" created="2020-10-02" last_updated="2020-10-02" author="Zdenek Pala">
+		<tests>
+			<test weight="5" matchtype="exact" dhcptype="Request" dhcpoption55="191,157,144,128,66,161,43,7,54,42,15,6,4,3,2,1,99"/>
+			<test weight="5" matchtype="exact" dhcptype="Discover" dhcpoption55="191,157,144,128,66,161,43,7,54,42,15,6,4,3,2,1,99"/>
+		</tests>
+	</fingerprint>
  </fingerprints>
 </DHCP>
