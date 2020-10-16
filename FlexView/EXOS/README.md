@@ -12,6 +12,9 @@ Community Driven repository
 * [PoE system](tpl/XOS_SystemPoE.tpl?raw=true)
 * [PoE port](tpl/XOS_PortPoE.tpl?raw=true)
 * [Port Authentication](tpl/Switch_Port_Auth_CFG.tpl?raw=true)
+* [QoS Bytes](tpl/XOS_QoS_Bytes.tpl?raw=true)
+* [QoS Packets](tpl/XOS_QoS_Packets.tpl?raw=true)
+* [QoS Congestions](tpl/XOS_QoS_Congestions.tpl?raw=true)
 
 
 ## Comments & Columns
@@ -42,6 +45,15 @@ ifName, ifAlias, extremePethPortOperatorLimit, extremePethPortViolationPrecedenc
 ##### Port Authentication
 ifName, ifAlias, 802.1X, MacAuthentication
 
+##### QoS Bytes
+ifName, ifAlias, extremePortQP0TxBytes, extremePortQP1TxBytes, extremePortQP2TxBytes, extremePortQP3TxBytes, extremePortQP4TxBytes, extremePortQP5TxBytes, extremePortQP6TxBytes, extremePortQP7TxBytes
+
+##### QoS Packets
+ifName, ifAlias, extremePortQP0TxPkts, extremePortQP1TxPkts, extremePortQP2TxPkts, extremePortQP3TxPkts, extremePortQP4TxPkts, extremePortQP5TxPkts, extremePortQP6TxPkts, extremePortQP7TxPkts
+
+##### QoS Congestions
+ifName, ifAlias, extremePortCongDropPkts, extremePortQP0CongPkts, extremePortQP1CongPkts, extremePortQP2CongPkts, extremePortQP3CongPkts, extremePortQP4CongPkts, extremePortQP5CongPkts, extremePortQP6CongPkts, extremePortQP7CongPkts
+
 
 ## Examples
 * [Link Aggregation](sample/XOS_sharing.png)
@@ -49,6 +61,9 @@ ifName, ifAlias, 802.1X, MacAuthentication
 * [PoE system](sample/XOS_SystemPoE.png)
 * [PoE port](sample/XOS_PortPoE.png)
 * [Port Authentication](sample/Switch_Port_Auth_CFG.png)
+* [QoS Bytes](sample/XOS_QoS_Bytes.png)
+* [QoS Packets](sample/XOS_QoS_Packets.png)
+* [QoS Congestions](sample/XOS_QoS_Congestions.png)
 
 ## MIBs
 All necessary MIBs are included in the Extreme Management Center (NetSight) already.
