@@ -13,7 +13,9 @@ Community Driven repository
 * [PoE port](tpl/XOS_PortPoE.tpl?raw=true)
 * [Port Authentication](tpl/Switch_Port_Auth_CFG.tpl?raw=true)
 * [QoS Bytes](tpl/XOS_QoS_Bytes.tpl?raw=true)
+* [QoS Bytes Percent](tpl/XOS_QoS_Bytes_Perc.tpl?raw=true)
 * [QoS Packets](tpl/XOS_QoS_Packets.tpl?raw=true)
+* [QoS Packets Percent](tpl/XOS_QoS_Packets_Perc.tpl?raw=true)
 * [QoS Congestions](tpl/XOS_QoS_Congestions.tpl?raw=true)
 
 
@@ -62,7 +64,9 @@ ifName, ifAlias, extremePortCongDropPkts, extremePortQP0CongPkts, extremePortQP1
 * [PoE port](sample/XOS_PortPoE.png)
 * [Port Authentication](sample/Switch_Port_Auth_CFG.png)
 * [QoS Bytes](sample/XOS_QoS_Bytes.png)
+* [QoS Bytes Percent](sample/XOS_QoS_Bytes_Perc.png)
 * [QoS Packets](sample/XOS_QoS_Packets.png)
+* [QoS Packets Percent](sample/XOS_QoS_Packets_Perc.png)
 * [QoS Congestions](sample/XOS_QoS_Congestions.png)
 
 ## MIBs
