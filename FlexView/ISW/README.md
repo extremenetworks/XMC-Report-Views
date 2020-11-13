@@ -9,6 +9,8 @@ Community Driven repository
 * [PoE settings](tpl/ISW_PoE.tpl?raw=true)
 * [Firmware information](tpl/ISW_Firmware.tpl?raw=true)
 * [SFP information](tpl/ISW_DDMI.tpl?raw=true)
+* [MSTP Bridge Information](tpl/ISW_Bridge_MSTP.tpl?raw=true)
+* [MSTP Port Information](tpl/ISW_Port_MSTP.tpl?raw=true)
 
 
 ## Comments & Columns
@@ -33,6 +35,12 @@ Tested with 01.01.01.005, MIBs are necesary for Extreme Management Center 8.1
 
 Port Name, Supported, SFP Detected, SFP Vendor, Part Number, Serial Number, DDMI Supported, Temperature, Voltage, Tx Bias, Tx Power, Rx Power
 
+##### MSTP Bridge Information
+Tested with 01.01.03.012, MIBs are necesary for Extreme Management Center 8.5
+
+
+##### MSTP Port Information
+Tested with 01.01.03.012, MIBs are necesary for Extreme Management Center 8.5
 
 
 ## Examples
@@ -41,6 +49,8 @@ Port Name, Supported, SFP Detected, SFP Vendor, Part Number, Serial Number, DDMI
 * [PoE settings](sample/ISW_PoE.png?raw=true)
 * [Firmware information](sample/ISW_Firmware.png?raw=true)
 * [SFP information](sample/ISW_DDMI.png?raw=true)
+* [MSTP Bridge Information](sample/ISW_Bridge_MSTP.png?raw=true)
+* [MSTP Port Information](sample/ISW_Port_MSTP.png?raw=true)
 
 
 ## MIBs

@@ -9,6 +9,7 @@ Starting with Extreme Management Center version 8.5 you may import DHCP fingerpr
 * [CloudIQ/Aerohive APs](xml/Aerohive.xml?raw=true)
 * [IdentiFi APs](xml/Identifi.xml?raw=true)
 * [Linux Mint](xml/Mint.xml?raw=true)
+* [Meraki APs](xml/Meraki.xml?raw=true)
 * [Polycom](xml/Polycom.xml?raw=true)
 * [WiNG APs](xml/Wing.xml?raw=true)
 * [All in one file](xml/FingerPrint.xml?raw=true)

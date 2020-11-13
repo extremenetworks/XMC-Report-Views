@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DHCP created="2020-10-21" last_updated="2020-10-21" author="Zdenek Pala">
+ <fingerprints>
+	<fingerprint os="Meraki AP" os_class="Wireless Access Point" created="2020-10-21" last_updated="2020-10-21" author="Zdenek Pala">
+		<tests>
+			<test weight="5" matchtype="exact" dhcptype="Request" dhcpoption55="1,15,3,28,12,6,26"/>
+			<test weight="5" matchtype="exact" dhcptype="Discover" dhcpoption55="1,15,3,28,12,6,26"/>
+		</tests>
+	</fingerprint>
+ </fingerprints>
+</DHCP>
