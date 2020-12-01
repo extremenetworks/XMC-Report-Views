@@ -70,6 +70,6 @@
 IF (time == 0) &amp;&amp; ({ "Topology Changes":102:# }   == 0) THEN time
 ELSE IF (time == 0)
 THEN RedText("*** In Transition ***")
-ELSE IF (time&lt;= 30000)
+ELSE IF (time&lt;= 300)
 THEN RedText( FormatNumber(time) + " seconds ago")
 ELSE time</dataField></flextable></flextablelist>
