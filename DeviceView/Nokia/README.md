@@ -1,4 +1,4 @@
-# Extreme Management Center DeviceView for Nokia SAR
+# DeviceView for Nokia SAR
 >Community maintained content
 
 The DeviceView does use reports in the MyReports directory. Those reports use FlexViews, FlexViews does use MIBs.
@@ -7,7 +7,7 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 2. Upload reports to the `appdata/OneView/MyReports` directory.
 3. Reports -> Reports -> Refresh.
 
-## XMC 8.1.4
+## XIQ Site Engine, XMC 8.1.4
 
 Product Family needs to be configured as Nokia Service Router
 

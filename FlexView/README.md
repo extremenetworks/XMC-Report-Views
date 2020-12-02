@@ -1,4 +1,4 @@
-# Extreme Management Center (NetSight) FlexViews 
+# XIQ Site Engine - Extreme Management Center (NetSight) FlexViews 
 Community Driven Repository
 
 This repository is to be used for hosting custom FlexViews.
@@ -31,7 +31,7 @@ This repository is to be used for hosting custom FlexViews.
 Upload the .tpl file to the 'Install_path/Extreme_Networks/NetSight/appdata/System/FlexViews/My FlexViews'
 On majority of Linux installations it is '/usr/local/Extreme_Networks/NetSight/appdata/System/FlexViews/My FlexViews'
 
-## How to import FlexViews to Extreme Management Center 8.2 and newer
+## How to import FlexViews to XIQ Site Engine, Extreme Management Center 8.2 and newer
 Upload the .tpl file to the 'Install_path/Extreme_Networks/NetSight/appdata/VendorProfiles/Stage/MyVendorProfile/FlexViews/My FlexViews'
 On majority of Linux installations it is '/usr/local/Extreme_Networks/NetSight/appdata/VendorProfiles/Stage/MyVendorProfile/FlexViews/My FlexViews'
 Here is [Knowledge Base](http://gtacknowledge.extremenetworks.com/articles/How_To/000005437) article.

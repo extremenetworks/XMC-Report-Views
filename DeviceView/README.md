@@ -1,6 +1,6 @@
 # Custom DeviceView
 
-Starting with Extreme Management Center version 8.0.4 you may import/modify the Device View content. This repository is to be used for hosting custom Device Views. 
+XIQ Site Engine and XMC version 8.0.4+ you may import/modify the Device View content. This repository is to be used for hosting custom Device Views. 
 
 * [Brocade](Brocade/README.md)
 * [Cisco Systems](Cisco/README.md)
@@ -21,7 +21,7 @@ Starting with Extreme Management Center version 8.0.4 you may import/modify the 
 * [VMware ESXi](VMware/README.md)
 * [Multi vendor](MultiVendor/README.md)
 
-## How to import DeviceView to Extreme Management (NetSight)
+## How to import DeviceView to XIQ Site Engine - Extreme Management (NetSight)
 The DeviceView does use reports in the MyReports directory. Those reports use FlexViews, FlexViews does use MIBs.
 
 1. Make sure all flexviews are working. If not check relevant mibs are imported.

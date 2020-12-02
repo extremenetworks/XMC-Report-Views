@@ -3,7 +3,7 @@ Pre-made definitions and enforcement policy rules controlling QoS, priority, ban
 
 This is a location where you can find Pre-made Policy-Domains.
 
-Extreme Management Center (Enterasys NetSight®) Policy Manager automates the definition and enforcement of network-wide policy rules for users, applications, protocols, VLANs, ports and flows. Policy Manager provides
+XIQ Site Engine / Extreme Management Center / Enterasys NetSight® Policy Manager automates the definition and enforcement of network-wide policy rules for users, applications, protocols, VLANs, ports and flows. Policy Manager provides
 the ability to create multiple policy configurations by allowing you to group your roles and devices into Policy Domains. You can create multiple domains and easily switch from one domain to
 another. You can also export policy domain configuration data to a .pmd file.
 The following is a library of PMD files you can import in to a Policy Domain. These PMD files are intended to be used as templates when deploying Policy on your network

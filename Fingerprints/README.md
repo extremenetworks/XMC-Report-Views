@@ -1,6 +1,6 @@
 # ExtremeControl DHCP fingerprints
 
-Starting with Extreme Management Center version 8.5 you may import DHCP fingerprints in the OneView. This repository is to be used for hosting custom DHCP fingerprints. 
+With XIQ Site Engine and Extreme Management Center version 8.5 you may import DHCP fingerprints in the OneView. This repository is to be used for hosting custom DHCP fingerprints.
 
 * [Apple iOS 14](xml/iOS14.xml?raw=true)
 * [Aruba APs](xml/Aruba.xml?raw=true)
@@ -14,7 +14,7 @@ Starting with Extreme Management Center version 8.5 you may import DHCP fingerpr
 * [WiNG APs](xml/Wing.xml?raw=true)
 * [All in one file](xml/FingerPrint.xml?raw=true)
 
-## How to import Fingerprint to Extreme Management Center
+## How to import Fingerprint to XIQ Site Engine & Extreme Management Center
 Login to OneView -> Administration -> Device Types -> Detection and Profiling -> Import...
 ![Import](Import.PNG?raw=true)
 

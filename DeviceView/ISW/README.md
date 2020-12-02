@@ -1,4 +1,4 @@
-# DeviceView for Infoblox
+# DeviceView for ISW
 >Community maintained content
 
 The DeviceView does use reports in the MyReports directory. Those reports use FlexViews, FlexViews does use MIBs.
@@ -13,9 +13,9 @@ Product Family needs to be configured as [InfoBlox DDI](sample/VendorProfile-Inf
 
 | Product  | DeviceView   | FlexView   | Buildin FlexView | Example   |
 | -------- | ------------ |:----------:|:----------------:| --------- |
-| DDI |[System Info](xml/DeviceViewInfoBloxSystem.xml?raw=true)|InfoBlox_SystemInfo| - |[png](sample/DeviceViewInfoBloxSystem.png?raw=true)|
-| DDI |[DHCP DNS](xml/DeviceViewInfoBloxDHCP.xml?raw=true)|InfoBlox_DHCPStatistics, InfoBlox_DNSupdates_Statistics| - |[png](sample/DeviceViewInfoBloxDHCP.png?raw=true)|
-| DDI |[DHCP6 DNS6](xml/DeviceViewInfoBloxDHCP6.xml?raw=true)|InfoBlox_DHCP6Statistics, InfoBlox_DNS6updates_Statistics| - |[png](sample/DeviceViewInfoBloxDHCP6.png?raw=true)|
+| ISW |[System](xml/DeviceViewISWSystem.xml?raw=true)|ISW_CPU_Utilization, ISW_Firmware| - |[png](sample/DeviceViewISWSystem.png?raw=true)|
+| ISW |[Power](xml/DeviceViewISWPower.xml?raw=true)|ISW_Power_Supply, ISW_PoE| - |[png](sample/DeviceViewISWPower.png?raw=true)|
+| ISW |[Transceivers](xml/DeviceViewISWDDMI.xml?raw=true)|ISW_DDMI| - |[png](sample/DeviceViewISWDDMI.png?raw=true)|
 
 ## Troubleshooting = most common issues
 * MIBs are missing
