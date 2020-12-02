@@ -19,6 +19,9 @@ Community Driven repository
 * [PoE Ports](tpl/VOSS_PoE_Ports.tpl?raw=true)
 * [VRRP basic](tpl/VOSS_VRRP_basic.tpl?raw=true)
 * [VRRP advanced](tpl/VOSS_VRRP_advanced.tpl?raw=true)
+* [FDB Local](tpl/VOSS_FDB.tpl?raw=true)
+* [FDB Remote](tpl/VOSS_FDB_Remote.tpl?raw=true)
+
 
 
 ## Comments & Columns
@@ -70,6 +73,11 @@ Interface, Status, VRRID, VLAN, Virtual Mac, State, Priority, Primary IP, Master
 ##### VRRP advanced
 Interface, Status, VRRID, VLAN, Virtual Mac, State, Priority, Primary IP, Master IP, Preempt, Accept, Backup Master, Backup Master State, Critical IP, Critical IP Enabled, Operations Control, Link Local Addr, HoldDown Timer, HoldDown State, HoldDown Time Remaining, Faster Adv Interval, Faster Adv Interval Enabled, Master Adv Interval
 
+##### FDB Local
+VlanID, MAC, Port, Status, BMac, Cvid
+
+##### FDB Remote
+VlanID, MAC, Status, Destination Address, Primary BVlan, Primary Destination, Primary Port, Secondary BVLAN, Secondary Desctination, Secondary Port
 
 ## Examples
 * [Power Supply](sample/VOSS_PowerSupply.png?raw=true)
@@ -79,6 +87,8 @@ Interface, Status, VRRID, VLAN, Virtual Mac, State, Priority, Primary IP, Master
 * [PoE Ports](sample/VOSS_PoE_Ports.png?raw=true)
 * [VRRP basic](sample/VOSS_VRRP_basic.png?raw=true)
 * [VRRP advanced](sample/VOSS_VRRP_advanced.png?raw=true)
+* [FDB Local](sample/VOSS_FDB.png?raw=true)
+* [FDB Remote](sample/VOSS_FDB_Remote.png?raw=true)
 
 
 ## MIBs
