@@ -1,4 +1,4 @@
-# Extreme Management (NetSight) FlexViews for Palo Alto NG firewalls
+# XIQ Site Engine - Extreme Management (NetSight) FlexViews for Palo Alto NG firewalls
 
 Community Driven repository
 

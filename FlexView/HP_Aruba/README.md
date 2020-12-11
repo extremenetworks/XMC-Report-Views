@@ -1,4 +1,4 @@
-# Extreme Management (NetSight) FlexViews for HP Aruba
+# XIQ Site Engine - Extreme Management (NetSight) FlexViews for HP Aruba
 
 Community Driven repository
 

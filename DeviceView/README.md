@@ -13,6 +13,7 @@ XIQ Site Engine and XMC version 8.0.4+ you may import/modify the Device View con
 * [FortiGate](FortiGate/README.md)
 * [FortiWLC](FortiWLC/README.md)
 * [HPE devices](Aruba-HP/README.md)
+* [Huawei](Huawei/README.md)
 * [InfoBlox](InfoBlox/README.md)
 * [Juniper switches](Juniper/README.md)
 * [Nokia SAR](Nokia/README.md)

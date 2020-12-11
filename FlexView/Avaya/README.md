@@ -1,4 +1,4 @@
-# Extreme Management (NetSight) FlexViews for VOSS devices
+# XIQ Site Engine - Extreme Management (NetSight) FlexViews for VOSS devices
 
 Community Driven repository
 

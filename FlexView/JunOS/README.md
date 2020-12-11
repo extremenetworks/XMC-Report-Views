@@ -1,4 +1,4 @@
-# Extreme Management (NetSight) FlexViews for Juniper devices
+# XIQ Site Engine - Extreme Management (NetSight) FlexViews for Juniper devices
 
 Community Driven repository
 

@@ -1,4 +1,4 @@
-# Extreme Management (NetSight) FlexViews for SonicWall firewalls
+# XIQ Site Engine - Extreme Management (NetSight) FlexViews for SonicWall firewalls
 
 Community Driven repository
 

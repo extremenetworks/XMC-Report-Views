@@ -1,4 +1,4 @@
-# Extreme Management (NetSight) FlexViews for FortiGate
+# XIQ Site Engine - Extreme Management (NetSight) FlexViews for FortiGate
 
 Community Driven repository
 

@@ -1,4 +1,4 @@
-# Extreme Management (NetSight) FlexViews for EXOS devices
+# XIQ Site Engine - Extreme Management (NetSight) FlexViews for EXOS devices
 
 Community Driven repository
 

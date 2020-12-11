@@ -1,4 +1,4 @@
-# Extreme Management (NetSight) FlexViews for Extreme Cloud IQ (Aerohive) wireless devices
+# XIQ Site Engine - Extreme Management (NetSight) FlexViews for Extreme Cloud IQ (Aerohive) wireless devices
 
 Community Driven repository
 

@@ -1,4 +1,4 @@
-# Extreme Management Center (NetSight) FlexViews for FortiWLC / Meru wireless
+# XIQ Site Engine - Extreme Management Center (NetSight) FlexViews for FortiWLC / Meru wireless
 
 Community Driven repository
 

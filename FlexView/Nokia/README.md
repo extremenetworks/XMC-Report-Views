@@ -1,4 +1,4 @@
-# Extreme Management (NetSight) FlexViews for Nokia SAR
+# XIQ Site Engine - Extreme Management (NetSight) FlexViews for Nokia SAR
 
 Community Driven repository
 

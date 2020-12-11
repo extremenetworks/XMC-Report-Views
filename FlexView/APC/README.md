@@ -1,4 +1,4 @@
-# Extreme Management (NetSight) FlexViews for APC UPS devices
+# XIQ Site Engine - Extreme Management (NetSight) FlexViews for APC UPS devices
 
 Community Driven repository
 

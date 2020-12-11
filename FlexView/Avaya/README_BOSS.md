@@ -1,4 +1,4 @@
-# Extreme Management (NetSight) FlexViews for BOSS devices
+# XIQ Site Engine - Extreme Management (NetSight) FlexViews for BOSS devices
 
 Community Driven repository
 

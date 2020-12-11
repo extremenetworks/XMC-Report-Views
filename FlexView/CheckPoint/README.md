@@ -1,4 +1,4 @@
-# Extreme Management (NetSight) FlexViews for Check Point
+# XIQ Site Engine - Extreme Management (NetSight) FlexViews for Check Point
 
 Community Driven repository
 

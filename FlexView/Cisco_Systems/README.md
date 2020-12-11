@@ -1,4 +1,4 @@
-# Extreme Management (NetSight) FlexViews for Cisco Catalyst devices
+# XIQ Site Engine - Extreme Management (NetSight) FlexViews for Cisco Catalyst devices
 
 Community Driven repository
 

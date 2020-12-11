@@ -1,4 +1,4 @@
-# Extreme Management (NetSight) FlexViews for AP3000 wireless devices
+# XIQ Site Engine - Extreme Management (NetSight) FlexViews for AP3000 wireless devices
 
 Community Driven repository
 
