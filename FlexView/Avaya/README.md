@@ -11,6 +11,7 @@ Community Driven repository
 * [License](tpl/VOSS_License.tpl?raw=true)
 * [Port Configuration Advanced](tpl/VOSS_Port_Advanced_Config.tpl?raw=true)
 * [Port Vlan](tpl/VOSS_Port_Vlan_Table.tpl?raw=true)
+* [Port Vlans](tpl/VOSS_Port_VLANs.tpl?raw=true)
 * [Power Supply](tpl/VOSS_PowerSupply.tpl?raw=true)
 * [Vlan table](tpl/VOSS_Vlan_Table.tpl?raw=true)
 * [Line Cards](tpl/VOSS_Line_Cards.tpl?raw=true)
@@ -38,16 +39,19 @@ rcChasType, rcChasSerialNumber, rcChasHardwareRevision, rcChasNumSlots, rcChasNu
 rcIsidInterfaceIfIndex, rcIsidInterfaceIsid, rcIsidInterfaceVlan, rcVlanName, rcIsidInterfaceCvid, rcIsidInterfaceType, rcIsidInterfaceOrigin, rcIsidInterfaceBpdu
 
 ##### ISid services
-rcIsidServiceId, rcIsidServiceType, rcIsidServiceRowStatus, rcIsidServiceMaxMacLimit, rcIsidServiceMacLimitEnable, rcIsidServiceAction, rcIsidServiceOrigin, rcIsidServiceVnid, 
+rcIsidServiceId, rcIsidServiceType, rcIsidServiceRowStatus, rcIsidServiceMaxMacLimit, rcIsidServiceMacLimitEnable, rcIsidServiceAction, rcIsidServiceOrigin, rcIsidServiceVnid
 
 ##### License
 rcLicenseNumber, rcLicenseBitMap, rcLicenseFileName, rcLicenseLicenseType, rcLicenseDurationType, rcLicenseFactoryTrialPeriodRemainingDays, rcLicenseGenerationTime, rcLicenseExpirationTime
 
 ##### Port Configuration Advanced
-rcPortIndex, ifName, ifDescr, ifOperStatus, rcPortLocked, rcPortNumStateTransition, rcPortVrfNameList, rcPortVrfCount, 
+rcPortIndex, ifName, ifDescr, ifOperStatus, rcPortLocked, rcPortNumStateTransition, rcPortVrfNameList, rcPortVrfCount
 
 ##### Port Vlan
-rcVlanPortIndex, ifName, ifAdminStatus, ifOperStatus, ifDescr, ifAlias, rcVlanPortNumVlanIds,  rcVlanPortType, rcVlanPortDiscardTaggedFrames, rcVlanPortDiscardUntaggedFrames, rcVlanPortDefaultVlanId, 
+rcVlanPortIndex, ifName, ifAdminStatus, ifOperStatus, ifDescr, ifAlias, rcVlanPortNumVlanIds,  rcVlanPortType, rcVlanPortDiscardTaggedFrames, rcVlanPortDiscardUntaggedFrames, rcVlanPortDefaultVlanId
+
+##### Port Vlans
+Name, Port, Status, Description, Port Type, Number of VLANs, Default VLAN, Untag Default VLAN, VLANs
 
 ##### Power Supply
 Power Supply, Oper Status, PS Detail ID, Type, Serial Number, Part Number Description, Input Line Voltage
@@ -85,6 +89,7 @@ VlanID, MAC, Status, Destination Address, Primary BVlan, Primary Destination, Pr
 * [Is Config Saved?](sample/VOSS_IsConfiSaved.png?raw=true)
 * [PoE System](sample/BOSS_VOSS_PoE_Main.png?raw=true)
 * [PoE Ports](sample/VOSS_PoE_Ports.png?raw=true)
+* [Port Vlans](sample/VOSS_Port_VLANs.png?raw=true)
 * [VRRP basic](sample/VOSS_VRRP_basic.png?raw=true)
 * [VRRP advanced](sample/VOSS_VRRP_advanced.png?raw=true)
 * [FDB Local](sample/VOSS_FDB.png?raw=true)

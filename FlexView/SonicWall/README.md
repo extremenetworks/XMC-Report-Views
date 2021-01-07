@@ -31,7 +31,7 @@ Zone Name, Zone Security, If Trust, Content Filtering, Client AV Enforcement, Cl
 * [How are zones configured?](sample/SonicWall_Zones.png?raw=true)
 
 ## MIBs
-* [What directory to put MIBs to?](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
+* [What directory to put MIBs to?](https://extremeportal.force.com/ExtrArticleDetail?an=000080448)
 * [Enable use of myMIBs](https://emc.extremenetworks.com/content/oneview/docs/admin/options/docs/ov_admin_options_snmp.html)
 To enable the use of third party MIBs, go to OneView->Administration->Options->SNMP, the option 'use MyMIBS directory on the server' should be checked. Change of this value does need the service restart with:
 ```bash

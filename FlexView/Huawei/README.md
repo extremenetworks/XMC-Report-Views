@@ -32,9 +32,14 @@ Tested with 8.5.2, MIBs are necesary for XIQ Site Engine - Extreme Management Ce
 
 Port Name, Port Type, Port VLAN ID, Port Isolation
 
+## Examples
+* [Entity](sample/Huawei_Entity.PNG)
+* [STP](sample/Huawei_STP.PNG)
+* [VLAN](sample/Huawei_VLAN.PNG)
+* [PVID](sample/Huawei_PVID.PNG)
 
 ## MIBs
-* [What directory to put MIBs to?](https://gtacknowledge.extremenetworks.com/articles/How_To/Netsight-Importing-a-MIB-into-Netsight)
+* [What directory to put MIBs to?](https://extremeportal.force.com/ExtrArticleDetail?an=000080448)
 * [Enable use of myMIBs](https://emc.extremenetworks.com/content/oneview/docs/admin/options/docs/ov_admin_options_snmp.html)
 To enable the use of third party MIBs, go to OneView->Administration->Options->SNMP, the option 'use MyMIBS directory on the server' should be checked. Change of this value does need the service restart with:
 ```bash
