@@ -17,7 +17,7 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 | Catalyst, 7200, ASR, NX, Router|[Port Vlans](xml/DeviceViewCiscoPortVlans.xml?raw=true)|Cisco VLAN Port Summary| - |[png](sample/PortVlans.png?raw=true)|
 | Catalyst, 7200, ASR, NX, Router|[Resources](xml/DeviceViewCiscoResources.xml?raw=true)|CiscoCPU, CiscoMemory, CiscoFlash| - |[png](sample/Resources.png?raw=true)|
 | Catalyst, 7200, ASR, NX, Router|[Power and Fan](xml/DeviceViewCiscoHWStatus.xml?raw=true)|Cisco_PowerSupply, Cisco_Fan| - | - |
-| Catalyst, 7200, ASR, NX, Router|[Temperature](xml/DeviceViewCiscoPortVlans.xml?raw=true)|Cisco_Temperature| - | - |
+| Catalyst, 7200, ASR, NX, Router|[Temperature](xml/DeviceViewCiscoTemperature.xml?raw=true)|Cisco_Temperature| - | - |
 | Nexus |[Serial Numbers](xml/DeviceViewNexusSerials.xml?raw=true)|Cisco Nexus Serial Numbers| - |[png](sample/NexusSerials.png?raw=true)|
 
 ## Troubleshooting = most common issues
