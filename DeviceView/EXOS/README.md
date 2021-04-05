@@ -9,9 +9,9 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 ## XIQ Site Engine, XMC 8.1.2+
 
-| Product  | DeviceView   | FlexView   | Buildin FlexView | Example   |
+| Operating System  | DeviceView   | FlexView   | Buildin FlexView | Example   |
 | -------- | ------------ |:----------:|:----------------:| --------- |
-| all EXOS switches |[Port VLAN](xml/DeviceViewAllXosPortVlan.xml?raw=true)| - | XOS VLAN |[png](sample/DeviceViewAllXosPortVlan.png?raw=true)|
+| EXOS |[Port VLAN](xml/DeviceViewAllXosPortVlan.xml?raw=true)| - | XOS VLAN |[png](sample/DeviceViewAllXosPortVlan.png?raw=true)|
 
 
 ## Troubleshooting = most common issues

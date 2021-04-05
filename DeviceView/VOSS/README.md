@@ -9,9 +9,9 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 ## XIQ Site Engine, XMC 8.3+
 
 
-| Product | DeviceView   | GitHub FlexView   | XMC Build-in FlexView | Example   |
+| Operating System | DeviceView   | GitHub FlexView   | XMC Build-in FlexView | Example   |
 | ------- | ------------ |:----------:|:----------------:| --------- |
-| Extreme VSP |[MIB-II IP-Addr](xml/DeviceViewVossMIB2IP.xml?raw=true)| - | MIB-2 IP Address Table |[png](sample/DeviceViewVossMIB2IP.PNG?raw=true)|
+| VOSS |[MIB-II IP-Addr](xml/DeviceViewVossMIB2IP.xml?raw=true)| - | MIB-2 IP Address Table |[png](sample/DeviceViewVossMIB2IP.PNG?raw=true)|
 
 
 >Be Extreme
