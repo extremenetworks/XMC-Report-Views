@@ -1,4 +1,4 @@
-# DeviceView for ISW
+# DeviceView for EXOS
 >Community maintained content
 
 The DeviceView does use reports in the MyReports directory. Those reports use FlexViews, FlexViews does use MIBs.
@@ -11,9 +11,8 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 | Product  | DeviceView   | FlexView   | Buildin FlexView | Example   |
 | -------- | ------------ |:----------:|:----------------:| --------- |
-| ISW |[System](xml/DeviceViewISWSystem.xml?raw=true)|ISW_CPU_Utilization, ISW_Firmware| - |[png](sample/DeviceViewISWSystem.png?raw=true)|
-| ISW |[Power](xml/DeviceViewISWPower.xml?raw=true)|ISW_Power_Supply, ISW_PoE| - |[png](sample/DeviceViewISWPower.png?raw=true)|
-| ISW |[Transceivers](xml/DeviceViewISWDDMI.xml?raw=true)|ISW_DDMI| - |[png](sample/DeviceViewISWDDMI.png?raw=true)|
+| all EXOS switches |[Port VLAN](xml/DeviceViewAllXosPortVlan.xml?raw=true)| - | XOS VLAN |[png](sample/DeviceViewAllXosPortVlan.png?raw=true)|
+
 
 ## Troubleshooting = most common issues
 * MIBs are missing

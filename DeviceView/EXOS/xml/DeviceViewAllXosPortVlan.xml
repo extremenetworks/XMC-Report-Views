@@ -1,0 +1,28 @@
+<report>
+	<reportId>DeviceViewPortVlans</reportId>
+	<title>Device View Port Vlans</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>Port VLAN</viewTabTitle>
+		<viewOrder>2</viewOrder>
+		<families>
+			<family>Summit Series</family>
+			<family>Unified Switching EXOS</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<flexviewgrid>
+				<hideToolbar>true</hideToolbar>
+				<viewId>XOS VLAN</viewId>
+			</flexviewgrid>
+		</items>
+	</panel>
+</report>
+            
