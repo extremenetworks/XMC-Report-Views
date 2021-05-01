@@ -6,8 +6,8 @@ Community Driven repository
 * [Port Configuration](tpl/VOSS_Port_Config.tpl?raw=true)
 * [Fan Table](tpl/VOSS_FanTable.tpl?raw=true)
 * [Chassis](tpl/VOSS_Chassis.tpl?raw=true)
-* [ISid interface](tpl/VOSS_ISid_interface.tpl?raw=true)
-* [ISid services](tpl/VOSS_ISid_Services.tpl?raw=true)
+* [ISID interface](tpl/VOSS_ISid_interface.tpl?raw=true)
+* [ISID services](tpl/VOSS_ISid_Services.tpl?raw=true)
 * [License](tpl/VOSS_License.tpl?raw=true)
 * [Port Configuration Advanced](tpl/VOSS_Port_Advanced_Config.tpl?raw=true)
 * [Port Vlan](tpl/VOSS_Port_Vlan_Table.tpl?raw=true)
@@ -22,6 +22,8 @@ Community Driven repository
 * [VRRP advanced](tpl/VOSS_VRRP_advanced.tpl?raw=true)
 * [FDB Local](tpl/VOSS_FDB.tpl?raw=true)
 * [FDB Remote](tpl/VOSS_FDB_Remote.tpl?raw=true)
+* [Interface Errors](tpl/VOSS_Interface_Errors.tpl?raw=true)
+* [QoS Port Stats](tpl/VOSS_QoS_Egress_Ports_stats_bytes.tpl?raw=true)
 
 
 
@@ -83,6 +85,14 @@ VlanID, MAC, Port, Status, BMac, Cvid
 ##### FDB Remote
 VlanID, MAC, Status, Destination Address, Primary BVlan, Primary Destination, Primary Port, Secondary BVLAN, Secondary Desctination, Secondary Port
 
+##### Interface Errors
+Port, Name, Forward 0, Drop 0, Forward 1, Drop 1, Forward 2, Drop 2, Forward 3, Drop 3, Forward 4, Drop 4, Forward 5, Drop 5, Forward 6, Drop 6, Forward 7, Drop 7
+
+##### QoS Port Stats
+Name, Alignment, FCS, Frame Too Long, xFrame Too Long, Frame Too Short, Link Failure, Carrier Sense, xCarrier, Carrier, SQE Test, In Discards
+
+
+
 ## Examples
 * [Power Supply](sample/VOSS_PowerSupply.png?raw=true)
 * [Line Cards](sample/VOSS_Line_Cards.png?raw=true)
@@ -94,6 +104,8 @@ VlanID, MAC, Status, Destination Address, Primary BVlan, Primary Destination, Pr
 * [VRRP advanced](sample/VOSS_VRRP_advanced.png?raw=true)
 * [FDB Local](sample/VOSS_FDB.png?raw=true)
 * [FDB Remote](sample/VOSS_FDB_Remote.png?raw=true)
+* [Interface Errors](sample/VOSS_Interface_Errors.png?raw=true)
+* [QoS Port Stats](sample/VOSS_QoS_Egress_Ports_stats_bytes.png?raw=true)
 
 
 ## MIBs
