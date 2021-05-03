@@ -8,7 +8,7 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 ## XIQ Site Engine, XMC 8.4+
 
-Product Family needs to be configured as "XIQ Native" or [CloudAP](sample/VendorProfile.PNG?raw=true)
+Product Family needs to be configured as "CloudAP" or [XIQ Native](sample/VendorProfile.PNG?raw=true)
 
 | Product | DeviceView   | GitHub FlexView   | XMC Build-in FlexView | Example   |
 | ------- | ------------ |:----------:|:----------------:| --------- |

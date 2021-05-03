@@ -11,7 +11,7 @@
         <column comparator="com.ets.nac.tables.TbCompOid" id="2" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" fixed="true" hidden="true" modelIndex="2">Instance
             <notes></notes>
             <dataField>OID::Instance:::SNMP::Instance</dataField></column>
-        <column comparator="com.ets.flextable.col.IntStringComparator" id="119" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="3">Port
+        <column comparator="com.ets.flextable.col.IntStringComparator" id="119" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" hidden="true" modelIndex="3">Port
             <notes></notes>
             <dataField>OID::rcPortIndex:::SNMP::SNMP;false;2;3;false;false;5;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.flextable.col.VarStringComparator" id="122" width="84" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="4">Name
@@ -110,7 +110,7 @@
         <column comparator="com.ets.flextable.col.LongStringComparator" id="140" width="147" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" hidden="true" modelIndex="35">Dr 7
             <notes></notes>
             <dataField>OID::rcPrQosCosQuePortStatsQue7DropBytes:::SNMP::SNMP;false;70;35;false;false;4;2;0;0;0;0;0</dataField></column>
-        <column comparator="com.ets.nac.tables.TbCompExpression" id="156" width="76" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="36">Drop 7
+        <column comparator="com.ets.nac.tables.TbCompExpression" id="156" width="77" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="36">Drop 7
             <notes></notes>
             <dataField>SNMP::EXPR;true;2;36;false;false;1;2;0;0;0;0;0</dataField></column>
         <notes></notes>

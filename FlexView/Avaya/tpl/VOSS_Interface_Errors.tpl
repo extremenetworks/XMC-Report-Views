@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <flextablelist version="8.3.0.DEV">
-    <flextable autoExportCsvTextDelineation="DQUOTE" autoExportFrequencyUnit="Minutes" autoExportFormat="HTML" showHorizontalLines="true" autoExportFilename="" autoExportFileManagement="Replace" highlightBackground="153,255,255,255" class="com.enterasys.netsight.console.client.flexview.FvTable" id="VOSS Interface Errors" columnSelectionAllowed="false" autoCreateColumnsFromModel="false" autoExportAllowed="false" autoExportCsvFieldDelimiter="Comma">VOSS Interface Errors
+    <flextable autoExportCsvTextDelineation="DQUOTE" autoExportFrequencyUnit="Minutes" autoExportFormat="HTML" showHorizontalLines="true" autoExportFilename="" autoExportFileManagement="Replace" highlightBackground="153,255,255,255" class="com.enterasys.netsight.console.client.flexview.FvTable" id="VOSS Interface Errors.tpl" columnSelectionAllowed="false" autoCreateColumnsFromModel="false" autoExportAllowed="false" autoExportCsvFieldDelimiter="Comma">VOSS Interface Errors.tpl
         <tableModel>com.ets.nac.tables.TbModel</tableModel>
         <column comparator="com.ets.flextable.col.IntStringComparator" id="0" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" fixed="true" hidden="true">ReqID
             <notes></notes>
@@ -35,7 +35,7 @@
         <column comparator="com.ets.nac.tables.TbCompExpression" id="156" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="10">Frame Too Long
             <notes></notes>
             <dataField>SNMP::EXPR;true;2;10;false;false;1;2;0;0;0;0;0</dataField></column>
-        <column comparator="com.ets.flextable.col.LongStringComparator" id="148" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="11">xFrame Too Shorts
+        <column comparator="com.ets.flextable.col.LongStringComparator" id="148" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" hidden="true" modelIndex="11">xFrame Too Shorts
             <notes></notes>
             <dataField>OID::rcTengDot3StatsFrameTooShorts:::SNMP::SNMP;false;70;11;false;false;4;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="161" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="12">Frame Too Short
@@ -53,7 +53,7 @@
         <column comparator="com.ets.nac.tables.TbCompExpression" id="158" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="16">Carrier Sense
             <notes></notes>
             <dataField>SNMP::EXPR;true;2;16;false;false;1;2;0;0;0;0;0</dataField></column>
-        <column comparator="com.ets.flextable.col.LongStringComparator" id="151" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="17">xCarrier
+        <column comparator="com.ets.flextable.col.LongStringComparator" id="151" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" hidden="true" modelIndex="17">xCarrier
             <notes></notes>
             <dataField>OID::rcTengDot3StatsCarrierErrors:::SNMP::SNMP;false;65;17;false;false;4;2;0;0;0;0;0</dataField></column>
         <column comparator="com.ets.nac.tables.TbCompExpression" id="162" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="18">Carrier
@@ -68,7 +68,7 @@
         <column comparator="com.ets.flextable.col.LongStringComparator" id="153" width="675" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" hidden="true" modelIndex="21">xIn Discards
             <notes></notes>
             <dataField>OID::rcTengIfInDiscards:::SNMP::SNMP;false;70;21;false;false;4;2;0;0;0;0;0</dataField></column>
-        <column comparator="com.ets.nac.tables.TbCompExpression" id="160" width="128" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="22">In Discards
+        <column comparator="com.ets.nac.tables.TbCompExpression" id="160" width="523" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" cellRenderer="com.ets.nac.tables.TbRendNoIconExpression" modelIndex="22">In Discards
             <notes></notes>
             <dataField>SNMP::EXPR;true;2;22;false;false;1;2;0;0;0;0;0</dataField></column>
         <notes></notes>
