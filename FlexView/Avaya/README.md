@@ -24,6 +24,7 @@ Community Driven repository
 * [FDB Remote](tpl/VOSS_FDB_Remote.tpl?raw=true)
 * [Interface Errors](tpl/VOSS_Interface_Errors.tpl?raw=true)
 * [QoS Port Stats](tpl/VOSS_QoS_Egress_Ports_stats_bytes.tpl?raw=true)
+* [I-SID Service](tpl/VOSS_I-SID_Service.tpl?raw=true)
 
 
 
@@ -91,6 +92,9 @@ Port, Name, Forward 0, Drop 0, Forward 1, Drop 1, Forward 2, Drop 2, Forward 3, 
 ##### QoS Port Stats
 Name, Alignment, FCS, Frame Too Long, xFrame Too Long, Frame Too Short, Link Failure, Carrier Sense, xCarrier, Carrier, SQE Test, In Discards
 
+##### I-SID Service
+Instance, System Name, I-SID, I-SID Name, Service Type, Row Status, Service Status, Service Max MAC Limit, Service MAC Limit Enable, Service Origin, Service Action
+This Flexview replaces the original "VOSS I-SID Service" and utilizes new MIBs.
 
 
 ## Examples
