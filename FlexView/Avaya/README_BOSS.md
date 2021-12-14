@@ -6,7 +6,7 @@ Community Driven repository
 * [PoE System](tpl/BOSS_VOSS_PoE_Main.tpl?raw=true)
 * [PoE Ports](tpl/BOSS_PoE_Ports.tpl?raw=true)
 * [SPBM MAC address table](tpl/BOSS_SPBM_MAC_TABLE.tpl?raw=true)
-
+* [PSU Serial Numbers](tpl/BOSS_PSU_Serial_Numbers.tpl?raw=true)
 
 ## Comments & Columns
 

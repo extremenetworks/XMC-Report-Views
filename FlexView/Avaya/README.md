@@ -25,6 +25,9 @@ Community Driven repository
 * [Interface Errors](tpl/VOSS_Interface_Errors.tpl?raw=true)
 * [QoS Port Stats](tpl/VOSS_QoS_Egress_Ports_stats_bytes.tpl?raw=true)
 * [I-SID Service](tpl/VOSS_I-SID_Service.tpl?raw=true)
+* [Virtual Service Applications](tpl/VOSS_Virtual_Service_Applications.tpl?raw=true)
+* [Virtual Service vPorts](tpl/VOSS_Virtual_Service_vPorts.tpl?raw=true)
+
 
 
 
@@ -110,6 +113,8 @@ This Flexview replaces the original "VOSS I-SID Service" and utilizes new MIBs.
 * [FDB Remote](sample/VOSS_FDB_Remote.png?raw=true)
 * [Interface Errors](sample/VOSS_Interface_Errors.png?raw=true)
 * [QoS Port Stats](sample/VOSS_QoS_Egress_Ports_stats_bytes.png?raw=true)
+* [Virtual Service Applications](sample/VOSS_Virtual_Service_Applications.jpg?raw=true)
+* [Virtual Service vPorts](sample/VOSS_Virtual_Service_vPorts.jpg?raw=true)
 
 
 ## MIBs
