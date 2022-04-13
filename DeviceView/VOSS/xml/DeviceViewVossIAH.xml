@@ -1,0 +1,51 @@
+<report>
+	<reportId>DeviceViewVossIAH</reportId>
+	<title>Device View IAH</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>IAH</viewTabTitle>
+		<viewOrder>960</viewOrder>
+		<families>
+			<family>VSP Series</family>
+			<family>Extreme Access Series</family>
+			<family>Unified Switching VOSS</family>
+			<family>Universal Platform VOSS</family>
+			<family>Universal Platform Fabric Engine</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>vbox</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<panel>
+				<title>Applications</title>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>VOSS_Virtual_Service_Applications</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+			<splitter>
+				<collapsible>true</collapsible>
+				<showMiniCollapse>true</showMiniCollapse>
+			</splitter>
+			<panel>
+				<title>VPorts</title>
+				<bodyBorder>true</bodyBorder>
+				<items>
+					<flexviewgrid>
+						<hideToolbar>true</hideToolbar>
+						<viewId>VOSS_Virtual_Service_vPorts</viewId>
+					</flexviewgrid>
+				</items>
+			</panel>
+		</items>
+	</panel>
+</report>
+            

@@ -9,6 +9,10 @@
                 <viewOrder>750</viewOrder>
                 <families>
                         <family>VSP Series</family>
+                        <family>Extreme Access Series</family>
+                        <family>Unified Switching VOSS</family>
+                        <family>Universal Platform VOSS</family>
+                        <family>Universal Platform Fabric Engine</family>
                 </families>
         </deviceViewTab>
         <panel>

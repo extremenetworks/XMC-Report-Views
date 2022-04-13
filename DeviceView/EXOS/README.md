@@ -1,4 +1,4 @@
-# DeviceView for EXOS
+# DeviceView for devices running EXOS and Switch Engine
 >Community maintained content
 
 The DeviceView does use reports in the MyReports directory. Those reports use FlexViews, FlexViews does use MIBs.
@@ -11,7 +11,7 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 | Operating System  | DeviceView   | FlexView   | Buildin FlexView | Example   |
 | -------- | ------------ |:----------:|:----------------:| --------- |
-| EXOS |[Port VLAN](xml/DeviceViewAllXosPortVlan.xml?raw=true)| - | XOS VLAN |[png](sample/DeviceViewAllXosPortVlan.png?raw=true)|
+| EXOS/SwitchEngine |[Port VLAN](xml/DeviceViewAllXosPortVlan.xml?raw=true)| - | XOS VLAN |[png](sample/DeviceViewAllXosPortVlan.png?raw=true)|
 
 
 ## Troubleshooting = most common issues

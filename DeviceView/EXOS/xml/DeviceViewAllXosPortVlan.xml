@@ -10,6 +10,9 @@
 		<families>
 			<family>Summit Series</family>
 			<family>Unified Switching EXOS</family>
+			<family>Universal Platform EXOS</family>
+			<family>Universal Platform Switch Engine</family>
+
 		</families>
 	</deviceViewTab>
 	<panel>
