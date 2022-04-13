@@ -5,10 +5,10 @@ This repository is to be used for hosting custom FlexViews.
 
 * [Enterasys EOS](EOS/README.md)
 * [Enterasys AP3000 Wireless](AP3000/README.md)
-* [Extreme EXOS](EXOS/README.md)
+* [Extreme EXOS/Switch Engine](EXOS/README.md)
 * [Extreme ISW](ISW/README.md)
 * [Extreme XIQ/Aerohive](Extreme_Wireless/README.md)
-* [Extreme/Avaya VOSS](Avaya/README.md)
+* [Extreme/Avaya VOSS/Fabric Engine](Avaya/README.md)
 * [Extreme/Avaya BOSS](Avaya/README_BOSS.md)
 * [Extreme/Brocade/Foundry](Foundry/README.md)
 * [Cisco Systems](Cisco_Systems/README.md)
