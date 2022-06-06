@@ -25,6 +25,10 @@
 			<family>0800-Series</family>
 			<family>7100-Series</family>
 			<family>ISW-Series</family>
+			<family>Universal Platform Fabric Engine</family>
+			<family>Universal Platform Switch Engine</family>
+			<family>Universal Platform VOSS</family>
+			<family>Universal Platform EXOS</family>
 		</families>
 	</deviceViewTab>
 	<panel>
