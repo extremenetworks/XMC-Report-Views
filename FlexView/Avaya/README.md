@@ -27,7 +27,7 @@ Community Driven repository
 * [I-SID Service](tpl/VOSS_I-SID_Service.tpl?raw=true)
 * [Virtual Service Applications](tpl/VOSS_Virtual_Service_Applications.tpl?raw=true)
 * [Virtual Service vPorts](tpl/VOSS_Virtual_Service_vPorts.tpl?raw=true)
-
+* [Auto-Sense Ports State](tpl/VOSS_Auto-Sense.tpl?raw=true)
 
 
 
