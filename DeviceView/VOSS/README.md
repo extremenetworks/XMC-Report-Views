@@ -13,5 +13,6 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 | ------- | ------------ |:----------:|:----------------:| --------- |
 | VOSS/Fabric Engine |[MIB-II IP-Addr](xml/DeviceViewVossMIB2IP.xml?raw=true)| - | MIB-2 IP Address Table |[png](sample/DeviceViewVossMIB2IP.PNG?raw=true)|
 | VOSS/Fabric Engine |[IAH](xml/DeviceViewVossIAH.xml?raw=true)| VOSS_Virtual_Service_Applications, VOSS_Virtual_Service_vPorts | - |[png](sample/DeviceViewVossIAH.PNG?raw=true)|
+| VOSS/Fabric Engine |[Auto-Sense](xml/DeviceViewVossAutoSense.xml?raw=true)| VOSS_Auto-Sense | - |[png](sample/DeviceViewVossAutoSense.png?raw=true)|
 
 >Be Extreme
