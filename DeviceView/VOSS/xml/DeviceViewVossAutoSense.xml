@@ -1,0 +1,36 @@
+<report>
+        <reportId>DeviceViewVossAutoSense</reportId>
+        <title>Device View AutoSense</title>
+        <category>Device</category>
+        <showInTree>false</showInTree>
+        <iconCls>table-icon</iconCls>
+        <deviceViewTab>
+                <viewTabTitle>Auto-Sense</viewTabTitle>
+                <viewOrder>960</viewOrder>
+                <families>
+                        <family>VSP Series</family>
+                        <family>Extreme Access Series</family>
+                        <family>Unified Switching VOSS</family>
+                        <family>Universal Platform VOSS</family>
+                        <family>Universal Platform Fabric Engine</family>
+                </families>
+        </deviceViewTab>
+        <panel>
+                <layout>vbox</layout>
+                <flex>1</flex>
+                <showTitle>false</showTitle>
+                <autoScroll>true</autoScroll>
+                <items>
+                        <panel>
+                                <title>Auto-Sense</title>
+                                <bodyBorder>true</bodyBorder>
+                                <items>
+                                        <flexviewgrid>
+                                                <hideToolbar>true</hideToolbar>
+                                                <viewId>VOSS_Auto-Sense</viewId>
+                                        </flexviewgrid>
+                                </items>
+                        </panel>
+                </items>
+        </panel>
+</report>
