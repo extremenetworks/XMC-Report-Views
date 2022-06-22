@@ -27,7 +27,7 @@ Community Driven repository
 * [I-SID Service](tpl/VOSS_I-SID_Service.tpl?raw=true)
 * [Virtual Service Applications](tpl/VOSS_Virtual_Service_Applications.tpl?raw=true)
 * [Virtual Service vPorts](tpl/VOSS_Virtual_Service_vPorts.tpl?raw=true)
-
+* [Auto-Sense Ports State](tpl/VOSS_Auto-Sense.tpl?raw=true)
 
 
 
@@ -99,6 +99,8 @@ Name, Alignment, FCS, Frame Too Long, xFrame Too Long, Frame Too Short, Link Fai
 Instance, System Name, I-SID, I-SID Name, Service Type, Row Status, Service Status, Service Max MAC Limit, Service MAC Limit Enable, Service Origin, Service Action
 This Flexview replaces the original "VOSS I-SID Service" and utilizes new MIBs.
 
+##### Auto-Sense Ports State
+IP Address, Interface, Auto EnableDisable, Sense Auto Config, Sense State
 
 ## Examples
 * [Power Supply](sample/VOSS_PowerSupply.png?raw=true)
@@ -115,6 +117,7 @@ This Flexview replaces the original "VOSS I-SID Service" and utilizes new MIBs.
 * [QoS Port Stats](sample/VOSS_QoS_Egress_Ports_stats_bytes.png?raw=true)
 * [Virtual Service Applications](sample/VOSS_Virtual_Service_Applications.jpg?raw=true)
 * [Virtual Service vPorts](sample/VOSS_Virtual_Service_vPorts.jpg?raw=true)
+* [Auto-Sense Ports State](sample/VOSS_Auto-Sense.jpg?raw=true)
 
 
 ## MIBs
