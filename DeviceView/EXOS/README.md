@@ -12,7 +12,7 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 | Operating System  | DeviceView   | FlexView   | Buildin FlexView | Example   |
 | -------- | ------------ |:----------:|:----------------:| --------- |
 | EXOS/SwitchEngine |[Port VLAN](xml/DeviceViewAllXosPortVlan.xml?raw=true)| - | XOS VLAN |[png](sample/DeviceViewAllXosPortVlan.png?raw=true)|
-
+| EXOS/SwitchEngine |[PoE](xml/DeviceViewXosPoeSummary.xml?raw=true)| - | XOS PoE Main, XOS PoE Ports|[png](sample/DeviceViewXosPoeSummary.png?raw=true)|
 
 ## Troubleshooting = most common issues
 * MIBs are missing

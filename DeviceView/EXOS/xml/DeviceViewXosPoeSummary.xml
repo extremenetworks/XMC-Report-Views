@@ -1,0 +1,49 @@
+<report>
+    <reportId>DeviceViewXosPoeSummary</reportId>
+    <title>Device View XOS PoE Summary</title>
+    <category>Device</category>
+    <showInTree>false</showInTree>
+    <iconCls>table-icon</iconCls>
+    <deviceViewTab>
+        <viewTabTitle>PoE</viewTabTitle>
+        <viewOrder>470</viewOrder>
+        <families>
+            <family>Summit Series</family>
+            <family>Summit Stack</family>
+            <family>Unified Switching EXOS</family>
+            <family>Universal Platform EXOS</family>
+            <family>Universal Platform Switch Engine</family>
+            <family>Universal Platform Switch Engine ARM Stack</family>
+        </families>
+    </deviceViewTab>
+    <panel>
+        <layout>vbox</layout>
+        <flex>1</flex>
+        <showTitle>false</showTitle>
+        <autoScroll>true</autoScroll>
+        <items>
+            <panel>
+                <title>XOS PoE Main</title>
+                <items>
+                    <flexviewgrid>
+                        <hideToolbar>true</hideToolbar>
+                        <viewId>XOS PoE Main</viewId>
+                    </flexviewgrid>
+                </items>
+            </panel>
+            <splitter>
+                <collapsible>true</collapsible>
+                <showMiniCollapse>true</showMiniCollapse>
+            </splitter>
+            <panel>
+                <title>XOS PoE Ports</title>
+                <items>
+                    <flexviewgrid>
+                        <hideToolbar>true</hideToolbar>
+                        <viewId>XOS PoE Port</viewId>
+                    </flexviewgrid>
+                </items>
+            </panel>
+        </items>
+    </panel>
+</report>
