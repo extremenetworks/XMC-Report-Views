@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report>
+    <reportId>UserTopN</reportId> <!-- must be unique -->
+    <title>User TOP-N Report</title>
+    <category>User And Endsystem Analytics</category>
+    <showInTree>true</showInTree>
+    <iconCls>table-icon</iconCls>
+    <pdf>
+        <layout>grid</layout>
+        <columns>1</columns>
+        <views>10</views>
+        <landscape>true</landscape>
+    </pdf>
+
+    <panel>
+        <pack>none</pack>
+        <toolbar>
+            <items>
+                <fill/>
+                <button>
+                    <type>pdf</type>
+                </button>
+            </items>
+        </toolbar>
+        <items>
+            <tabpanel>		
+				<tab>
+                    <tabtitle>User TOP-N Accept 24h</tabtitle>
+                    <panel>
+                        <layout>fit</layout>
+                        <items>
+                            <grid>
+								<title>User Accept</title>
+								<csv>true</csv>
+								<localFiltering>true</localFiltering>
+                                <columns>
+                                    <column>
+                                        <dataIndex>username</dataIndex> <!-- must match db column name -->
+                                        <id>username</id>
+                                        <header>Username</header>
+                                        <width>250</width>
+                                    </column>
+									<column>
+                                        <dataIndex>Accepted</dataIndex> <!-- must match db column name -->
+                                        <id>Accepted</id>
+                                        <header>Accept Count</header>
+                                        <width>110</width>
+                                    </column>
+                                </columns>
+                                <data>
+                                    <query><![CDATA[
+SELECT username, COUNT(*) AS Accepted
+FROM end_system_event
+WHERE
+    username IS NOT NULL AND
+    username <> '' AND
+	STATE = 'ACCEPT' and
+	FROM_UNIXTIME(time_stamp / 1000) >= now() - INTERVAL 24 HOUR
+GROUP BY username
+ORDER BY Accepted DESC
+LIMIT 10
+									]]>
+                                    </query>
+                                    <dbdefinition>
+                                        <name>netsightrpt</name>													
+                                    </dbdefinition>
+                                </data>
+                                <pdf>
+                                    <position>1</position>
+                                </pdf>
+                            </grid>
+                        </items>
+                    </panel>
+                </tab>
+				<tab>
+                    <tabtitle>User TOP-N Accept 7 Days</tabtitle>
+                    <panel>
+                        <layout>fit</layout>
+                        <items>
+                            <grid>
+								<title>User Accept</title>
+								<csv>true</csv>
+								<localFiltering>true</localFiltering>
+                                <columns>
+                                    <column>
+                                        <dataIndex>username</dataIndex> <!-- must match db column name -->
+                                        <id>username</id>
+                                        <header>Username</header>
+                                        <width>250</width>
+                                    </column>
+									<column>
+                                        <dataIndex>Accepted</dataIndex> <!-- must match db column name -->
+                                        <id>Accepted</id>
+                                        <header>Accept Count</header>
+                                        <width>110</width>
+                                    </column>
+                                </columns>
+                                <data>
+                                    <query><![CDATA[
+SELECT username, COUNT(*) AS Accepted
+FROM end_system_event
+WHERE
+    username IS NOT NULL AND
+    username <> '' AND
+	STATE = 'ACCEPT' and
+	FROM_UNIXTIME(time_stamp / 1000) >= now() - INTERVAL 168 HOUR
+GROUP BY username
+ORDER BY Accepted DESC
+LIMIT 10
+									]]>
+                                    </query>
+                                    <dbdefinition>
+                                        <name>netsightrpt</name>													
+                                    </dbdefinition>
+                                </data>
+                                <pdf>
+                                    <position>1</position>
+                                </pdf>
+                            </grid>
+                        </items>
+                    </panel>
+                </tab>
+				<tab>
+                    <tabtitle>User TOP-N Reject 24h</tabtitle>
+                    <panel>
+                        <layout>fit</layout>
+                        <items>
+                            <grid>
+								<title>User Reject</title>
+								<csv>true</csv>
+								<localFiltering>true</localFiltering>
+                                <columns>
+                                    <column>
+                                        <dataIndex>username</dataIndex> <!-- must match db column name -->
+                                        <id>username</id>
+                                        <header>Username</header>
+                                        <width>250</width>
+                                    </column>
+									<column>
+                                        <dataIndex>Rejected</dataIndex> <!-- must match db column name -->
+                                        <id>Rejected</id>
+                                        <header>Reject Count</header>
+                                        <width>110</width>
+                                    </column>
+                                </columns>
+                                <data>
+                                    <query><![CDATA[
+SELECT username, COUNT(*) AS Rejected
+FROM end_system_event
+WHERE 
+    username IS NOT NULL AND
+    username <> '' AND
+    STATE = 'REJECT' AND
+    FROM_UNIXTIME(time_stamp / 1000) >= now() - INTERVAL 24 HOUR
+GROUP BY username
+ORDER BY Rejected DESC
+LIMIT 10
+									]]>
+                                    </query>
+                                    <dbdefinition>
+                                        <name>netsightrpt</name>													
+                                    </dbdefinition>
+                                </data>
+                                <pdf>
+                                    <position>1</position>
+                                </pdf>
+                            </grid>
+                        </items>
+                    </panel>
+                </tab>
+				<tab>
+                    <tabtitle>User TOP-N Reject 7 Days</tabtitle>
+                    <panel>
+                        <layout>fit</layout>
+                        <items>
+                            <grid>
+								<title>User Reject</title>
+								<csv>true</csv>
+								<localFiltering>true</localFiltering>
+                                <columns>
+                                    <column>
+                                        <dataIndex>username</dataIndex> <!-- must match db column name -->
+                                        <id>username</id>
+                                        <header>Username</header>
+                                        <width>250</width>
+                                    </column>
+									<column>
+                                        <dataIndex>Rejected</dataIndex> <!-- must match db column name -->
+                                        <id>Rejected</id>
+                                        <header>Reject Count</header>
+                                        <width>110</width>
+                                    </column>
+                                </columns>
+                                <data>
+                                    <query><![CDATA[
+SELECT username, COUNT(*) AS Rejected
+FROM end_system_event
+WHERE
+    username IS NOT NULL AND
+    username <> '' AND
+    STATE = 'REJECT' AND
+	FROM_UNIXTIME(time_stamp / 1000) >= now() - INTERVAL 168 HOUR
+GROUP BY username
+ORDER BY Rejected DESC
+LIMIT 10
+									]]>
+                                    </query>
+                                    <dbdefinition>
+                                        <name>netsightrpt</name>													
+                                    </dbdefinition>
+                                </data>
+                                <pdf>
+                                    <position>1</position>
+                                </pdf>
+                            </grid>
+                        </items>
+                    </panel>
+                </tab>
+            </tabpanel>
+        </items>
+    </panel>
+</report>
