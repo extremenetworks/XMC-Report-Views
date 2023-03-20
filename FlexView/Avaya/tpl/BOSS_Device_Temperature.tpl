@@ -35,7 +35,7 @@
         <column comparator="com.enterasys.netsight.console.client.flexview.FvCompMibEnum" id="107" width="95" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" filtered="true" modelIndex="10">Admin State
             <notes></notes>
             <dataField>OID::s5ChasComAdminState:::SNMP::SNMPW;false;2;10;true;false;5;2;0;0;0;0;0</dataField></column>
-        <column comparator="com.ets.flextable.col.IntStringComparator" id="109" width="437" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="11">Chassis Tempurature in half degrees Celsius
+        <column comparator="com.ets.flextable.col.IntStringComparator" id="109" width="437" sortOrder="descending" class="com.enterasys.netsight.console.client.flexview.FvColumn" modelIndex="11">Chassis Temperature in half degrees Celsius
             <notes></notes>
             <dataField>OID::s5ChasTmpSnrTmpValue:::SNMP::SNMP;false;2;11;false;false;5;2;0;0;0;0;0</dataField></column>
         <notes>BOSS Device Summary</notes>
