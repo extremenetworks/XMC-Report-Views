@@ -22,7 +22,7 @@ Port, PoE Enabled, PoE Status, PoE Priority, PoE Class, Power, Limit, Current, V
 Isid, MAC, Mac Status, Mac Type, Mac CVlan Id, Mac Cport Name, CPort Alias, Mac BDest Addr, Mac BVlan Id
 
 ##### CPU utilization
-Chassis Version, Chassis Serial Number, Component Description, Component Version, CPU last Minute, Total CPU, Memory Available
+System Name, Chassis Total CPU Usage, Chassis Total CPU Usage Last 10 Seconds, Chassis Total CPU Usage Last 10 Minutes, Chassis Total CPU Usage Last 1 Hour, Chassis Total CPU Usage Last 24 Hours
 
 ##### Temperature
 Chassis Version, Chassis Serial Number, Component Description, Oper State, Admin State, Chassis Temperature in half degrees Celsius
