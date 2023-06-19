@@ -1,4 +1,4 @@
-# XIQ Site Engine - Extreme Management (NetSight) FlexViews for VOSS devices
+# ExtremeCloud IQ - Site Engine, Extreme Management (NetSight) FlexViews for devices running VOSS/Fabric Engine
 
 Community Driven repository
 
@@ -28,6 +28,9 @@ Community Driven repository
 * [Virtual Service Applications](tpl/VOSS_Virtual_Service_Applications.tpl?raw=true)
 * [Virtual Service vPorts](tpl/VOSS_Virtual_Service_vPorts.tpl?raw=true)
 * [Auto-Sense Ports State](tpl/VOSS_Auto-Sense.tpl?raw=true)
+* [Temperature & PowerSupply](tpl/VOSS_PowerSupply_Temperature.tpl?raw=true)
+* [IQ Agent](tpl/VOSS_IQAgent.tpl?raw=true)
+
 
 
 
@@ -87,7 +90,7 @@ Interface, Status, VRRID, VLAN, Virtual Mac, State, Priority, Primary IP, Master
 VlanID, MAC, Port, Status, BMac, Cvid
 
 ##### FDB Remote
-VlanID, MAC, Status, Destination Address, Primary BVlan, Primary Destination, Primary Port, Secondary BVLAN, Secondary Desctination, Secondary Port
+VlanID, MAC, Status, Destination Address, Primary BVlan, Primary Destination, Primary Port, Secondary BVLAN, Secondary Destination, Secondary Port
 
 ##### Interface Errors
 Port, Name, Forward 0, Drop 0, Forward 1, Drop 1, Forward 2, Drop 2, Forward 3, Drop 3, Forward 4, Drop 4, Forward 5, Drop 5, Forward 6, Drop 6, Forward 7, Drop 7
@@ -101,6 +104,13 @@ This Flexview replaces the original "VOSS I-SID Service" and utilizes new MIBs.
 
 ##### Auto-Sense Ports State
 IP Address, Interface, Auto EnableDisable, Sense Auto Config, Sense State
+
+##### Temperature & PowerSupply
+IP Address, CPU Temperature, Power Supply, Oper Status, PS Detail ID, Type, Serial Number, Description, Input Line Voltage
+
+##### IQ Agent
+IP Address, SysName, Admin Status, Agent Version, Oper Status, Association URL, MonitorFreq, PollFreq, LastOnboardTime, LastPollStatus, LastPollTime, LastMonitorTime, LastHealthStatus, LastHealthTime
+
 
 ## Examples
 * [Power Supply](sample/VOSS_PowerSupply.png?raw=true)
@@ -118,9 +128,11 @@ IP Address, Interface, Auto EnableDisable, Sense Auto Config, Sense State
 * [Virtual Service Applications](sample/VOSS_Virtual_Service_Applications.jpg?raw=true)
 * [Virtual Service vPorts](sample/VOSS_Virtual_Service_vPorts.jpg?raw=true)
 * [Auto-Sense Ports State](sample/VOSS_Auto-Sense.jpg?raw=true)
+* [Temperature & PowerSupply](sample/VOSS_PowerSupply_Temperature.png?raw=true)
+* [IQ Agent](tpl/VOSS_IQAgent.png?raw=true)
 
 
 ## MIBs
-All necessary MIBs are included in the Extreme Management Center (NetSight) version 8.0.4 and newer.
+All necessary MIBs are included in the ExtremeCloud IQ - Site Engine.
 
 >Be Extreme
