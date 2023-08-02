@@ -10,12 +10,12 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 ## XIQ Site Engine, XMC 8.3.0+
 
-Product Family needs to be configured as [SolidServer](sample/VendorProfile-EIP.png?raw=true)
+Product Family needs to be configured as [SolidServer](sample/VendorProfile-EIP.png)
 
 | Product  | DeviceView   | FlexView   | Buildin FlexView | Example   |
 | -------- | ------------ |:---------- |:----------------:| --------- |
-| SolidServer DDI |[System Info](xml/DeviceViewEIPSystem.xml?raw=true)|EIP_SysInfo| - |[png](sample/DeviceViewEIPSystem.png?raw=true)|
-| SolidServer DDI |[DHCP](xml/DeviceViewEIPDhcp.xml?raw=true)|EIP_DHCP_Stats| - |[png](sample/DeviceViewEIPDhcp.png?raw=true)|
+| SolidServer DDI |[System Info](xml/DeviceViewEIPSystem.xml)|EIP_SysInfo| - |[png](sample/DeviceViewEIPSystem.png)|
+| SolidServer DDI |[DHCP](xml/DeviceViewEIPDhcp.xml)|EIP_DHCP_Stats| - |[png](sample/DeviceViewEIPDhcp.png)|
 
 ## Troubleshooting = most common issues
 * MIBs are missing
