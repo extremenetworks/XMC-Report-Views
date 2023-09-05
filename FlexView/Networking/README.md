@@ -4,10 +4,10 @@ Community Driven repository
 
 
 ## FlexViews
-* [Serial Numbers including FRU](tpl/Device_serial_number.tpl?raw=true)
-* [How long is the port down/up?](tpl/Port_Status_Time_with_alias.tpl?raw=true)
-* [What ports are sending traps?](tpl/Port-Trap-SNMP-config.tpl?raw=true)
-* [What are LLDP neighbors?](tpl/LLDP_Remote_Systems--with-local-Switchport.tpl?raw=true)
+* [Serial Numbers including FRU](tpl/Device_serial_number.tpl)
+* [How long is the port down/up?](tpl/Port_Status_Time_with_alias.tpl)
+* [What ports are sending traps?](tpl/Port-Trap-SNMP-config.tpl)
+* [What are LLDP neighbors?](tpl/LLDP_Remote_Systems--with-local-Switchport.tpl)
 * [What MACs are on what port? with alias](tpl/Learned_MAC_Addresses_with_alias.tpl)
 * [What is SNMP engine ID?](tpl/SNMPEngineId.tpl)
 

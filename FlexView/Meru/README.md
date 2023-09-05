@@ -4,19 +4,19 @@ Community Driven repository
 
 
 ## FlexViews
-* [Meru_APs](tpl/Meru_APs.tpl?raw=true)
-* [Meru_Controller](tpl/Meru_Controller.tpl?raw=true)
-* [Meru_Controller_APs](tpl/Meru_Controller_APs.tpl?raw=true)
-* [Meru_Controller_resources](tpl/Meru_Controller_resources.tpl?raw=true)
-* [Meru_Controller_stations](tpl/Meru_Controller_stations.tpl?raw=true)
-* [Meru_Controller_stations_2G](tpl/Meru_Controller_stations_2G.tpl?raw=true)
-* [Meru_Controller_stations_5G](tpl/Meru_Controller_stations_5G.tpl?raw=true)
-* [Meru_Radio_Errors](tpl/Meru_Radio_Errors.tpl?raw=true)
-* [Meru_Radio_Stats_basic](tpl/Meru_Radio_Stats_basic.tpl?raw=true)
-* [Meru_Stations_advanced](tpl/Meru_Stations_advanced.tpl?raw=true)
-* [Meru_Stations_basic](tpl/Meru_Stations_basic.tpl?raw=true)
-* [Meru_SSID](tpl/Meru_SSID.tpl?raw=true)
-* [Meru_Vlans](tpl/Meru_Vlans.tpl?raw=true)
+* [Meru_APs](tpl/Meru_APs.tpl)
+* [Meru_Controller](tpl/Meru_Controller.tpl)
+* [Meru_Controller_APs](tpl/Meru_Controller_APs.tpl)
+* [Meru_Controller_resources](tpl/Meru_Controller_resources.tpl)
+* [Meru_Controller_stations](tpl/Meru_Controller_stations.tpl)
+* [Meru_Controller_stations_2G](tpl/Meru_Controller_stations_2G.tpl)
+* [Meru_Controller_stations_5G](tpl/Meru_Controller_stations_5G.tpl)
+* [Meru_Radio_Errors](tpl/Meru_Radio_Errors.tpl)
+* [Meru_Radio_Stats_basic](tpl/Meru_Radio_Stats_basic.tpl)
+* [Meru_Stations_advanced](tpl/Meru_Stations_advanced.tpl)
+* [Meru_Stations_basic](tpl/Meru_Stations_basic.tpl)
+* [Meru_SSID](tpl/Meru_SSID.tpl)
+* [Meru_Vlans](tpl/Meru_Vlans.tpl)
 
 
 ## Comments & Columns
@@ -87,19 +87,19 @@ Tested with FortiWLC: 8.4-3build-4, MIBs are necesary for Extreme Management Cen
 SSID, ESS Profile, VLAN, Visible, Mode, Security Profile, Band Steering, State, Isolation
 
 
-* [Meru_APs](sample/Meru_APs.PNG?raw=true)
-* [Meru_Controller](sample/Meru_Controller.PNG?raw=true)
-* [Meru_Controller_APs](sample/Meru_Controller_APs.PNG?raw=true)
-* [Meru_Controller_resources](sample/Meru_Controller_resources.PNG?raw=true)
-* [Meru_Controller_stations](sample/Meru_Controller_stations.PNG?raw=true)
-* [Meru_Controller_stations_2G](sample/Meru_Controller_stations_2G.PNG?raw=true)
-* [Meru_Controller_stations_5G](sample/Meru_Controller_stations_5G.PNG?raw=true)
-* [Meru_Radio_Errors](sample/Meru_Radio_Errors.PNG?raw=true)
-* [Meru_Radio_Stats_basic](sample/Meru_Radio_Stats_basic.PNG?raw=true)
-* [Meru_Stations_advanced](sample/Meru_Stations_advanced.PNG?raw=true)
-* [Meru_Stations_basic](sample/Meru_Stations_basic.PNG?raw=true)
-* [Meru_Vlans](sample/Meru_Vlans.PNG?raw=true)
-* [Meru_SSID](sample/Meru_SSID.PNG?raw=true)
+* [Meru_APs](sample/Meru_APs.PNG)
+* [Meru_Controller](sample/Meru_Controller.PNG)
+* [Meru_Controller_APs](sample/Meru_Controller_APs.PNG)
+* [Meru_Controller_resources](sample/Meru_Controller_resources.PNG)
+* [Meru_Controller_stations](sample/Meru_Controller_stations.PNG)
+* [Meru_Controller_stations_2G](sample/Meru_Controller_stations_2G.PNG)
+* [Meru_Controller_stations_5G](sample/Meru_Controller_stations_5G.PNG)
+* [Meru_Radio_Errors](sample/Meru_Radio_Errors.PNG)
+* [Meru_Radio_Stats_basic](sample/Meru_Radio_Stats_basic.PNG)
+* [Meru_Stations_advanced](sample/Meru_Stations_advanced.PNG)
+* [Meru_Stations_basic](sample/Meru_Stations_basic.PNG)
+* [Meru_Vlans](sample/Meru_Vlans.PNG)
+* [Meru_SSID](sample/Meru_SSID.PNG)
 
 ## MIBs
 * [What directory to put MIBs to?](https://extremeportal.force.com/ExtrArticleDetail?an=000080448)

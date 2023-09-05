@@ -9,14 +9,14 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 ## XIQ Site Engine, XMC 8.1.2+
 
-Product Family needs to be configured as [BR69xx](sample/VendorProfile.PNG?raw=true)
+Product Family needs to be configured as [BR69xx](sample/VendorProfile.PNG)
 
 
 | Product | DeviceView   | GitHub FlexView   | XMC Build-in FlexView | Example   |
 | ------- | ------------ |:----------:|:----------------:| --------- |
-| BR69xx |[System](xml/DeviceViewBR69xxSystem.xml?raw=true)|Foundry_Chassis, Foundry_Memory, Foundry_PowerSupply| - |[png](sample/DeviceViewBR69xxSystem.png?raw=true)|
-| BR69xx |[VLANs](xml/DeviceViewBR69xxVlans.xml?raw=true)| - | 802_1Q VLAN Current Table |[png](sample/DeviceViewBR69xxVlans.png?raw=true)|
-| BR69xx |[PVID](xml/DeviceViewBR69xxPVID.xml?raw=true)|Foundry_Port_Status_VLAN| - |[png](sample/DeviceViewBR69xxPVID.png?raw=true)|
+| BR69xx |[System](xml/DeviceViewBR69xxSystem.xml)|Foundry_Chassis, Foundry_Memory, Foundry_PowerSupply| - |[png](sample/DeviceViewBR69xxSystem.png)|
+| BR69xx |[VLANs](xml/DeviceViewBR69xxVlans.xml)| - | 802_1Q VLAN Current Table |[png](sample/DeviceViewBR69xxVlans.png)|
+| BR69xx |[PVID](xml/DeviceViewBR69xxPVID.xml)|Foundry_Port_Status_VLAN| - |[png](sample/DeviceViewBR69xxPVID.png)|
 
 ## Troubleshooting = most common issues
 * MIBs are missing

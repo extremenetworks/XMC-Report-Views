@@ -9,15 +9,15 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 ## XIQ Site Engine, XMC 8.1.2
 
-Product Family needs to be configured as [FortiWLC](sample/VendorProfile.png?raw=true)
+Product Family needs to be configured as [FortiWLC](sample/VendorProfile.png)
 
 | Product  | DeviceView   | FlexView   | Buildin FlexView | Example   |
 | -------- | ------------ |:----------:|:----------------:| --------- |
-| FortiWLC |[Controller](xml/DeviceViewFortiWLCController.xml?raw=true)|Meru_Controller, Meru_Controller_APs, Meru_Controller_resources| - |[png](sample/DeviceViewFortiWLCController.PNG?raw=true)|
-| FortiWLC |[Stations](xml/DeviceViewFortiWLCControllerStations.xml?raw=true)|Meru_Controller_stations, Meru_Controller_stations_2G, Meru_Controller_stations_5G| - |[png](sample/DeviceViewFortiWLCControllerStations.PNG?raw=true)|
-| FortiWLC |[APs](xml/DeviceViewFortiWLCAP.xml?raw=true)|Meru_APs| - |[png](sample/DeviceViewFortiWLCAP.PNG?raw=true)|
-| FortiWLC |[SSID](xml/DeviceViewFortiWLCSsid.xml?raw=true)|Meru_SSID| - |[png](sample/DeviceViewFortiWLCSsid.PNG?raw=true)|
-| FortiWLC |[VLANs](xml/DeviceViewFortiWLCVlan.xml?raw=true)|Meru_Vlans| - |[png](sample/DeviceViewFortiWLCVlan.PNG?raw=true)|
+| FortiWLC |[Controller](xml/DeviceViewFortiWLCController.xml)|Meru_Controller, Meru_Controller_APs, Meru_Controller_resources| - |[png](sample/DeviceViewFortiWLCController.PNG)|
+| FortiWLC |[Stations](xml/DeviceViewFortiWLCControllerStations.xml)|Meru_Controller_stations, Meru_Controller_stations_2G, Meru_Controller_stations_5G| - |[png](sample/DeviceViewFortiWLCControllerStations.PNG)|
+| FortiWLC |[APs](xml/DeviceViewFortiWLCAP.xml)|Meru_APs| - |[png](sample/DeviceViewFortiWLCAP.PNG)|
+| FortiWLC |[SSID](xml/DeviceViewFortiWLCSsid.xml)|Meru_SSID| - |[png](sample/DeviceViewFortiWLCSsid.PNG)|
+| FortiWLC |[VLANs](xml/DeviceViewFortiWLCVlan.xml)|Meru_Vlans| - |[png](sample/DeviceViewFortiWLCVlan.PNG)|
 
 ## Troubleshooting = most common issues
 * MIBs are missing

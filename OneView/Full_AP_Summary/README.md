@@ -2,7 +2,7 @@
 
 ### Full AP Summary Report
 This is a modified version of the default report allowing users to export a list of 2000 APs.  If you need to export more than 2000 APs, the tag you need to edit before installing is `<pageSize>2000</pageSize>`
-* [Full AP Summary Report](FullApSummaryReport.xml?raw=true) (Right-click and "Save-as")
+* [Full AP Summary Report](FullApSummaryReport.xml) (Open and download raw)
 
 This is based on a request in [this thread on The Hub](https://community.extremenetworks.com/extreme/topics/how-can-i-export-a-full-ap-summary-report-to-include-ap-version-hw-type-and-most-important-the-location).
 

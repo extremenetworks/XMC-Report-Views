@@ -10,7 +10,7 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 | DeviceView   | GitHub FlexView   | XMC Build-in FlexView | Example   |
 | ------------ |:----------:|:----------------:| --------- |
-|[Current Port Status](xml/DeviceViewPortStatusTime.xml?raw=true)| Port_Status_Time_with_alias | - |[png](sample/DeviceViewPortStatusTime.PNG?raw=true)|
+|[Current Port Status](xml/DeviceViewPortStatusTime.xml)| Port_Status_Time_with_alias | - |[png](sample/DeviceViewPortStatusTime.PNG)|
 
 
 >Be Extreme

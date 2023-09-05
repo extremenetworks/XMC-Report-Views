@@ -11,14 +11,14 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 | Product  | DeviceView   | FlexView   | Buildin FlexView | Example   |
 | -------- | ------------ |:----------:|:----------------:| --------- |
-| Catalyst, 7200, ASR, NX, Router|[VLANS](xml/DeviceViewCiscoVlans.xml?raw=true)|CiscoVLANs| - |[png](sample/VLANs.png?raw=true)|
-| Catalyst, 7200, ASR, NX, Router|[STP](xml/DeviceViewCiscoStp.xml?raw=true)|CiscoSTP|Port Spanning Tree Information|[png](sample/STP.png?raw=true)|
-| Catalyst, 7200, ASR, NX, Router|[VTP](xml/DeviceViewCiscoVtp.xml?raw=true)|CiscoVTP| - |[png](sample/VTP.png?raw=true)|
-| Catalyst, 7200, ASR, NX, Router|[Port Vlans](xml/DeviceViewCiscoPortVlans.xml?raw=true)|Cisco VLAN Port Summary| - |[png](sample/PortVlans.png?raw=true)|
-| Catalyst, 7200, ASR, NX, Router|[Resources](xml/DeviceViewCiscoResources.xml?raw=true)|CiscoCPU, CiscoMemory, CiscoFlash| - |[png](sample/Resources.png?raw=true)|
-| Catalyst, 7200, ASR, NX, Router|[Power and Fan](xml/DeviceViewCiscoHWStatus.xml?raw=true)|Cisco_PowerSupply, Cisco_Fan| - | - |
-| Catalyst, 7200, ASR, NX, Router|[Temperature](xml/DeviceViewCiscoTemperature.xml?raw=true)|Cisco_Temperature| - | - |
-| Nexus |[Serial Numbers](xml/DeviceViewNexusSerials.xml?raw=true)|Cisco Nexus Serial Numbers| - |[png](sample/NexusSerials.png?raw=true)|
+| Catalyst, 7200, ASR, NX, Router|[VLANS](xml/DeviceViewCiscoVlans.xml)|CiscoVLANs| - |[png](sample/VLANs.png)|
+| Catalyst, 7200, ASR, NX, Router|[STP](xml/DeviceViewCiscoStp.xml)|CiscoSTP|Port Spanning Tree Information|[png](sample/STP.png)|
+| Catalyst, 7200, ASR, NX, Router|[VTP](xml/DeviceViewCiscoVtp.xml)|CiscoVTP| - |[png](sample/VTP.png)|
+| Catalyst, 7200, ASR, NX, Router|[Port Vlans](xml/DeviceViewCiscoPortVlans.xml)|Cisco VLAN Port Summary| - |[png](sample/PortVlans.png)|
+| Catalyst, 7200, ASR, NX, Router|[Resources](xml/DeviceViewCiscoResources.xml)|CiscoCPU, CiscoMemory, CiscoFlash| - |[png](sample/Resources.png)|
+| Catalyst, 7200, ASR, NX, Router|[Power and Fan](xml/DeviceViewCiscoHWStatus.xml)|Cisco_PowerSupply, Cisco_Fan| - | - |
+| Catalyst, 7200, ASR, NX, Router|[Temperature](xml/DeviceViewCiscoTemperature.xml)|Cisco_Temperature| - | - |
+| Nexus |[Serial Numbers](xml/DeviceViewNexusSerials.xml)|Cisco Nexus Serial Numbers| - |[png](sample/NexusSerials.png)|
 
 ## Troubleshooting = most common issues
 * MIBs are missing

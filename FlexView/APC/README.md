@@ -3,12 +3,12 @@
 Community Driven repository
 
 ## FlexViews
-* [Basic Input](tpl/APC-UPS_Basic_Input.tpl?raw=true)
-* [Basic Output](tpl/APC-UPS_Basic_Output.tpl?raw=true)
-* [Basic Battery](tpl/APC-UPS_Basic_Battery.tpl?raw=true)
-* [Advanced Input](tpl/APC-UPS_Adv_Input.tpl?raw=true)
-* [Advanced Output](tpl/APC-UPS_Adv_Output.tpl?raw=true)
-* [Advanced Battery](tpl/APC-UPS_Adv_Battery.tpl?raw=true)
+* [Basic Input](tpl/APC-UPS_Basic_Input.tpl)
+* [Basic Output](tpl/APC-UPS_Basic_Output.tpl)
+* [Basic Battery](tpl/APC-UPS_Basic_Battery.tpl)
+* [Advanced Input](tpl/APC-UPS_Adv_Input.tpl)
+* [Advanced Output](tpl/APC-UPS_Adv_Output.tpl)
+* [Advanced Battery](tpl/APC-UPS_Adv_Battery.tpl)
 
 ## Comments & Columns
 ##### Basic Input

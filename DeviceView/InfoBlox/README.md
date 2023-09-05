@@ -9,13 +9,13 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 ## XIQ Site Engine, XMC 8.1.2+
 
-Product Family needs to be configured as [InfoBlox DDI](sample/VendorProfile-InfoBlox.png?raw=true)
+Product Family needs to be configured as [InfoBlox DDI](sample/VendorProfile-InfoBlox.png)
 
 | Product  | DeviceView   | FlexView   | Buildin FlexView | Example   |
 | -------- | ------------ |:----------:|:----------------:| --------- |
-| DDI |[System Info](xml/DeviceViewInfoBloxSystem.xml?raw=true)|InfoBlox_SystemInfo| - |[png](sample/DeviceViewInfoBloxSystem.png?raw=true)|
-| DDI |[DHCP DNS](xml/DeviceViewInfoBloxDHCP.xml?raw=true)|InfoBlox_DHCPStatistics, InfoBlox_DNSupdates_Statistics| - |[png](sample/DeviceViewInfoBloxDHCP.png?raw=true)|
-| DDI |[DHCP6 DNS6](xml/DeviceViewInfoBloxDHCP6.xml?raw=true)|InfoBlox_DHCP6Statistics, InfoBlox_DNS6updates_Statistics| - | - |
+| DDI |[System Info](xml/DeviceViewInfoBloxSystem.xml)|InfoBlox_SystemInfo| - |[png](sample/DeviceViewInfoBloxSystem.png)|
+| DDI |[DHCP DNS](xml/DeviceViewInfoBloxDHCP.xml)|InfoBlox_DHCPStatistics, InfoBlox_DNSupdates_Statistics| - |[png](sample/DeviceViewInfoBloxDHCP.png)|
+| DDI |[DHCP6 DNS6](xml/DeviceViewInfoBloxDHCP6.xml)|InfoBlox_DHCP6Statistics, InfoBlox_DNS6updates_Statistics| - | - |
 
 ## Troubleshooting = most common issues
 * MIBs are missing

@@ -11,7 +11,7 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 | Product | DeviceView   | GitHub FlexView   | XMC Build-in FlexView | Example   |
 | ------- | ------------ |:----------:|:----------------:| --------- |
-| Extreme 2x0 |[VLANs](xml/DeviceViewFastPathVlans.xml?raw=true)| - | 802_1Q VLAN Current Table |[png](sample/DeviceViewFastPathVlans.PNG?raw=true)|
-| Extreme 2x0 |[PVID](xml/DeviceViewFastPathPVID.xml?raw=true)| - |Port Status VLAN|[png](sample/DeviceViewFastPathPVID.PNG?raw=true)|
+| Extreme 2x0 |[VLANs](xml/DeviceViewFastPathVlans.xml)| - | 802_1Q VLAN Current Table |[png](sample/DeviceViewFastPathVlans.PNG)|
+| Extreme 2x0 |[PVID](xml/DeviceViewFastPathPVID.xml)| - |Port Status VLAN|[png](sample/DeviceViewFastPathPVID.PNG)|
 
 >Be Extreme

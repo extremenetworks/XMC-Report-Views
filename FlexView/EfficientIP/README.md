@@ -4,8 +4,8 @@
 
 
 ## FlexViews
-* [System information](tpl/EIP_Sysinfo.tpl?raw=true)
-* [DHCP statistics](tpl/EIP_DHCP_Stats.tpl?raw=true)
+* [System information](tpl/EIP_Sysinfo.tpl)
+* [DHCP statistics](tpl/EIP_DHCP_Stats.tpl)
 
 
 ## Comments & Columns

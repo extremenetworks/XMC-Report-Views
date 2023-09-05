@@ -2,12 +2,12 @@
 
 ### AP Down Summary
 This report shows APs that were currently down (and not yet cleared) at the time the report was generated.
-* [Current AP Down Summary Report](MYApDownCurrent.xml?raw=true) (Right-click and "Save-as")
+* [Current AP Down Summary Report](MYApDownCurrent.xml) (Open and download raw)
 ![Current AP Down Summary](AP_Down_Current.PNG "Current AP Down Summary")
 
 ### Daily AP Down Report
 This shows all alarms for "AP out of service" for the last 24 hours.  Useful if a remote site loses external connectivity or has an outage in the middle of the night that may have been resolved by the time you check your mail.
-* [Daily AP Down Report](MYApDownDaily.xml?raw=true) (Right-click and "Save-as")
+* [Daily AP Down Report](MYApDownDaily.xml) (Open and download raw)
 ![Daily AP Down Summary](AP_Down_Daily.PNG "Daily AP Down Summary")
 
 ## Installation

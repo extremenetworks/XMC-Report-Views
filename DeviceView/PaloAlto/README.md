@@ -13,8 +13,8 @@ Product Family needs to be configured as Palo Alto
 
 | DeviceView   | GitHub FlexView   | Example   |
 | ------------ |:----------:| --------- |
-|[System](xml/DeviceViewPaloAltoSystem.xml?raw=true)|PaloAltoSystemEntity, PaloAltoSystemSoftware|[png](sample/DeviceViewPaloAltoSystem.PNG?raw=true)|
-|[Utilization](xml/DeviceViewPaloAltoUtilization.xml?raw=true)|PaloAltoInterfaces, PaloAltoZones, PaloAltoGlobalProtect|[png](sample/DeviceViewPaloAltoUtilization.PNG?raw=true)|
+|[System](xml/DeviceViewPaloAltoSystem.xml)|PaloAltoSystemEntity, PaloAltoSystemSoftware|[png](sample/DeviceViewPaloAltoSystem.PNG)|
+|[Utilization](xml/DeviceViewPaloAltoUtilization.xml)|PaloAltoInterfaces, PaloAltoZones, PaloAltoGlobalProtect|[png](sample/DeviceViewPaloAltoUtilization.PNG)|
 
 
 ## Troubleshooting = most common issues

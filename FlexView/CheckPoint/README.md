@@ -4,18 +4,18 @@ Community Driven repository
 
 
 ## FlexViews
-* [Firewall](tpl/CheckPoint_Firewall.tpl?raw=true)
-* [Firewall Interfaces](tpl/CheckPoint_Firewall_Interfaces.tpl?raw=true)
-* [Firewall Interfaces Statistics](tpl/CheckPoint_Firewall_Interfaces_stats.tpl?raw=true)
-* [Firewall Policy](tpl/CheckPoint_Firewall_Policy.tpl?raw=true)
-* [Management](tpl/CheckPoint_Mgmt.tpl?raw=true)
-* [Disk Usage](tpl/CheckPoint_Disk_Usage.tpl?raw=true)
-* [File System Usage](tpl/CheckPoint_Multi_Disk_Usage.tpl?raw=true)
-* [Hardware Information](tpl/CheckPoint_Hardware_Information.tpl?raw=true)
-* [Interface Table](tpl/CheckPoint_Interface_table.tpl?raw=true)
-* [Licensing Information](tpl/CheckPoint_Licensing_Information.tpl?raw=true)
-* [Routing Table](tpl/CheckPoint_Routing_Table.tpl?raw=true)
-* [SVN Information](tpl/CheckPoint_SVN_info.tpl?raw=true)
+* [Firewall](tpl/CheckPoint_Firewall.tpl)
+* [Firewall Interfaces](tpl/CheckPoint_Firewall_Interfaces.tpl)
+* [Firewall Interfaces Statistics](tpl/CheckPoint_Firewall_Interfaces_stats.tpl)
+* [Firewall Policy](tpl/CheckPoint_Firewall_Policy.tpl)
+* [Management](tpl/CheckPoint_Mgmt.tpl)
+* [Disk Usage](tpl/CheckPoint_Disk_Usage.tpl)
+* [File System Usage](tpl/CheckPoint_Multi_Disk_Usage.tpl)
+* [Hardware Information](tpl/CheckPoint_Hardware_Information.tpl)
+* [Interface Table](tpl/CheckPoint_Interface_table.tpl)
+* [Licensing Information](tpl/CheckPoint_Licensing_Information.tpl)
+* [Routing Table](tpl/CheckPoint_Routing_Table.tpl)
+* [SVN Information](tpl/CheckPoint_SVN_info.tpl)
 
 ## Comments & Columns
 
@@ -81,18 +81,18 @@ Version, Build, OS Name, Version Level
 
 
 ## Examples
-* [Firewall](sample/CheckPoint-Firewall.png?raw=true)
-* [Firewall Interfaces](sample/CheckPoint-Firewall-Interfaces.png?raw=true)
-* [Firewall Interfaces Statistics](sample/CheckPoint-Firewall-Interfaces-stats.png?raw=true)
-* [Firewall Policy](sample/CheckPoint-Firewall-Policy.png?raw=true)
-* [Management](sample/CheckPoint-MGMT.png?raw=true)
-* [Disk Usage](sample/CheckPoint-Disk_Usage.png?raw=true)
-* [File System Usage](sample/CheckPoint-MultiDisk.png?raw=true)
-* [Hardware Information](sample/CheckPoint-Hardware.png?raw=true)
-* [Interface Table](sample/Checkpoint-Interface-table.png?raw=true)
-* [Licensing Information](sample/CheckPoint-Licensing.png?raw=true)
-* [Routing Table](sample/CheckPoint-Routing.png?raw=true)
-* [SVN Information](sample/CheckPoint-SVN.png?raw=true)
+* [Firewall](sample/CheckPoint-Firewall.png)
+* [Firewall Interfaces](sample/CheckPoint-Firewall-Interfaces.png)
+* [Firewall Interfaces Statistics](sample/CheckPoint-Firewall-Interfaces-stats.png)
+* [Firewall Policy](sample/CheckPoint-Firewall-Policy.png)
+* [Management](sample/CheckPoint-MGMT.png)
+* [Disk Usage](sample/CheckPoint-Disk_Usage.png)
+* [File System Usage](sample/CheckPoint-MultiDisk.png)
+* [Hardware Information](sample/CheckPoint-Hardware.png)
+* [Interface Table](sample/Checkpoint-Interface-table.png)
+* [Licensing Information](sample/CheckPoint-Licensing.png)
+* [Routing Table](sample/CheckPoint-Routing.png)
+* [SVN Information](sample/CheckPoint-SVN.png)
 
 
 ## MIBs

@@ -3,16 +3,16 @@
 Community Driven repository
 
 ## FlexViews
-* [Environmental info](tpl/S_Environment_stats.tpl?raw=true)
-* [SNTP settings](tpl/sntp_client_setup.tpl?raw=true)
-* [SNTP client broadcast](tpl/sntp_broadcast.tpl?raw=true)
-* [SNTP client unicast](tpl/sntp_client_unicast.tpl?raw=true)
-* [SpanGuard](tpl/SpanGuardSettings.tpl?raw=true)
-* [Memory and flash utilization](tpl/Storage_Utilization.tpl?raw=true)
-* [Syslog server config](tpl/Syslog_Server_Configuration.tpl?raw=true)
-* [Syslog summary](tpl/Syslog_Summary_Information.tpl?raw=true)
-* [VH Switch Information](tpl/VH-Switch_Information.tpl?raw=true)
-* [Clear Change Table](tpl/Clear_Change_Table.tpl?raw=true)
+* [Environmental info](tpl/S_Environment_stats.tpl)
+* [SNTP settings](tpl/sntp_client_setup.tpl)
+* [SNTP client broadcast](tpl/sntp_broadcast.tpl)
+* [SNTP client unicast](tpl/sntp_client_unicast.tpl)
+* [SpanGuard](tpl/SpanGuardSettings.tpl)
+* [Memory and flash utilization](tpl/Storage_Utilization.tpl)
+* [Syslog server config](tpl/Syslog_Server_Configuration.tpl)
+* [Syslog summary](tpl/Syslog_Summary_Information.tpl)
+* [VH Switch Information](tpl/VH-Switch_Information.tpl)
+* [Clear Change Table](tpl/Clear_Change_Table.tpl)
 
 ## Comments & Columns
 ##### Environmental info

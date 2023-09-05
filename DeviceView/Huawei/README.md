@@ -11,10 +11,10 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 | Product | DeviceView   | GitHub FlexView   | Example   |
 | ------- | ------------ |:-----------------:| --------- |
-| S5720 |[Entity](xml/DeviceViewHuaweiEntity.xml?raw=true)| Huawei_Entity |[png](sample/DeviceViewHuaweiEntity.PNG?raw=true)|
-| S5720 |[STP](xml/DeviceViewHuaweiSTP.xml?raw=true)| Huawei_STP |[png](sample/DeviceViewHuaweiSTP.PNG?raw=true)|
-| S5720 |[VLANs](xml/DeviceViewHuaweiVlans.xml?raw=true)| Huawei_VLAN |[png](sample/DeviceViewHuaweiVlans.PNG?raw=true)|
-| S5720 |[PVID](xml/DeviceViewHuaweiPortVlans.xml?raw=true)| Huawei_PVID |[png](sample/DeviceViewHuaweiPortVlans.PNG?raw=true)|
+| S5720 |[Entity](xml/DeviceViewHuaweiEntity.xml)| Huawei_Entity |[png](sample/DeviceViewHuaweiEntity.PNG)|
+| S5720 |[STP](xml/DeviceViewHuaweiSTP.xml)| Huawei_STP |[png](sample/DeviceViewHuaweiSTP.PNG)|
+| S5720 |[VLANs](xml/DeviceViewHuaweiVlans.xml)| Huawei_VLAN |[png](sample/DeviceViewHuaweiVlans.PNG)|
+| S5720 |[PVID](xml/DeviceViewHuaweiPortVlans.xml)| Huawei_PVID |[png](sample/DeviceViewHuaweiPortVlans.PNG)|
 
 
 >Be Extreme

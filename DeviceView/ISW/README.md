@@ -11,9 +11,9 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 | Product  | DeviceView   | FlexView   | Buildin FlexView | Example   |
 | -------- | ------------ |:----------:|:----------------:| --------- |
-| ISW |[System](xml/DeviceViewISWSystem.xml?raw=true)|ISW_CPU_Utilization, ISW_Firmware| - |[png](sample/DeviceViewISWSystem.png?raw=true)|
-| ISW |[Power](xml/DeviceViewISWPower.xml?raw=true)|ISW_Power_Supply, ISW_PoE| - |[png](sample/DeviceViewISWPower.png?raw=true)|
-| ISW |[Transceivers](xml/DeviceViewISWDDMI.xml?raw=true)|ISW_DDMI| - |[png](sample/DeviceViewISWDDMI.png?raw=true)|
+| ISW |[System](xml/DeviceViewISWSystem.xml)|ISW_CPU_Utilization, ISW_Firmware| - |[png](sample/DeviceViewISWSystem.png)|
+| ISW |[Power](xml/DeviceViewISWPower.xml)|ISW_Power_Supply, ISW_PoE| - |[png](sample/DeviceViewISWPower.png)|
+| ISW |[Transceivers](xml/DeviceViewISWDDMI.xml)|ISW_DDMI| - |[png](sample/DeviceViewISWDDMI.png)|
 
 ## Troubleshooting = most common issues
 * MIBs are missing

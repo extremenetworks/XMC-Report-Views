@@ -3,10 +3,10 @@
 Community Driven repository
 
 ## FlexViews
-* [Chassis information](tpl/Foundry_Chassis.tpl?raw=true)
-* [Memory Utilization](tpl/Foundry_Memory.tpl?raw=true)
-* [Power Supplies](tpl/Foundry_PowerSupply.tpl?raw=true)
-* [Port Status Vlan](tpl/Foundry_Port_Status_VLAN.tpl?raw=true)
+* [Chassis information](tpl/Foundry_Chassis.tpl)
+* [Memory Utilization](tpl/Foundry_Memory.tpl)
+* [Power Supplies](tpl/Foundry_PowerSupply.tpl)
+* [Port Status Vlan](tpl/Foundry_Port_Status_VLAN.tpl)
 
 
 ## Comments & Columns

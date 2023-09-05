@@ -4,20 +4,20 @@ Community Driven repository
 
 
 ## FlexViews
-* [CPU](tpl/FortiGate_CPU.tpl?raw=true)
-* [Firewall](tpl/FortiGate_Firewall.tpl?raw=true)
-* [Software](tpl/FortiGate_Software.tpl?raw=true)
-* [System Info](tpl/FortiGate_SystemInfo.tpl?raw=true)
-* [VDOM](tpl/FortiGate_Vdom.tpl?raw=true)
-* [VDOM Info](tpl/FortiGate_VdomInfo.tpl?raw=true)
-* [WLAN AP](tpl/FortiGate_Wlan_AP.tpl?raw=true)
-* [WLAN AP Hardware](tpl/FortiGate_Wlan_AP_HW.tpl?raw=true)
-* [WLAN AP Stats](tpl/FortiGate_Wlan_AP_Stats.tpl?raw=true)
-* [WLAN Mobile Units](tpl/FortiGate_Wlan_MU.tpl?raw=true)
-* [WLAN Radio](tpl/FortiGate_Wlan_Radio.tpl?raw=true)
-* [WLAN SSID](tpl/FortiGate_Wlan_SSID.tpl?raw=true)
-* [WLAN Virtual AP](tpl/FortiGate_Wlan_VAP.tpl?raw=true)
-* [WLAN Profile](tpl/FortiGate_Wlan_Profile.tpl?raw=true)
+* [CPU](tpl/FortiGate_CPU.tpl)
+* [Firewall](tpl/FortiGate_Firewall.tpl)
+* [Software](tpl/FortiGate_Software.tpl)
+* [System Info](tpl/FortiGate_SystemInfo.tpl)
+* [VDOM](tpl/FortiGate_Vdom.tpl)
+* [VDOM Info](tpl/FortiGate_VdomInfo.tpl)
+* [WLAN AP](tpl/FortiGate_Wlan_AP.tpl)
+* [WLAN AP Hardware](tpl/FortiGate_Wlan_AP_HW.tpl)
+* [WLAN AP Stats](tpl/FortiGate_Wlan_AP_Stats.tpl)
+* [WLAN Mobile Units](tpl/FortiGate_Wlan_MU.tpl)
+* [WLAN Radio](tpl/FortiGate_Wlan_Radio.tpl)
+* [WLAN SSID](tpl/FortiGate_Wlan_SSID.tpl)
+* [WLAN Virtual AP](tpl/FortiGate_Wlan_VAP.tpl)
+* [WLAN Profile](tpl/FortiGate_Wlan_Profile.tpl)
 
 ## Comments & Columns
 
@@ -93,20 +93,20 @@ Name, Platform, Channel Dtls Policy, Country
 
 
 ## Examples
-* [CPU](sample/FortiGateCPU.png?raw=true)
-* [Firewall](sample/FortiGateFirewall.png?raw=true)
-* [Software](sample/FortiGateSoftware.png?raw=true)
-* [System Info](sample/FortiGateSystemInfo.png?raw=true)
-* [VDOM](sample/FortiGateVdom.png?raw=true)
-* [VDOM Info](sample/FortiGateVdomInfo.png?raw=true)
-* [WLAN AP](sample/FortiGate_Wlan_AP.PNG?raw=true)
-* [WLAN AP Hardware](sample/FortiGate_Wlan_AP_HW.PNG?raw=true)
-* [WLAN AP Stats](sample/FortiGate_Wlan_AP_Stats.PNG?raw=true)
-* [WLAN Mobile Units](sample/FortiGate_Wlan_MU.PNG?raw=true)
-* [WLAN Radio](sample/FortiGate_Wlan_Radio.PNG?raw=true)
-* [WLAN SSID](sample/FortiGate_Wlan_SSID.PNG?raw=true)
-* [WLAN Virtual AP](sample/FortiGate_Wlan_VAP.PNG?raw=true)
-* [WLAN Profile](sample/FortiGate_Wlan_Profile.PNG?raw=true)
+* [CPU](sample/FortiGateCPU.png)
+* [Firewall](sample/FortiGateFirewall.png)
+* [Software](sample/FortiGateSoftware.png)
+* [System Info](sample/FortiGateSystemInfo.png)
+* [VDOM](sample/FortiGateVdom.png)
+* [VDOM Info](sample/FortiGateVdomInfo.png)
+* [WLAN AP](sample/FortiGate_Wlan_AP.PNG)
+* [WLAN AP Hardware](sample/FortiGate_Wlan_AP_HW.PNG)
+* [WLAN AP Stats](sample/FortiGate_Wlan_AP_Stats.PNG)
+* [WLAN Mobile Units](sample/FortiGate_Wlan_MU.PNG)
+* [WLAN Radio](sample/FortiGate_Wlan_Radio.PNG)
+* [WLAN SSID](sample/FortiGate_Wlan_SSID.PNG)
+* [WLAN Virtual AP](sample/FortiGate_Wlan_VAP.PNG)
+* [WLAN Profile](sample/FortiGate_Wlan_Profile.PNG)
 
 
 ## MIBs

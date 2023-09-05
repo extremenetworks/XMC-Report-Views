@@ -4,8 +4,8 @@ Community Driven repository
 
 
 ## FlexViews
-* [VM Table](tpl/VMware_vmTable.tpl?raw=true)
-* [VM Networks](tpl/VMware_vmNet.tpl?raw=true)
+* [VM Table](tpl/VMware_vmTable.tpl)
+* [VM Networks](tpl/VMware_vmNet.tpl)
 
 ## Comments & Columns
 
@@ -21,8 +21,8 @@ VM Display Name, Network Number, Network Name
 
 
 ## Examples
-* [VM Table](sample/VMware_vmTable.PNG?raw=true)
-* [VM Networks](sample/VMware_vmNet.PNG?raw=true)
+* [VM Table](sample/VMware_vmTable.PNG)
+* [VM Networks](sample/VMware_vmNet.PNG)
 
 
 ## MIBs

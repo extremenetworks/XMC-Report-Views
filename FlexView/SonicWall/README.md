@@ -4,9 +4,9 @@ Community Driven repository
 
 
 ## FlexViews
-* [System information](tpl/SonicWall_Info.tpl?raw=true)
-* [What is the system utilization?](tpl/SonicWall_Utilization.tpl?raw=true)
-* [How are zones configured?](tpl/SonicWall_Zones.tpl?raw=true)
+* [System information](tpl/SonicWall_Info.tpl)
+* [What is the system utilization?](tpl/SonicWall_Utilization.tpl)
+* [How are zones configured?](tpl/SonicWall_Zones.tpl)
 
 ## Comments & Columns
 
@@ -26,9 +26,9 @@ Tested with NSv_300_R144 6.5.0.2 & TZ300 6.5.1.1, MIBs are necesary for Extreme 
 Zone Name, Zone Security, If Trust, Content Filtering, Client AV Enforcement, Client CF Enforcement, Gateway Anti-Virus, Anti-Spyware, IPS, App Control, SSL Control, SSL VPN Access
 
 ## Examples
-* [System information](sample/SonicWall_Info.png?raw=true)
-* [What is the system utilization?](sample/SonicWall_Utilization.png?raw=true)
-* [How are zones configured?](sample/SonicWall_Zones.png?raw=true)
+* [System information](sample/SonicWall_Info.png)
+* [What is the system utilization?](sample/SonicWall_Utilization.png)
+* [How are zones configured?](sample/SonicWall_Zones.png)
 
 ## MIBs
 * [What directory to put MIBs to?](https://extremeportal.force.com/ExtrArticleDetail?an=000080448)

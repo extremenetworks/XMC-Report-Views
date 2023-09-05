@@ -3,7 +3,7 @@
 Community Driven repository
 
 ## FlexViews
-* [UPS Orion](tpl/UPS-Orion.tpl?raw=true)
+* [UPS Orion](tpl/UPS-Orion.tpl)
 
 ## Comments & Columns
 ##### UPS Orion

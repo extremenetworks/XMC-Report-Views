@@ -9,16 +9,16 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 ## XIQ Site Engine, XMC 8.1.2+
 
-Product Family needs to be configured as [FortiGate](sample/VendorProfile.png?raw=true)
+Product Family needs to be configured as [FortiGate](sample/VendorProfile.png)
 
 | Product  | DeviceView   | FlexView   | Buildin FlexView | Example   |
 | -------- | ------------ |:----------:|:----------------:| --------- |
-| FortiGate |[System](xml/DeviceViewFortiGateSystem.xml?raw=true)|FortiGate_SystemInfo, FortiGate_Software, FortiGate_CPU| - |[png](sample/System.png?raw=true)|
-| FortiGate |[VDOM](xml/DeviceViewFortiGateVDOM.xml?raw=true)|FortiGate_VdomInfo, FortiGate_Vdom| - |[png](sample/VDOM.png?raw=true)|
-| FortiGate |[Firewall](xml/DeviceViewFortiGateFW.xml?raw=true)|FortiGate_Firewall| - |[png](sample/Firewall.png?raw=true)|
-| FortiGate |[WLAN AP](xml/DeviceViewFortiGateWlanAP.xml?raw=true)|FortiGate_Wlan_AP, FortiGate_Wlan_AP_HW, FortiGate_Wlan_AP_Stats| - |[png](sample/WlanAP.PNG?raw=true)|
-| FortiGate |[WLAN SSID](xml/DeviceViewFortiGateWlanSSID.xml?raw=true)|FortiGate_Wlan_SSID, FortiGate_Wlan_VAP| - |[png](sample/WlanSSID.PNG?raw=true)|
-| FortiGate |[WLAN MU](xml/DeviceViewFortiGateWlanMU.xml?raw=true)|FortiGate_Wlan_MU| - |[png](sample/WlanMU.PNG?raw=true)|
+| FortiGate |[System](xml/DeviceViewFortiGateSystem.xml)|FortiGate_SystemInfo, FortiGate_Software, FortiGate_CPU| - |[png](sample/System.png)|
+| FortiGate |[VDOM](xml/DeviceViewFortiGateVDOM.xml)|FortiGate_VdomInfo, FortiGate_Vdom| - |[png](sample/VDOM.png)|
+| FortiGate |[Firewall](xml/DeviceViewFortiGateFW.xml)|FortiGate_Firewall| - |[png](sample/Firewall.png)|
+| FortiGate |[WLAN AP](xml/DeviceViewFortiGateWlanAP.xml)|FortiGate_Wlan_AP, FortiGate_Wlan_AP_HW, FortiGate_Wlan_AP_Stats| - |[png](sample/WlanAP.PNG)|
+| FortiGate |[WLAN SSID](xml/DeviceViewFortiGateWlanSSID.xml)|FortiGate_Wlan_SSID, FortiGate_Wlan_VAP| - |[png](sample/WlanSSID.PNG)|
+| FortiGate |[WLAN MU](xml/DeviceViewFortiGateWlanMU.xml)|FortiGate_Wlan_MU| - |[png](sample/WlanMU.PNG)|
 
 ## Troubleshooting = most common issues
 * MIBs are missing

@@ -4,12 +4,12 @@ Community Driven repository
 
 
 ## FlexViews
-* [What versions, what definitions, how old?](tpl/PaloAltoSystem.tpl?raw=true)
-* [Entity information](tpl/PaloAltoSystemEntity.tpl?raw=true)
-* [Software Versions](tpl/PaloAltoSystemSoftware.tpl?raw=true)
-* [How are interfaces utilized?](tpl/PaloAltoInterfaces.tpl?raw=true)
-* [How are zones utilized?](tpl/PaloAltoZones.tpl?raw=true)
-* [What is the utilization of Global Protect?](tpl/PaloAltoGlobalProtect.tpl?raw=true)
+* [What versions, what definitions, how old?](tpl/PaloAltoSystem.tpl)
+* [Entity information](tpl/PaloAltoSystemEntity.tpl)
+* [Software Versions](tpl/PaloAltoSystemSoftware.tpl)
+* [How are interfaces utilized?](tpl/PaloAltoInterfaces.tpl)
+* [How are zones utilized?](tpl/PaloAltoZones.tpl)
+* [What is the utilization of Global Protect?](tpl/PaloAltoGlobalProtect.tpl)
 
 ## Comments & Columns
 

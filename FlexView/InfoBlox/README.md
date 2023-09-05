@@ -4,11 +4,11 @@ Community Driven repository
 
 
 ## FlexViews
-* [System information](tpl/InfoBlox_SystemInfo.tpl?raw=true)
-* [DHCP statistics](tpl/InfoBlox_DHCPStatistics.tpl?raw=true)
-* [DHCPv6 statistics](tpl/InfoBlox_DHCP6Statistics.tpl?raw=true)
-* [DNS updates statistics](tpl/InfoBlox_DNSupdates_Statistics.tpl?raw=true)
-* [DNSv6 updates statistics](tpl/InfoBlox_DNS6updates_Statistics.tpl?raw=true)
+* [System information](tpl/InfoBlox_SystemInfo.tpl)
+* [DHCP statistics](tpl/InfoBlox_DHCPStatistics.tpl)
+* [DHCPv6 statistics](tpl/InfoBlox_DHCP6Statistics.tpl)
+* [DNS updates statistics](tpl/InfoBlox_DNSupdates_Statistics.tpl)
+* [DNSv6 updates statistics](tpl/InfoBlox_DNS6updates_Statistics.tpl)
 
 
 ## Comments & Columns

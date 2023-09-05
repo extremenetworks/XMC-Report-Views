@@ -4,10 +4,10 @@ Community Driven repository
 
 
 ## FlexViews
-* [System](tpl/XIQbasicsystem.tpl?raw=true)
-* [Clients](tpl/XIQclients.tpl?raw=true)
-* [Environment](tpl/XIQenvsystem.tpl?raw=true)
-* [XIQdot11MIBah](tpl/XIQdot11MIBah.tpl?raw=true)
+* [System](tpl/XIQbasicsystem.tpl)
+* [Clients](tpl/XIQclients.tpl)
+* [Environment](tpl/XIQenvsystem.tpl)
+* [XIQdot11MIBah](tpl/XIQdot11MIBah.tpl)
 
 ## Comments & Columns
 
@@ -32,10 +32,10 @@ Tested with HiveOS 10.0.r7a
 IP Address, AP_Name, Location, SSID, RadioID, Beacon, BSSType, PrivacyOption, MediumOccupancyLimit, DTIMPeriod
 
 ## Examples
-* [System](sample/XIQbasicsystem.PNG?raw=true)
-* [Clients](sample/XIQclients.PNG?raw=true)
-* [Environment](sample/XIQenvsystem.PNG?raw=true)
-* [XIQdot11MIBah](sample/XIQdot11MIBah.PNG?raw=true)
+* [System](sample/XIQbasicsystem.PNG)
+* [Clients](sample/XIQclients.PNG)
+* [Environment](sample/XIQenvsystem.PNG)
+* [XIQdot11MIBah](sample/XIQdot11MIBah.PNG)
 
 
 ## MIBs
@@ -46,10 +46,10 @@ To enable the use of third party MIBs, go to OneView->Administration->Options->S
 service nsserver restart
 ```
 * Original Aerohive mibs are not compatible with XMC and with these flexviews. We suggest to use these:
-[ah_interface](mibs/ah_interface_mib.mib?raw=true)
-[ah_mrp_mib](mibs/ah_mrp_mib.mib?raw=true)
-[ah_smi_mib](mibs/ah_smi_mib.mib?raw=true)
-[ah_system_mib](mibs/ah_system_mib.mib?raw=true)
-[ah_trap_mib](mibs/ah_trap_mib.mib?raw=true)
+[ah_interface](mibs/ah_interface_mib.mib)
+[ah_mrp_mib](mibs/ah_mrp_mib.mib)
+[ah_smi_mib](mibs/ah_smi_mib.mib)
+[ah_system_mib](mibs/ah_system_mib.mib)
+[ah_trap_mib](mibs/ah_trap_mib.mib)
 
 >Be Extreme

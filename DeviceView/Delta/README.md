@@ -11,7 +11,7 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 | Product | DeviceView   | GitHub FlexView   | XMC Build-in FlexView | Example   |
 | ------- | ------------ |:----------:|:----------------:| --------- |
-| Orion |[UPS](xml/DeviceViewOrion.xml?raw=true)| UPS-Orion | - | - |
+| Orion |[UPS](xml/DeviceViewOrion.xml)| UPS-Orion | - | - |
 
 
 >Be Extreme

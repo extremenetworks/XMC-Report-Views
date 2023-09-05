@@ -3,20 +3,20 @@
 Community Driven repository
 
 ## FlexViews
-* [Firmware information](tpl/XOS_firmware_Info.tpl?raw=true)
-* [Learned MAC to IP](tpl/XOS_Nodealias_MAC-IP_learned.tpl?raw=true)
-* [Vlan IP ports](tpl/XOS_VLAN-IP-Port.tpl?raw=true)
-* [L3 interface stats](tpl/XOS_L3interface_stats.tpl?raw=true)
-* [Link Aggregation](tpl/XOS_sharing.tpl?raw=true)
-* [LACP Link Aggregation](tpl/XOS_LACP-sharing.tpl?raw=true)
-* [PoE system](tpl/XOS_SystemPoE.tpl?raw=true)
-* [PoE port](tpl/XOS_PortPoE.tpl?raw=true)
-* [Port Authentication](tpl/Switch_Port_Auth_CFG.tpl?raw=true)
-* [QoS Bytes](tpl/XOS_QoS_Bytes.tpl?raw=true)
-* [QoS Bytes Percent](tpl/XOS_QoS_Bytes_Perc.tpl?raw=true)
-* [QoS Packets](tpl/XOS_QoS_Packets.tpl?raw=true)
-* [QoS Packets Percent](tpl/XOS_QoS_Packets_Perc.tpl?raw=true)
-* [QoS Congestions](tpl/XOS_QoS_Congestions.tpl?raw=true)
+* [Firmware information](tpl/XOS_firmware_Info.tpl)
+* [Learned MAC to IP](tpl/XOS_Nodealias_MAC-IP_learned.tpl)
+* [Vlan IP ports](tpl/XOS_VLAN-IP-Port.tpl)
+* [L3 interface stats](tpl/XOS_L3interface_stats.tpl)
+* [Link Aggregation](tpl/XOS_sharing.tpl)
+* [LACP Link Aggregation](tpl/XOS_LACP-sharing.tpl)
+* [PoE system](tpl/XOS_SystemPoE.tpl)
+* [PoE port](tpl/XOS_PortPoE.tpl)
+* [Port Authentication](tpl/Switch_Port_Auth_CFG.tpl)
+* [QoS Bytes](tpl/XOS_QoS_Bytes.tpl)
+* [QoS Bytes Percent](tpl/XOS_QoS_Bytes_Perc.tpl)
+* [QoS Packets](tpl/XOS_QoS_Packets.tpl)
+* [QoS Packets Percent](tpl/XOS_QoS_Packets_Perc.tpl)
+* [QoS Congestions](tpl/XOS_QoS_Congestions.tpl)
 
 
 ## Comments & Columns

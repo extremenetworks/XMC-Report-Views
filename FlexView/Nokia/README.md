@@ -4,19 +4,19 @@ Community Driven repository
 
 
 ## FlexViews
-* [Bof](tpl/Nokia_BofInfo.tpl?raw=true)
-* [Chassis](tpl/Nokia_ChassisInfo.tpl?raw=true)
-* [Fans](tpl/Nokia_FanInfo.tpl?raw=true)
-* [HW](tpl/Nokia_HWInfo.tpl?raw=true)
-* [ISIS](tpl/Nokia_ISISinfo.tpl?raw=true)
-* [LSP](tpl/Nokia_LSPinfo.tpl?raw=true)
-* [Power](tpl/Nokia_PowerInfo.tpl?raw=true)
-* [RSVP](tpl/Nokia_RSVPinfo.tpl?raw=true)
-* [SAP](tpl/Nokia_SAPinfo.tpl?raw=true)
-* [SDP](tpl/Nokia_SDPinfo.tpl?raw=true)
-* [SVC](tpl/Nokia_svcbase.tpl?raw=true)
-* [SYS](tpl/Nokia_SysInfo.tpl?raw=true)
-* [VRinterfaces](tpl/Nokia_VRinterfaces.tpl?raw=true)
+* [Bof](tpl/Nokia_BofInfo.tpl)
+* [Chassis](tpl/Nokia_ChassisInfo.tpl)
+* [Fans](tpl/Nokia_FanInfo.tpl)
+* [HW](tpl/Nokia_HWInfo.tpl)
+* [ISIS](tpl/Nokia_ISISinfo.tpl)
+* [LSP](tpl/Nokia_LSPinfo.tpl)
+* [Power](tpl/Nokia_PowerInfo.tpl)
+* [RSVP](tpl/Nokia_RSVPinfo.tpl)
+* [SAP](tpl/Nokia_SAPinfo.tpl)
+* [SDP](tpl/Nokia_SDPinfo.tpl)
+* [SVC](tpl/Nokia_svcbase.tpl)
+* [SYS](tpl/Nokia_SysInfo.tpl)
+* [VRinterfaces](tpl/Nokia_VRinterfaces.tpl)
 
 
 ## Examples

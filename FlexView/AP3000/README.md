@@ -4,10 +4,10 @@ Community Driven repository
 
 
 ## FlexViews
-* [Wireless Radio settings](tpl/Wireless_autochannel.tpl?raw=true)
-* [Firmware upgrade process](tpl/Wireless_firmwareupgrade.tpl?raw=true)
-* [WPA security](tpl/wireless_radio_security.tpl?raw=true)
-* [WEP security](tpl/wireless_security.tpl?raw=true)
+* [Wireless Radio settings](tpl/Wireless_autochannel.tpl)
+* [Firmware upgrade process](tpl/Wireless_firmwareupgrade.tpl)
+* [WPA security](tpl/wireless_radio_security.tpl)
+* [WEP security](tpl/wireless_security.tpl)
 
 ## Comments & Columns
 ##### Wireless Radio settings

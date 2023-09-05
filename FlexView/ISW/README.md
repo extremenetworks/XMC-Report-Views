@@ -4,13 +4,13 @@ Community Driven repository
 
 
 ## FlexViews
-* [What is the CPU utilization?](tpl/ISW_CPU_Utilization.tpl?raw=true)
-* [Power Supplies](tpl/ISW_Power_Supply.tpl?raw=true)
-* [PoE settings](tpl/ISW_PoE.tpl?raw=true)
-* [Firmware information](tpl/ISW_Firmware.tpl?raw=true)
-* [SFP information](tpl/ISW_DDMI.tpl?raw=true)
-* [MSTP Bridge Information](tpl/ISW_Bridge_MSTP.tpl?raw=true)
-* [MSTP Port Information](tpl/ISW_Port_MSTP.tpl?raw=true)
+* [What is the CPU utilization?](tpl/ISW_CPU_Utilization.tpl)
+* [Power Supplies](tpl/ISW_Power_Supply.tpl)
+* [PoE settings](tpl/ISW_PoE.tpl)
+* [Firmware information](tpl/ISW_Firmware.tpl)
+* [SFP information](tpl/ISW_DDMI.tpl)
+* [MSTP Bridge Information](tpl/ISW_Bridge_MSTP.tpl)
+* [MSTP Port Information](tpl/ISW_Port_MSTP.tpl)
 
 
 ## Comments & Columns
@@ -44,13 +44,13 @@ Tested with 01.01.03.012, MIBs are necesary for Extreme Management Center 8.5
 
 
 ## Examples
-* [What is the CPU utilization?](sample/ISW_CPU.png?raw=true)
-* [Power Supplies](sample/ISW_PowerSupply.png?raw=true)
-* [PoE settings](sample/ISW_PoE.png?raw=true)
-* [Firmware information](sample/ISW_Firmware.png?raw=true)
-* [SFP information](sample/ISW_DDMI.png?raw=true)
-* [MSTP Bridge Information](sample/ISW_Bridge_MSTP.png?raw=true)
-* [MSTP Port Information](sample/ISW_Port_MSTP.png?raw=true)
+* [What is the CPU utilization?](sample/ISW_CPU.png)
+* [Power Supplies](sample/ISW_PowerSupply.png)
+* [PoE settings](sample/ISW_PoE.png)
+* [Firmware information](sample/ISW_Firmware.png)
+* [SFP information](sample/ISW_DDMI.png)
+* [MSTP Bridge Information](sample/ISW_Bridge_MSTP.png)
+* [MSTP Port Information](sample/ISW_Port_MSTP.png)
 
 
 ## MIBs

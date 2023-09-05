@@ -4,10 +4,10 @@ Community Driven repository
 
 
 ## FlexViews
-* [Entity](tpl/Huawei_Entity.tpl?raw=true)
-* [STP](tpl/Huawei_STP.tpl?raw=true)
-* [VLAN](tpl/Huawei_VLAN.tpl?raw=true)
-* [PVID](tpl/Huawei_PVID.tpl?raw=true)
+* [Entity](tpl/Huawei_Entity.tpl)
+* [STP](tpl/Huawei_STP.tpl)
+* [VLAN](tpl/Huawei_VLAN.tpl)
+* [PVID](tpl/Huawei_PVID.tpl)
 
 
 ## Comments & Columns

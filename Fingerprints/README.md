@@ -2,21 +2,21 @@
 
 With XIQ Site Engine and Extreme Management Center version 8.5 you may import DHCP fingerprints in the OneView. This repository is to be used for hosting custom DHCP fingerprints.
 
-* [Apple iOS 14](xml/iOS14.xml?raw=true)
-* [Aruba APs](xml/Aruba.xml?raw=true)
-* [Avaya IP Phone](xml/Avaya.xml?raw=true)
-* [Cisco VoIP Phone](xml/Cisco.xml?raw=true)
-* [CloudIQ/Aerohive APs](xml/Aerohive.xml?raw=true)
-* [IdentiFi APs](xml/Identifi.xml?raw=true)
-* [Linux Mint](xml/Mint.xml?raw=true)
-* [Meraki APs](xml/Meraki.xml?raw=true)
-* [Polycom](xml/Polycom.xml?raw=true)
-* [WiNG APs](xml/Wing.xml?raw=true)
-* [All in one file](xml/FingerPrint.xml?raw=true)
+* [Apple iOS 14](xml/iOS14.xml)
+* [Aruba APs](xml/Aruba.xml)
+* [Avaya IP Phone](xml/Avaya.xml)
+* [Cisco VoIP Phone](xml/Cisco.xml)
+* [CloudIQ/Aerohive APs](xml/Aerohive.xml)
+* [IdentiFi APs](xml/Identifi.xml)
+* [Linux Mint](xml/Mint.xml)
+* [Meraki APs](xml/Meraki.xml)
+* [Polycom](xml/Polycom.xml)
+* [WiNG APs](xml/Wing.xml)
+* [All in one file](xml/FingerPrint.xml)
 
 ## How to import Fingerprint to XIQ Site Engine & Extreme Management Center
 Login to OneView -> Administration -> Device Types -> Detection and Profiling -> Import...
-![Import](Import.PNG?raw=true)
+![Import](Import.PNG)
 
 ## Support
 Please visit us on [The Hub](https://community.extremenetworks.com/extreme) if you have any questions or encounter issues.

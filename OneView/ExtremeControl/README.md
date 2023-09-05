@@ -1,9 +1,9 @@
 # ExtremeControl Report for OneView
 
 ### TOP N Users & Top N End-Systems
-* [User TopN](UserTopN.xml?raw=true) (Right-click and "Save-as")
-* [EndSystem TopN](EndSystemTopN.xml?raw=true) (Right-click and "Save-as")
-![User TopN](User_TopN_report.png?raw=true)
+* [User TopN](UserTopN.xml) (Right-click and "Save-as")
+* [EndSystem TopN](EndSystemTopN.xml) (Right-click and "Save-as")
+![User TopN](User_TopN_report.png)
 
 ## Installation
 * Requires ExtremeCloud IQ - Site Engine (Extreme Management Center / Netsight) Server 8.1 or later

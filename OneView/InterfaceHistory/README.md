@@ -1,8 +1,8 @@
 # Interface History Report for OneView
 
 ### Interface History In Bandwidth and Out Bandwidth and Total Bandwidth in the same graph.
-* [InterfaceHistory](InterfaceHistory.xml?raw=true) (Right-click and "Save-as")
-![InterfaceHistory](InterfaceHistory.png?raw=true)
+* [InterfaceHistory](InterfaceHistory.xml) (Right-click and "Save-as")
+![InterfaceHistory](InterfaceHistory.png)
 
 ## Installation
 * Requires Extreme Management Center (Netsight) Server 8.1 or later

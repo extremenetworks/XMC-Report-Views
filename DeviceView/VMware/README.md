@@ -11,7 +11,7 @@ The DeviceView does use reports in the MyReports directory. Those reports use Fl
 
 | Product | DeviceView   | GitHub FlexView   | XMC Build-in FlexView | Example   |
 | ------- | ------------ |:----------:|:----------------:| --------- |
-| VMware ESXi |[VMs](xml/DeviceViewESXi_VMs.xml?raw=true)| VMware_vmTable, VMware_vmNet | - |[png](sample/VMs.PNG?raw=true)|
+| VMware ESXi |[VMs](xml/DeviceViewESXi_VMs.xml)| VMware_vmTable, VMware_vmNet | - |[png](sample/VMs.PNG)|
 
 
 >Be Extreme
