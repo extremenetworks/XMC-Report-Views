@@ -1,0 +1,31 @@
+<report>
+	<reportId>DeviceViewVossArp</reportId>
+	<title>Device View ARP</title>
+	<category>Device</category>
+	<showInTree>false</showInTree>
+	<iconCls>table-icon</iconCls>
+	<deviceViewTab>
+		<viewTabTitle>ARP</viewTabTitle>
+		<viewOrder>731</viewOrder>
+		<families>
+			<family>VSP Series</family>
+			<family>Extreme Access Series</family>
+			<family>Unified Switching VOSS</family>
+			<family>Universal Platform VOSS</family>
+            <family>Universal Platform Fabric Engine</family>
+		</families>
+	</deviceViewTab>
+	<panel>
+		<layout>fit</layout>
+		<flex>1</flex>
+		<showTitle>false</showTitle>
+		<autoScroll>true</autoScroll>
+		<items>
+			<flexviewgrid>
+				<hideToolbar>true</hideToolbar>
+				<viewId>VOSS_ARP_CACHE</viewId>
+			</flexviewgrid>
+		</items>
+	</panel>
+</report>
+            

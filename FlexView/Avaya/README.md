@@ -30,6 +30,7 @@ Community Driven repository
 * [Auto-Sense Ports State](tpl/VOSS_Auto-Sense.tpl)
 * [Temperature & PowerSupply](tpl/VOSS_PowerSupply_Temperature.tpl)
 * [IQ Agent](tpl/VOSS_IQAgent.tpl)
+* [ARP cache](tpl/VOSS_ARP_CACHE.tpl)
 
 
 
@@ -111,6 +112,8 @@ IP Address, CPU Temperature, Power Supply, Oper Status, PS Detail ID, Type, Seri
 ##### IQ Agent
 IP Address, SysName, Admin Status, Agent Version, Oper Status, Association URL, MonitorFreq, PollFreq, LastOnboardTime, LastPollStatus, LastPollTime, LastMonitorTime, LastHealthStatus, LastHealthTime
 
+##### ARP cache
+IP Address, System_Name, ARP_IP_ADDRESS, ARP_MAC-Adress, Type, VLAN_Name
 
 ## Examples
 * [Power Supply](sample/VOSS_PowerSupply.png)
@@ -129,7 +132,8 @@ IP Address, SysName, Admin Status, Agent Version, Oper Status, Association URL, 
 * [Virtual Service vPorts](sample/VOSS_Virtual_Service_vPorts.jpg)
 * [Auto-Sense Ports State](sample/VOSS_Auto-Sense.jpg)
 * [Temperature & PowerSupply](sample/VOSS_PowerSupply_Temperature.png)
-* [IQ Agent](tpl/VOSS_IQAgent.png)
+* [IQ Agent](sample/VOSS_IQAgent.png)
+* [ARP cache](sample/VOSS_ARP_CACHE.png)
 
 
 ## MIBs
