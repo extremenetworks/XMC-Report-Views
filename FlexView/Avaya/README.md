@@ -31,6 +31,8 @@ Community Driven repository
 * [Temperature & PowerSupply](tpl/VOSS_PowerSupply_Temperature.tpl)
 * [IQ Agent](tpl/VOSS_IQAgent.tpl)
 * [ARP cache](tpl/VOSS_ARP_CACHE.tpl)
+* [ISIS Adjacency](tpl/VOSS_ISIS_Adjacency_View.tpl)
+
 
 
 
@@ -114,6 +116,9 @@ IP Address, SysName, Admin Status, Agent Version, Oper Status, Association URL, 
 
 ##### ARP cache
 IP Address, System_Name, ARP_IP_ADDRESS, ARP_MAC-Adress, Type, VLAN_Name
+
+##### ISIS Adjacency
+IP Address, Adjacent Port, Adjacent State, Adjacent Hostname, Status
 
 ## Examples
 * [Power Supply](sample/VOSS_PowerSupply.png)
