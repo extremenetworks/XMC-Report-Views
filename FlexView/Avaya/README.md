@@ -32,6 +32,7 @@ Community Driven repository
 * [IQ Agent](tpl/VOSS_IQAgent.tpl)
 * [ARP cache](tpl/VOSS_ARP_CACHE.tpl)
 * [ISIS Adjacency](tpl/VOSS_ISIS_Adjacency_View.tpl)
+* [PoE 802.3bt Ports](tpl/VOSS_PoE_8023bt_Ports.tpl)
 
 
 
@@ -120,6 +121,9 @@ IP Address, System_Name, ARP_IP_ADDRESS, ARP_MAC-Adress, Type, VLAN_Name
 ##### ISIS Adjacency
 IP Address, Adjacent Port, Adjacent State, Adjacent Hostname, Status
 
+##### PoE 802.3bt Ports
+IP Address, Port, Description, PoE Enabled, PoE Priority, Power Classification, Power, Limit, Current, Voltage, Invalid Signatures, Denied, Over Loads, Short Counter
+
 ## Examples
 * [Power Supply](sample/VOSS_PowerSupply.png)
 * [Line Cards](sample/VOSS_Line_Cards.png)
@@ -139,6 +143,7 @@ IP Address, Adjacent Port, Adjacent State, Adjacent Hostname, Status
 * [Temperature & PowerSupply](sample/VOSS_PowerSupply_Temperature.png)
 * [IQ Agent](sample/VOSS_IQAgent.png)
 * [ARP cache](sample/VOSS_ARP_CACHE.png)
+* [PoE 802.3bt Ports](sample/VOSS_POE_8023bt_Ports.png)
 
 
 ## MIBs
