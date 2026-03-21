@@ -27,4 +27,4 @@
             <notes></notes>
             <dataField>OID::etsysResourceStorageAvailable:::SNMP::SNMP;false;71;7;false;false;4;2;0;0;0</dataField></column>
         <notes></notes>
-        <dataField>TBLHASH::::IDS_GRAPH_TYPE::0:::IDS_GRAPH_COLUMNS::120:::IDS_GRAPH_AUTO_EXPORT_TYPE::0:::TBLHDR::0;0;true;30;etsysResourceStorageEntry;V.0.0.2.0;0;0;124:::IDS_Y_AXIS_LABEL::% Utilization::::GEMHASH::::00000:Slot::routine 123 { "etsysResourceStorageTypeID":122 } -70</dataField></flextable></flextablelist>
+        <dataField>TBLHASH::::IDS_GRAPH_TYPE::0:::IDS_GRAPH_COLUMNS::120:::IDS_GRAPH_AUTO_EXPORT_TYPE::0:::TBLHDR::0;0;true;30;etsysResourceStorageEntry;V.0.0.2.0;0;0;124:::IDS_Y_AXIS_LABEL::Percent Utilization::::GEMHASH::::00000:Slot::routine 123 { "etsysResourceStorageTypeID":122 } -70</dataField></flextable></flextablelist>

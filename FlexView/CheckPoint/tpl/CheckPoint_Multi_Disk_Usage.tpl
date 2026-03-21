@@ -40,5 +40,5 @@
             <dataField>OID::multiDiskFreeAvailableBytes:::SNMP::SNMP;false;15;11;false;false;4;2;0;0;0;0;0</dataField></column>
         <notes></notes>
         <dataField>TBLHASH::::TBLHDR::0;0;true;30;multiDiskEntry;V.0.3.3.0;0;0;110::::GEMHASH::::00000:Disk Free Available Percent::routine 109 IF { "Disk Free Available Percent":101 }  &lt; 10 THEN
-RedText({ "Disk Free Available Percent":101 } ) + "%"
-ELSE GreenText({ "Disk Free Available Percent":101 } ) +"%"</dataField></flextable></flextablelist>
+RedText({ "Disk Free Available Percent":101 } ) + " Percent"
+ELSE GreenText({ "Disk Free Available Percent":101 } ) +" Percent"</dataField></flextable></flextablelist>

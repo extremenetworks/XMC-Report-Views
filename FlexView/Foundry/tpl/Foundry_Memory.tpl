@@ -30,4 +30,4 @@
             <notes></notes>
             <dataField>SNMP::EXPR;true;15;8;false;false;1;2;0;0;0;0;0</dataField></column>
         <notes></notes>
-        <dataField>TBLHASH::::TBLHDR::0;0;false;30;None;V.0.3.3.0;0;0;108::::GEMHASH::::00002:Memory Free::routine 107 { "snAgSystemDRAMFree":104:# }  /1024 + " KB":::00001:Memory Total::routine 106 { "snAgSystemDRAMTotal":103:# }  /1048576 + " MB":::00000:Memory Utilization::routine 105 { "snAgSystemDRAMUtil":102:# } + " %"</dataField></flextable></flextablelist>
+        <dataField>TBLHASH::::TBLHDR::0;0;false;30;None;V.0.3.3.0;0;0;108::::GEMHASH::::00002:Memory Free::routine 107 { "snAgSystemDRAMFree":104:# }  /1024 + " KB":::00001:Memory Total::routine 106 { "snAgSystemDRAMTotal":103:# }  /1048576 + " MB":::00000:Memory Utilization::routine 105 { "snAgSystemDRAMUtil":102:# } + " Percent"</dataField></flextable></flextablelist>

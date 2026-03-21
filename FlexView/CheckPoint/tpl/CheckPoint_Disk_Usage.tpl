@@ -25,5 +25,5 @@
             <dataField>OID::diskFreeAvail:::SNMP::SNMP;true;15;6;false;false;1;2;0;0;0;0;0</dataField></column>
         <notes></notes>
         <dataField>TBLHASH::::TBLHDR::0;0;true;30;None;V.0.3.3.0;0;0;106::::GEMHASH::::00000:Disk Usage::routine 105 IF { "diskPercent":102} &gt; 80 THEN
-RedText({ "Disk Usage":102 } ) + "%"
-ELSE GreenText({ "Disk Usage":102 } ) + "%"</dataField></flextable></flextablelist>
+RedText({ "Disk Usage":102 } ) + " Percent"
+ELSE GreenText({ "Disk Usage":102 } ) + " Percent"</dataField></flextable></flextablelist>

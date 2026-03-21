@@ -36,4 +36,4 @@
             <notes>Maximum SSL-inspected connections through the firewall.</notes>
             <dataField>OID::sonicDpiSslConnCountMax:::SNMP::SNMP;true;66;10;false;false;1;2;0;0;0;0;0</dataField></column>
         <notes></notes>
-        <dataField>TBLHASH::::TBLHDR::0;0;true;30;None;V.0.3.3.0;0;0;108::::GEMHASH::::00001:RAM Utilization::routine 107 { "RAM Utilization":101 }  + " %":::00000:CPU Utilization::routine 106 { "CPU Utilization":100 } + " %"</dataField></flextable></flextablelist>
+        <dataField>TBLHASH::::TBLHDR::0;0;true;30;None;V.0.3.3.0;0;0;108::::GEMHASH::::00001:RAM Utilization::routine 107 { "RAM Utilization":101 }  + " Percent":::00000:CPU Utilization::routine 106 { "CPU Utilization":100 } + " Percent"</dataField></flextable></flextablelist>

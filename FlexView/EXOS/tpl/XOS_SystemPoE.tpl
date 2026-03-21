@@ -33,7 +33,7 @@
             <notes></notes>
             <dataField>OID::extremePethSystemLegacyEnable:::SNMP::SNMPW;true;2;9;true;false;1;2;0;0;0;0;0</dataField></column>
         <notes></notes>
-        <dataField>TBLHASH::::TBLHDR::0;0;true;30;None;V.0.3.3.0;0;0;107::::GEMHASH::::00000:UsageThreshold::routine 105 { "UsageThreshold":102 } + "%":::00001:PoE Enabled::routine 106 color["enable"]=GreenIcon({ "PoE Enabled":100:$ });
+        <dataField>TBLHASH::::TBLHDR::0;0;true;30;None;V.0.3.3.0;0;0;107::::GEMHASH::::00000:UsageThreshold::routine 105 { "UsageThreshold":102 } + "Percent":::00001:PoE Enabled::routine 106 color["enable"]=GreenIcon({ "PoE Enabled":100:$ });
 color["disable"]=RedIcon({ "PoE Enabled":100:$ });
 color["&lt;Not Defined&gt;"]="Not Defined";
 color["N/A"]="N/A";

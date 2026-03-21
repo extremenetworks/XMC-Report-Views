@@ -27,7 +27,7 @@
             <notes></notes>
             <dataField>OID::sysLocation:::SNMP::SNMPW;true;15;7;true;false;2;2;0;0;0</dataField></column>
         <notes></notes>
-        <dataField>TBLHASH::::TBLHDR::0;0;true;30;None;V.0.0.2.0;0;0;105:::IDS_Y_AXIS_LABEL::% Utilization::::GEMHASH::::00001:Date code::routine 104 serial=({ "Serial":101:[$] } );
+        <dataField>TBLHASH::::TBLHDR::0;0;true;30;None;V.0.0.2.0;0;0;105:::IDS_Y_AXIS_LABEL::Percent Utilization::::GEMHASH::::00001:Date code::routine 104 serial=({ "Serial":101:[$] } );
 "20" + substring(serial[0],0,2) + " Week " + substring(serial[0],2,4);:::00000:Serial Number::routine 102 if { "Serial":101 } == "" then
 BlueText("NA")
 else if { "Serial":101 } == "-" then
