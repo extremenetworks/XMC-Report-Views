@@ -109,7 +109,7 @@ service nsserver restart
 
 ##### CISCO-CLASS-BASED-QOS-MIB.my is needed for Cisco QoS FlexViews
 
-##### CISCO-FRAME-RELAY-MIB.mib is need for Cisco QoS FlexViews
+##### CISCO-FRAME-RELAY-MIB.mib is needed for Cisco QoS FlexViews
 
 ##### CISCO-ENVMON-MIB.my is needed for Cisco Fan and for Cisco PowerSupply and for Cisco Temperature
  

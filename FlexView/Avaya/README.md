@@ -40,7 +40,7 @@ Community Driven repository
 
 ## Comments & Columns
 ##### Port Configuration
-ifNamifName, ifDescr, ifOperStatus, rcPortType, rcPortAdminSpeed, rcPortAutoNegotiate, rcPortOperSpeed, rcPortAdminDuplex, rcPortOperDuplex
+ifName, ifDescr, ifOperStatus, rcPortType, rcPortAdminSpeed, rcPortAutoNegotiate, rcPortOperSpeed, rcPortAdminDuplex, rcPortOperDuplex
 
 ##### Fan Table
 rcChasFanId, rcChasFanOperStatus, rcChasFanAmbientTemperature, rcChasFanType, rcChasFanFlowType
@@ -73,7 +73,7 @@ Power Supply, Oper Status, PS Detail ID, Type, Serial Number, Part Number Descri
 rcVlanId, rcVlanStgId, rcVlanPlsbIsid, rcVlanType, rcVlanName, rcVlanColor, rcVlanVrfId, rcVlanRowStatus, rcVlanRmonEnable, rcVlanResult
 
 ##### Line Cards
-Card Index, Card Type, Card Description, Admin status, Oper Status, Serial Number, HW Version, Part Number, Date Code, Daviations, Slot Power
+Card Index, Card Type, Card Description, Admin status, Oper Status, Serial Number, HW Version, Part Number, Date Code, Deviations, Slot Power
 
 ##### Is Config Saved?
 Name, Location, Config needs to be saved
