@@ -8,7 +8,7 @@ Community Driven repository
 * [AAA Global stats](tpl/Juniper_AAA_Global.tpl)
 * [AAA Port settings](tpl/Juniper_AAA_Port.tpl)
 * [Device Anatomy](tpl/Juniper_Anatomy.tpl)
-* [Device Contens](tpl/Juniper_Contens.tpl)
+* [Device Contents](tpl/Juniper_Contens.tpl)
 * [Events](tpl/Juniper_Events.tpl)
 * [Modules filled](tpl/Juniper_Filled.tpl)
 * [Field Replaceable Units](tpl/Juniper_FRU.tpl)
@@ -43,7 +43,7 @@ Tested with 12.3.R3.4
 
 Description, Serial No, Revision, Installed, LED Last Change, Kernel Used Perc
 
-##### Device Contens
+##### Device Contents
 Tested with 12.3.R3.4
 
 Type, Description, Serial No, Revision, Installed, Part No, Chassis Id, Chassis Descr, Clei Code
@@ -108,7 +108,7 @@ Interface, Port Mode, Tagness, VLAN ID, VLAN Name
 * [AAA Global stats](sample/Juniper_AAA_Global.PNG)
 * [AAA Port settings](sample/Juniper_AAA_Port.PNG)
 * [Device Anatomy](sample/Juniper_Anatomy.PNG)
-* [Device Contens](sample/Juniper_Contens.PNG)
+* [Device Contents](sample/Juniper_Contens.PNG)
 * [Events](sample/Juniper_Events.PNG)
 * [Modules filled](sample/Juniper_Filled.PNG)
 * [Field Replaceable Units](sample/Juniper_FRU.PNG)
