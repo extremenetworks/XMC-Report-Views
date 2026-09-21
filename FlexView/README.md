@@ -37,6 +37,6 @@ On majority of Linux installations it is '/usr/local/Extreme_Networks/NetSight/a
 ## How to import FlexViews to XIQ Site Engine, Extreme Management Center 8.2 and newer
 Upload the .tpl file to the 'Install_path/Extreme_Networks/NetSight/appdata/VendorProfiles/Stage/MyVendorProfile/FlexViews/My FlexViews'
 On majority of Linux installations it is '/usr/local/Extreme_Networks/NetSight/appdata/VendorProfiles/Stage/MyVendorProfile/FlexViews/My FlexViews'
-Here is [Knowledge Base](https://extremeportal.force.com/ExtrArticleDetail?an=000079893) article.
+Here is [Knowledge Base](https://extreme-networks.my.site.com/ExtrArticleDetail?an=000079893) article.
 
 >Be Extreme

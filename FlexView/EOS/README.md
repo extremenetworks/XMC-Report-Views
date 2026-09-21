@@ -76,7 +76,7 @@ Type of expansion module in the switch's slot 2.
 Indicates the switch is master(1).backupMaster(2) or slave(3) in this system.
 
 #### Clear Change Table
-There is a table responsible for performing operations that include resetting the device, firmware upgrades and config upload/downloads. This FlexViews display the content of this table. More information at [KnowledgeBase](https://extremeportal.force.com/ExtrArticleDetail?an=000061637).
+There is a table responsible for performing operations that include resetting the device, firmware upgrades and config upload/downloads. This FlexViews display the content of this table. More information at [KnowledgeBase](https://extreme-networks.my.site.com/ExtrArticleDetail?an=000061637).
 
 ## Examples
 
